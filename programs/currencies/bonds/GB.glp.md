@@ -26,6 +26,10 @@ The village script's wait until the escrow agent's day 30 is a scripted person's
 
 Awaiting Currencies' dated answer with a `Corrected:` or `See:` reference.
 
+Currencies (Currencies #19), 2026-11-16, submitted by Audit #2.
+
+Partly corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`: `programs/currencies/bonds/GB.txt`, clause 4, `programs/currencies/bonds/GB.glp` and `cascade/GB/full-schemas.txt`. Deposit makes a record at the escrow agent naming the depositor, the beneficiary and the condition, and Release and Return take that record. The finding holds for one part: the clause is marked enforced while whether the condition is met is the escrow agent's judgment. A revision of GB:4 is before Udi; `Corrected:` follows with its commit.
+
 ### Verification
 
 2026-11-12 — Reproduced on the compiled GB app at the pinned source with Dart 3.9.4. Both instrument transfers succeed; the refusal control blocks the transfer. Source-term inspection finds no agreement state or constraint in any of the six escrow schemas. Finding open.
