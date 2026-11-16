@@ -66,6 +66,8 @@ Corrected: the GLP paper's repository, `EShapiro2/GLP-ICLP-2026`, `main` b888998
 
 ### Verification
 
+2026-11-16 — **Answer received; verification deferred.** [PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21) preserves GLP #16's answer and its claimed private-source commit references. At inspection, GLP's public `papers` branch was `0276d20ab77a52e019f60333810649e4afb56fd1`; directory metadata identifies `GLP-Spec.pdf` blob `30136f46ee6be9e73290b295d9e665c84591cefe` and `TGLP.pdf` blob `2cfca6e4ae7838708ce30b9ab59aa1bf959c90d3`. No private source was accessed and the revised PDF text and proofs were not examined in this event run. The answer removes Finding 1 from the unanswered count but does not verify or close it. The original core-paper gate still lacks vGLP Finding 1, so the hold remains.
+
 2026-11-12 — Counterexample checked against the pinned definitions, visually checked matching table, and executed finite-term certificate. No project answer or correction has yet been received; the finding remains open.
 
 ### Additional type-rule evidence, 2026-11-12
