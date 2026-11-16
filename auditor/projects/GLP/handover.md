@@ -1,3 +1,11 @@
+# PR #21 handled — 16 November 2026
+
+[Response PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21), head `8643c6addcacd9716498fb0cc73ed5c0ede57ffd`, is merged as `69e15daca90763d7765d7a81dc3e9418f027e212`. It preserves GLP's dated answers to GLP-Spec Finding 1 and IGLP Findings 1 and 2. The answers are recorded but the claimed fixes are not independently verified or closed. No private paper repository was accessed and no revised proof text was examined.
+
+[Auditor publication PR #22](https://github.com/udi-shapiro/Grassroots-Audit/pull/22), head `9b477feecff0b7854817f2f928f9b3d5d1b0c979`, is merged as `28a6b715542ba7a1c58b875ee4d6dbd277f11e0d`. Main now reports 28 reports, 16 findings and one unanswered finding. vGLP Finding 1 is the sole missing original core answer, so the core-paper hold remains. Public source metadata is pinned to GLP main `54ce81f270c412308c9c173d9ba279b98c61fc89` and papers `0276d20ab77a52e019f60333810649e4afb56fd1`; see [stage 07](../../stages/07-pr21-core-answers-20261116.json) for exact PDF blobs and the distinction between project claims, source inspection and executed checks.
+
+Next: continue application contract/code work. When vGLP Finding 1 receives an answer, lift the gate and resume the recorded core verification queue, including inspection of the actual public rebuilt PDFs.
+
 # Published second core sweep — 2026-11-12
 
 [PR #9](https://github.com/udi-shapiro/Grassroots-Audit/pull/9) is merged as `0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc`; all 16 publication file blobs were checked against the reviewed local contents. Published totals: **13 reports, nine findings, six unanswered**. Two new findings; three corrections independently verified, with Website's fix integrated and GSC's two source fixes awaiting integration into the observed GLP main. GSC's revised published paper is verified. The 72 selected existing tests passed; broader tests and full two-agent/phone execution remain outside this batch.

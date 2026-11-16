@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-11-16T17:36:30Z",
+  "mode": "github pull_request.opened event",
+  "delivery_id": "d0b705b0-e1e2-11f1-8487-393589f76bae",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "event_pr": {
+    "number": 21,
+    "head_sha": "8643c6addcacd9716498fb0cc73ed5c0ede57ffd",
+    "base_sha": "25b973e987f2f58a007321d07ed4de8123041d4e",
+    "author": "EShapiro2",
+    "changed_files": [
+      "papers/GLP-Spec.pdf.md",
+      "papers/IGLP.pdf.md"
+    ],
+    "discussion_version": {
+      "comments": 0,
+      "reviews": 0,
+      "review_threads": 0
+    },
+    "merge_sha": "69e15daca90763d7765d7a81dc3e9418f027e212"
+  },
+  "project_answers": [
+    {
+      "finding": "papers/GLP-Spec.pdf.md#1",
+      "project": "GLP",
+      "date": "2026-11-16",
+      "claim": "Corrected",
+      "claimed_private_references": [
+        "EShapiro2/GLP-ICLP-2026 main b888998, revision d128901",
+        "EShapiro2/Moded-Types main 4792cfe, revision 6927dab"
+      ]
+    },
+    {
+      "finding": "papers/IGLP.pdf.md#1",
+      "project": "GLP",
+      "date": "2026-11-16",
+      "claim": "Corrected",
+      "claimed_private_references": [
+        "EShapiro2/CGLP main 06e7103"
+      ]
+    },
+    {
+      "finding": "papers/IGLP.pdf.md#2",
+      "project": "GLP",
+      "date": "2026-11-16",
+      "claim": "Corrected",
+      "claimed_private_references": [
+        "EShapiro2/CGLP main 06e7103"
+      ]
+    }
+  ],
+  "source_inspection": {
+    "glp_main": "54ce81f270c412308c9c173d9ba279b98c61fc89",
+    "glp_papers": "0276d20ab77a52e019f60333810649e4afb56fd1",
+    "paper_blobs": {
+      "papers/GLP-Spec.pdf": "30136f46ee6be9e73290b295d9e665c84591cefe",
+      "papers/TGLP.pdf": "2cfca6e4ae7838708ce30b9ab59aa1bf959c90d3",
+      "papers/IGLP.pdf": "453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd"
+    },
+    "scope": "branch and directory metadata only",
+    "private_sources_accessed": false,
+    "revised_pdf_text_examined": false
+  },
+  "executed_checks": [],
+  "disposition": {
+    "answers_preserved": true,
+    "fixes_verified": false,
+    "findings_closed": [],
+    "core_gate": "held; papers/vGLP.pdf.md#1 remains unanswered",
+    "published_status": {
+      "reports": 28,
+      "findings": 16,
+      "unanswered": 1
+    },
+    "publication_pr": 22,
+    "publication_head": "9b477feecff0b7854817f2f928f9b3d5d1b0c979",
+    "publication_merge": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d"
+  },
+  "next_actions": [
+    "Process a project answer to papers/vGLP.pdf.md#1 when supplied.",
+    "After all six original core findings have answers, resume the recorded core verification queue and inspect the actual public rebuilt PDFs.",
+    "Continue application contract and code priority work meanwhile."
+  ]
+}

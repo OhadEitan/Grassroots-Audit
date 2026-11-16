@@ -1,18 +1,11 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-16T17:30:30Z",
-  "active_run": {
-    "run_id": "github-d0b705b0-e1e2-11f1-8487-393589f76bae",
-    "delivery_id": "d0b705b0-e1e2-11f1-8487-393589f76bae",
-    "event": "pull_request.opened",
-    "pull_request_number": 21,
-    "acquired_at": "2026-11-16T17:30:30Z",
-    "expires_at": "2026-11-16T18:00:30Z"
-  },
+  "updated_at": "2026-11-16T17:36:30Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
-    "status": "enabled; first event-triggered run not yet observed",
+    "status": "enabled; event-triggered run observed",
     "id": "Automation_a7418293ed34819191eb13c5bdbeb544",
     "title": "Review Grassroots PRs",
     "enabled": true,
@@ -28,15 +21,42 @@
         "only_on_merge": false
       }
     },
-    "last_observed_automatic_run": null,
+    "last_observed_automatic_run": {
+      "delivery_id": "d0b705b0-e1e2-11f1-8487-393589f76bae",
+      "event": "pull_request.opened",
+      "pull_request_number": 21,
+      "observed_at": "2026-11-16T17:36:30Z",
+      "outcome": "response merged; auditor disposition published and merged"
+    },
     "environment_selection": "inherited",
     "environments": null,
     "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
-  "publication_pr": 20,
-  "publication_merge_sha": "25b973e987f2f58a007321d07ed4de8123041d4e",
+  "publication_pr": 22,
+  "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 22,
+      "head_sha": "9b477feecff0b7854817f2f928f9b3d5d1b0c979",
+      "state": "closed",
+      "updated_at": "2026-11-16T17:35:30Z",
+      "merged_at": "2026-11-16T17:35:30Z",
+      "comment_cursor": "none present at publication review",
+      "review_cursor": "none present at publication review",
+      "notes": "auditor publication for PR21 merged; self-generated publication event"
+    },
+    {
+      "number": 21,
+      "head_sha": "8643c6addcacd9716498fb0cc73ed5c0ede57ffd",
+      "state": "closed",
+      "updated_at": "2026-11-16T17:31:45Z",
+      "merged_at": "2026-11-16T17:31:45Z",
+      "comment_cursor": "none present at event processing",
+      "review_cursor": "none present at event processing",
+      "delivery_id": "d0b705b0-e1e2-11f1-8487-393589f76bae",
+      "notes": "three attributed GLP core-paper answers accepted; verification deferred; disposition published in PR22"
+    },
     {
       "number": 20,
       "head_sha": "667a4f149ed52d15c291e2450f636e295318b5c0",
@@ -248,5 +268,32 @@
       "programs/apps/gb/screens/gb-d-carol-asked-deposit.png"
     ],
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
+  },
+  "processed_events": [
+    {
+      "delivery_id": "d0b705b0-e1e2-11f1-8487-393589f76bae",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 21,
+      "head_sha": "8643c6addcacd9716498fb0cc73ed5c0ede57ffd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-16T17:36:30Z",
+      "outcome": "merged response PR21; merged auditor publication PR22",
+      "publication_pr": 22
+    }
+  ],
+  "source_observed_after_event": {
+    "main_commit": "54ce81f270c412308c9c173d9ba279b98c61fc89",
+    "papers_commit": "0276d20ab77a52e019f60333810649e4afb56fd1",
+    "paper_blobs": {
+      "papers/GLP-Spec.pdf": "30136f46ee6be9e73290b295d9e665c84591cefe",
+      "papers/TGLP.pdf": "2cfca6e4ae7838708ce30b9ab59aa1bf959c90d3",
+      "papers/IGLP.pdf": "453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd"
+    },
+    "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   }
 }

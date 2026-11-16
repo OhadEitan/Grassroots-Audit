@@ -1,3 +1,7 @@
+# PR-event run complete — PR #21, 16 November 2026
+
+[PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21) preserved three attributed GLP core-paper answers and merged as `69e15daca90763d7765d7a81dc3e9418f027e212`. [PR #22](https://github.com/udi-shapiro/Grassroots-Audit/pull/22) published the auditor disposition and regenerated status, merging as `28a6b715542ba7a1c58b875ee4d6dbd277f11e0d`. The findings are answered but not independently verified or closed. No private source or revised proof text was inspected. vGLP Finding 1 remains the sole unanswered original core finding, so the core-paper hold remains. Exact event, source, publication and check records are in [stage 07](stages/07-pr21-core-answers-20261116.json) and the automation ledger. The event lease is released.
+
 # Manual request check — 16 November 2026, 16:53 UTC
 
 Audit main remains `25b973e987f2f58a007321d07ed4de8123041d4e` ([PR #20](https://github.com/udi-shapiro/Grassroots-Audit/pull/20)). All 20 PRs are closed and merged; no PR, issue comment or inline review comment is awaiting a new response. The latest seven PR discussion timelines are empty. Earlier project comments are already reflected in the published reports. This is a fresh request inventory, not another execution of the earlier tests.

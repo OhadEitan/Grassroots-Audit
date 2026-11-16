@@ -1,3 +1,11 @@
+# PR #21 handled — 16 November 2026
+
+[Response PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21), head `8643c6addcacd9716498fb0cc73ed5c0ede57ffd`, is merged as `69e15daca90763d7765d7a81dc3e9418f027e212`. It preserves GLP's dated answers to GLP-Spec Finding 1 and IGLP Findings 1 and 2. The answers are recorded but the claimed fixes are not independently verified or closed. No private paper repository was accessed and no revised proof text was examined.
+
+[Auditor publication PR #22](https://github.com/udi-shapiro/Grassroots-Audit/pull/22), head `9b477feecff0b7854817f2f928f9b3d5d1b0c979`, is merged as `28a6b715542ba7a1c58b875ee4d6dbd277f11e0d`. Main now reports 28 reports, 16 findings and one unanswered finding. vGLP Finding 1 is the sole missing original core answer, so the core-paper hold remains. Public source metadata is pinned to GLP main `54ce81f270c412308c9c173d9ba279b98c61fc89` and papers `0276d20ab77a52e019f60333810649e4afb56fd1`; see [stage 07](../../stages/07-pr21-core-answers-20261116.json) for exact PDF blobs and the distinction between project claims, source inspection and executed checks.
+
+Next: continue application contract/code work. When vGLP Finding 1 receives an answer, lift the gate and resume the recorded core verification queue, including inspection of the actual public rebuilt PDFs.
+
 # Latest handover — manual request check, 16 November 2026
 
 Read [the current coordination record](../../coordination.md) and [the request checkpoint](../../stages/06-request-check-20261116.json) before the historical material below. Audit main is `25b973e987f2f58a007321d07ed4de8123041d4e`; GLP observed head is `5e72dbb039b07572ef7ecd965257114e6b5b7d52`. No new response PR or follow-up comment is pending. The published status is 28 reports, 16 findings, four unanswered; five application fixes were verified earlier in PR #20. GB and GSA remain open; both sGLP answers await verification under the core-paper hold. The four missing answers are GLP-Spec #1, IGLP #1–2 and vGLP #1.
