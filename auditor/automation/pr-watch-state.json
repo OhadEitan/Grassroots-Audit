@@ -1,0 +1,217 @@
+{
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "source_repository": "EShapiro2/GLP",
+  "updated_at": "2026-11-16T10:48:00Z",
+  "active_run": null,
+  "pending_events": [],
+  "automation": {
+    "status": "creation_pending",
+    "id": null,
+    "last_observed_automatic_run": null
+  },
+  "publication_pr": 20,
+  "publication_merge_sha": "25b973e987f2f58a007321d07ed4de8123041d4e",
+  "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
+  "processed_prs": [
+    {
+      "number": 20,
+      "head_sha": "667a4f149ed52d15c291e2450f636e295318b5c0",
+      "state": "closed",
+      "updated_at": "2026-11-16T10:46:53Z",
+      "merged_at": "2026-11-16T10:46:53Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "auditor publication merged"
+    },
+    {
+      "number": 19,
+      "head_sha": "25f40b9b925215478f03bb0e5edbfd08c3af8514",
+      "state": "closed",
+      "updated_at": "2026-11-16T10:30:52Z",
+      "merged_at": "2026-11-16T10:30:51Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "response accepted and verification published in PR20"
+    },
+    {
+      "number": 18,
+      "head_sha": "961ed0175bd52b19a77dddf49a80da0809d74a21",
+      "state": "closed",
+      "updated_at": "2026-11-16T10:30:43Z",
+      "merged_at": "2026-11-16T10:30:43Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "response accepted and verification published in PR20"
+    },
+    {
+      "number": 17,
+      "head_sha": "0b448618f921dabbf2ebe37d13eab3ad0806fcda",
+      "state": "closed",
+      "updated_at": "2026-11-16T10:30:35Z",
+      "merged_at": "2026-11-16T10:30:34Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "response accepted and verification published in PR20"
+    },
+    {
+      "number": 16,
+      "head_sha": "8eeb3521a357349ace84214f3db6e1deb8d1f86f",
+      "state": "closed",
+      "updated_at": "2026-11-16T10:30:26Z",
+      "merged_at": "2026-11-16T10:30:25Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "response accepted and verification published in PR20"
+    },
+    {
+      "number": 15,
+      "head_sha": "73a90f214a8098c1c695ee0f715ff7cb702d755f",
+      "state": "closed",
+      "updated_at": "2026-11-16T10:30:17Z",
+      "merged_at": "2026-11-16T10:30:16Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "response accepted and verification published in PR20"
+    },
+    {
+      "number": 14,
+      "head_sha": "39435fa3585770e3294b79f80f51deb5767a260d",
+      "state": "closed",
+      "updated_at": "2026-11-16T10:30:09Z",
+      "merged_at": "2026-11-16T10:30:08Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "response accepted and verification published in PR20"
+    },
+    {
+      "number": 13,
+      "head_sha": "b653427f2f10c206e835f18f1b1dd2f38e97b057",
+      "state": "closed",
+      "updated_at": "2026-11-12T23:40:22Z",
+      "merged_at": "2026-11-12T23:40:22Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 12,
+      "head_sha": "3108d4e7cd1ff0ad9476dda3119e0f9591871550",
+      "state": "closed",
+      "updated_at": "2026-11-12T23:26:08Z",
+      "merged_at": "2026-11-12T23:26:07Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 11,
+      "head_sha": "60b24f549a9f18a08fd9203c2d65e16aeece4315",
+      "state": "closed",
+      "updated_at": "2026-11-12T23:25:59Z",
+      "merged_at": "2026-11-12T23:25:58Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 10,
+      "head_sha": "fb00fd19eb3988ff7763eb17d168e82d573af435",
+      "state": "closed",
+      "updated_at": "2026-11-12T22:31:26Z",
+      "merged_at": "2026-11-12T22:31:26Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 8,
+      "head_sha": "cbceb6e3aeb9b6b0d3df5dd48468428c253ee182",
+      "state": "closed",
+      "updated_at": "2026-11-12T22:25:29Z",
+      "merged_at": "2026-11-12T21:31:56Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 9,
+      "head_sha": "b7e7422b5592d545f302a388b90c16f2688c361c",
+      "state": "closed",
+      "updated_at": "2026-11-12T21:42:04Z",
+      "merged_at": "2026-11-12T21:42:04Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 7,
+      "head_sha": "01dce0a28893c1a0bad3bb2e68c68d4631472543",
+      "state": "closed",
+      "updated_at": "2026-11-12T21:21:54Z",
+      "merged_at": "2026-11-12T21:21:53Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 6,
+      "head_sha": "409a9777d7f09b984fd73d217601022130dc911e",
+      "state": "closed",
+      "updated_at": "2026-11-12T21:21:47Z",
+      "merged_at": "2026-11-12T21:21:47Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 5,
+      "head_sha": "ac8bd46e2a2c1f25b7b1d4553c05d3c51bb2725c",
+      "state": "closed",
+      "updated_at": "2026-11-12T19:52:39Z",
+      "merged_at": "2026-11-12T19:52:39Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 2,
+      "head_sha": "1a48a10f02426d53389bbf2a9fcfce3bf14376ba",
+      "state": "closed",
+      "updated_at": "2026-11-12T19:49:41Z",
+      "merged_at": "2026-11-12T13:25:54Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 4,
+      "head_sha": "64fb8721ef9c1ffd136bdff287c4bd62bddeb783",
+      "state": "closed",
+      "updated_at": "2026-11-12T18:28:16Z",
+      "merged_at": "2026-11-12T18:28:16Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 3,
+      "head_sha": "1ce5f7103dfc220dda19a376fbe7ac5247b4182e",
+      "state": "closed",
+      "updated_at": "2026-11-12T13:37:15Z",
+      "merged_at": "2026-11-12T13:37:15Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    },
+    {
+      "number": 1,
+      "head_sha": "cfc5f361b440b675b4a5e9b06fd14b8fd726d8c0",
+      "state": "closed",
+      "updated_at": "2026-11-12T12:31:37Z",
+      "merged_at": "2026-11-12T12:31:37Z",
+      "comment_cursor": null,
+      "review_cursor": null,
+      "notes": "historical completed PR; read new discussion if an event arrives"
+    }
+  ]
+}

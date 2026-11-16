@@ -1,3 +1,9 @@
+# Publication complete: PR #20 merged
+
+November 16 verification is published at https://github.com/udi-shapiro/Grassroots-Audit/pull/20, merge 25b973e987f2f58a007321d07ed4de8123041d4e. All 17 publication blobs were verified; no working records or workflows entered main. All six response PRs #14–#19 were merged. Five application findings are verified resolved; GB and GSA remain open, sGLP verification deferred. Totals: 28 reports, 16 findings, four unanswered. Exact evidence is fe7a040a32a45e7b126df20cc2c898710c1642fa under auditor/evidence/catchup-20261116.
+
+Automation creation is the next operation. Read automation/pr-watch-state.json for its actual current state, trigger ID, first observed run and event ledger; do not use older no-monitoring notes as current status. The current manual run's work is complete, and the ledger records PRs through #20. Earlier prepared checkpoints are history.
+
 # Latest checkpoint: November 16 responses independently checked
 
 All six response PRs #14–#19 are merged through the normal endpoint, ending at f466a695d77a848bcdab074579cb6d6a01c6f2b8. Five findings have verified corrections at GLP d56822c2e6c474d883f8535bd63d0ef1b6381486. APPS 249/249, K 134/134, nine rebuilds and both currency cascades pass; adoption checks and exact certificate comparisons pass. GSA remains acknowledged/open; GB's agreement record is repaired but its enforced condition remains unresolved. sGLP #2 is answered, verification deferred. Four original core answers remain missing (GLP-Spec #1, IGLP #1–2, vGLP #1); keep the core-paper hold.

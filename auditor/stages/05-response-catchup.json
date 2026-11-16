@@ -35,12 +35,15 @@
   "reports": 28,
   "findings": 16,
   "unanswered": 4,
-  "publication": "prepared",
+  "publication": "merged",
   "automation": "not yet created; create after publication so initial work is not duplicated",
   "next": [
     "Inspect incoming GSA corrected install implementation and GB modality revision when provided.",
     "Extend currency adversarial execution to invalid amounts, insufficient holdings, maturity boundaries and concurrent transactions; do not infer these from existing happy-path counts.",
     "Hold core-paper investigations until all six original findings have answers.",
     "Read newest per-project handovers; preserve exact source paths and stable finding IDs."
-  ]
+  ],
+  "publication_pr": 20,
+  "publication_merge_sha": "25b973e987f2f58a007321d07ed4de8123041d4e",
+  "evidence_commit": "fe7a040a32a45e7b126df20cc2c898710c1642fa"
 }
