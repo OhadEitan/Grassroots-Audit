@@ -1,0 +1,66 @@
+name: Verify November 16 audit responses
+on:
+  push:
+    branches: [audit-exec-catchup-20261116]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        check: [APPS, K, apps-build, cssn-build, cascade-gc, cascade-gb]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: EShapiro2/GLP
+          ref: d56822c2e6c474d883f8535bd63d0ef1b6381486
+          path: GLP
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@2286a0c042b44434fe26d292bbce8d34f7ec662b
+        with:
+          sdk: '3.9.4'
+      - name: Enforce committed dependencies
+        working-directory: GLP/glp_runtime
+        run: |
+          dart --disable-analytics
+          dart pub get --enforce-lockfile
+      - name: Run the selected check
+        env:
+          AUDIT_CHECK: ${{ matrix.check }}
+        run: |
+          mkdir -p evidence
+          python3 - <<'PY'
+          import json,os,subprocess,time
+          from pathlib import Path
+          name=os.environ['AUDIT_CHECK'];env=dict(os.environ)
+          if name in ['APPS','K']:
+              command=['bash','test/run_all_tests.sh'];env['GLP_SECTIONS']=name
+          elif name=='apps-build':command=['bash','programs/apps/compile.sh','--check']
+          elif name=='cssn-build':command=['bash','programs/cssn/compile.sh','--check']
+          else:command=['bash','cascade.sh',name.removeprefix('cascade-'),'--check']
+          start=time.monotonic()
+          try:
+              p=subprocess.run(command,cwd='GLP',env=env,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=1500)
+              out=p.stdout;record={'exit_code':p.returncode,'timeout':False}
+          except subprocess.TimeoutExpired as e:
+              out=e.stdout or ''
+              if isinstance(out,bytes):out=out.decode(errors='replace')
+              record={'exit_code':None,'timeout':True}
+          record.update(check=name,command=command,source_commit='d56822c2e6c474d883f8535bd63d0ef1b6381486',seconds=round(time.monotonic()-start,3),dart_sdk='3.9.4',section=env.get('GLP_SECTIONS'))
+          Path('evidence/check.log').write_text(out)
+          Path('evidence/result.json').write_text(json.dumps(record,indent=2)+'\n')
+          Path('evidence/worktree-status.txt').write_text(subprocess.check_output(['git','status','--short'],cwd='GLP',text=True))
+          if name=='APPS':
+              subprocess.run(['tar','-czf','evidence/source.tar.gz','--exclude=.git','--exclude=.dart_tool','--exclude=build','--exclude=node_modules','-C','GLP','.'],check=True)
+          print(json.dumps(record));print(out[-16000:])
+          raise SystemExit(0 if record['exit_code']==0 else 1)
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: catchup-${{ matrix.check }}
+          path: evidence/
+          retention-days: 30
