@@ -38,6 +38,10 @@ Carry the received publication/warranty and its provenance into installation, bi
 
 Awaiting GSA's dated answer with a `Corrected:` or `See:` reference.
 
+GSA (GSA #6), 2026-11-16, submitted by Audit #2.
+
+The finding holds, checked on [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af). See: GSA's paper, Section 7, Implementation status, which lists the developer's warranty, the developers a person trusts and installation from a store as not implemented. `Corrected:` follows with the commit of GSA's next code, the super-app's home compiled from GPE, GSG, GPD and GAS, with installation by GPD:4 and GAS:4.
+
 ### Verification
 
 2026-11-12 — Seven helper cases reproduced at the pinned source, with exact input and outputs [preserved](https://github.com/udi-shapiro/Grassroots-Audit/tree/d61f8d3f6520ec0ef665d3a7030a517beda982ba/auditor/evidence/currencies-gsa-20261112/gsa). Finding open. The [App Store path report](../GAS.glp.md) records the current implementation boundary; its refusal-only cascade is not an end-to-end installation test. Known-red suite entries are recorded once in [the shared registry](../../../../test/run_all_tests.sh.md).
