@@ -32,6 +32,8 @@ Partly corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.
 
 ### Verification
 
+2026-11-16 — **Partial correction verified at GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486`; Finding 1 remains open.** [PR #19](https://github.com/udi-shapiro/Grassroots-Audit/pull/19) preserves Currencies' answer. The adopted contract now numbers escrow as GB:4. Deposit creates `escrow_coin(Carol,Dave,Alice,Bob,Cond,...)` or its bond counterpart; Release and Return consume that record, binding the depositor, beneficiary and condition. This repairs the original missing agreement representation. The six schemas still use `true` as their extra condition and never establish that `Cond` holds or fails; the English clause remains marked enforced. The answer acknowledges that unresolved part and awaits a revised clause. The current GB cascade and rebuild reproduce, and APPS passes its current escrow village checks as part of 249/249. [Source checks and execution logs](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116) distinguish those results from the historical unrestricted-transfer witness, which was not rerun unchanged against the revised representation. No closure is inferred from storing an uninterpreted condition.
+
 2026-11-12 — Reproduced on the compiled GB app at the pinned source with Dart 3.9.4. Both instrument transfers succeed; the refusal control blocks the transfer. Source-term inspection finds no agreement state or constraint in any of the six escrow schemas. Finding open.
 
 ### Other checked properties and limits

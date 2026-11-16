@@ -44,4 +44,6 @@ The finding holds, checked on [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](htt
 
 ### Verification
 
+2026-11-16 — **Answered and still open.** [PR #18](https://github.com/udi-shapiro/Grassroots-Audit/pull/18) acknowledges the missing implementation and promises a later correction. Inspection at GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486` still finds Home's fixed local `[friendship, ending_a_friendship]` warranty, `cert_signed(signed(_,_,Cert),...)`, and discarded schema/verdict payloads in the acceptance path. The current statement is source inspection; the seven historical runtime controls below were not rerun in this batch. No corrected App Store installation path was supplied or verified. The cited paper Section 7 is the project's attribution, not a newly verified paper version.
+
 2026-11-12 — Seven helper cases reproduced at the pinned source, with exact input and outputs [preserved](https://github.com/udi-shapiro/Grassroots-Audit/tree/d61f8d3f6520ec0ef665d3a7030a517beda982ba/auditor/evidence/currencies-gsa-20261112/gsa). Finding open. The [App Store path report](../GAS.glp.md) records the current implementation boundary; its refusal-only cascade is not an end-to-end installation test. Known-red suite entries are recorded once in [the shared registry](../../../../test/run_all_tests.sh.md).

@@ -45,6 +45,8 @@ Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/ESh
 
 ### Verification
 
+2026-11-16 — **Correction verified on GLP main `d56822c2e6c474d883f8535bd63d0ef1b6381486`; Finding 1 resolved for the reported integration gap.** [PR #14](https://github.com/udi-shapiro/Grassroots-Audit/pull/14) preserves Code/GFF/GAI's answer. Independent [execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772) reproduces all eight committed app platforms and CSSN's companion platform byte for byte. APPS passes **249/249** and CSSN Section K passes **134/134**, with zero ordinary failures in either section. The three former APPS known-red entries are absent from the current registry. GFF now compiles the adopted `GFF.glp`, superseding the intermediate GFF-I route. Local `adopt.py --check` also reproduces CSSN, GAI and GSNP's generated contract artifacts; GC/GB adoption is checked by their passing cascades. [Logs, commands and source validation](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116) preserve the evidence. Tests use Ubuntu 24.04, Dart 3.9.4 and the committed dependency lockfile. These are repository play/boot fixtures, not a full-suite run or physical-device validation. The historical failures and their original pins below remain unchanged.
+
 2026-11-12 — All nine rebuild results above were obtained by actual execution at the pinned commit. Five reproduce; four remain blocked. No resolution received.
 
 ### Existing application tests

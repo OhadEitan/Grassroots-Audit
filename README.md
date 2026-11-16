@@ -2,7 +2,7 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
-**Current priority:** application-project contracts and code. Core-paper review is paused until all six existing core findings have project answers; one answer has arrived and five remain. Application work proceeds meanwhile.
+**Current priority:** application-project contracts and code. Core-paper review is paused until all six existing core findings have project answers; both sGLP answers have arrived and four remain. Application work proceeds meanwhile.
 
 The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment.
 
@@ -15,10 +15,11 @@ There is one GPT auditor for each Claude project, responsible for that project's
 
 ## Where reports belong
 
-The following directories match all 12 top-level directories in GLP at commit `f68fbcbc3ef91b9707037ef7e5dfdb302acd1458` (12 November 2026). `papers/` is the one addition: it matches the directory of GLP's branch `papers`. Empty directories have a `.gitkeep` until reports are added. Preserve the source's deeper paths when placing a report.
+The following directories match all 13 top-level directories in GLP at commit `d56822c2e6c474d883f8535bd63d0ef1b6381486` (16 November 2026). `papers/` is the one addition: it matches the directory of GLP's branch `papers`. Empty directories have a `.gitkeep` until reports are added. Preserve the source's deeper paths when placing a report.
 
 | GLP directory / audit directory | Material audited |
 | --- | --- |
+| [calculus/](calculus/) | Contract calculus, adoption tools and generated contract artifacts |
 | [cascade/](cascade/) | Recorded contract compilation and execution runs |
 | [docs/](docs/) | Specifications and references |
 | [glp_multiagent/](glp_multiagent/) | Flutter application and multiagent integration |
@@ -37,9 +38,17 @@ Reports for root files stay at the root: for example, `cascade.sh.md` audits GLP
 
 `bin/`, `sections/`, `main.tex`, this README, the contribution guide and report template maintain the audit itself. They are not mirrored GLP report locations. Directory placeholders and instructions are not completed audits.
 
-The audit has started in stages. Stage 1 publishes the [source and ownership baseline](servers/peoplesweb.md) and a [paper-build cache finding](servers/peoplesweb/tools/papers_sync.py.md). Stage 2 has begun with a [GLP formal-semantics finding](papers/GLP-Spec.pdf.md). The staged work queue, exact coverage and handovers are on [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor). These first checks were performed in the coordination session; dedicated component sessions and background monitoring are not active.
+The audit has started in stages. Stage 1 publishes the [source and ownership baseline](servers/peoplesweb.md) and a [paper-build cache finding](servers/peoplesweb/tools/papers_sync.py.md). Stage 2 has begun with a [GLP formal-semantics finding](papers/GLP-Spec.pdf.md). The staged work queue, exact coverage and handovers are on [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor). Those first checks were performed in the coordination session. Current PR-automation configuration and run continuity are recorded in [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/automation); a configuration record is not evidence that a future run has executed.
 
 All new audit contributions and Claude response PRs target **this repository**. Claude opens each response PR from a branch of this repository, based on its current `main`, and pushes to neither `main` nor `GPT-Auditor`.
+
+## Latest response verification: 16 November 2026
+
+PRs #14–#19 are merged with their attributed answers preserved. Independent checks at GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486` verify five finding closures: both CSSN findings, the application integration finding, and both GAI/GSNP phone act-list findings. APPS passes **249/249**, CSSN K **134/134**, all nine app rebuilds reproduce, and GC/GB cascades reproduce. GB's escrow record is repaired but its enforced-condition question remains open; GSA's installation gap is acknowledged and open. Both sGLP answers await verification while four other core answers remain missing.
+
+Current totals: **28 reports, 16 findings, four unanswered**. Answered does not mean resolved. The shared known-red inventory now contains **20 SG entries**. The new `calculus/` directory is mirrored as a placeholder, not claimed as completed audit coverage. [Execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772); [evidence and verification checks](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116). Earlier sweep summaries below retain their original source pins and results.
+
+The ongoing PR-response protocol uses repository records for continuity, preserves answers, verifies corrections, and publishes dated findings through separate PRs. Its current trigger/connection status and processed-event ledger are on [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/automation). It does not create permanent per-project conversations; component handovers remain the continuity mechanism.
 
 ## Stage 2: bounded core sweep, now on hold
 
@@ -53,7 +62,7 @@ The second core sweep adds two findings: [vGLP strong fairness](papers/vGLP.pdf.
 | sGLP | [Clock law and closed-question mismatch](papers/sGLP.pdf.md); selected clock tests passed | Full relay/cancellation execution and empirical reproduction |
 | GSC | [Paper](papers/GSC.pdf.md), [GSN](programs/gsc/GSN.glp.md), [phone certificate](programs/social/graph/core/gsn_phone.glp.md) | Remaining examples/proofs and complete contract-to-phone execution |
 
-The [updated structural baseline](servers/peoplesweb.md) matches 31 project rows and six support projects, all 64 contracts, and the Website ownership transfer. All seven core PDFs are now retrieved and preserved. [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor) records exact versions, evidence and handovers and is never merged into main. The separate `audit-runtime-20261112` branch holds the bounded execution workflows, also outside main. No continuous monitor or persistent component sessions are running.
+The [updated structural baseline](servers/peoplesweb.md) matches 31 project rows and six support projects, all 64 contracts, and the Website ownership transfer. All seven core PDFs are now retrieved and preserved. [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor) records exact versions, evidence and handovers and is never merged into main. The separate `audit-runtime-20261112` branch holds the bounded execution workflows, also outside main. At that historical checkpoint no monitoring or persistent component sessions were running; current automation status is recorded on GPT-Auditor.
 
 Claude's Audit session should route answers to the exact named projects and amend the existing numbered findings by response PR. The auditor verifies corrections independently. Work proceeds in bounded sweeps without requesting routine go-aheads.
 

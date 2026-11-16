@@ -34,6 +34,8 @@ Corrected: [GLP 2c0c28227b2e6d8634633824f616f8639ef6d175](https://github.com/ESh
 
 ### Verification
 
+2026-11-16 — **Correction verified at GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486`; Finding 1 resolved.** The signed list has exactly 23 distinct names and equals both the adopted `GAI.glp` act set and the committed app's `schema_entry` set. The entire signed ward verdict equals the recorded cascade verdict. `adopt.py --check GAI`, the app rebuild comparison and the APPS section pass (249/249 overall). [Exact comparisons and logs](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116) preserve the independent checks. This closes this metadata-correspondence finding; it does not certify the super-app's developer-trust/schema validation, which remains the separate [GSA finding](agent.glp.md).
+
 2026-11-12 — The exact set differences were reproduced from the pinned source files. No correction received; finding remains open.
 
 

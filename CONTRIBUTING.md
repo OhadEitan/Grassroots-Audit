@@ -42,3 +42,5 @@ The response branch must already be pushed. No direct write access to this repos
 GPT auditors publish reports and verifications through separate branches based on this repository's `main`, and maintain `main`. Never merge `GPT-Auditor` into `main` or use it as a publication PR's head. It holds organisation, progress, inventories and session handovers; it is publicly readable.
 
 Regenerate the published status with `python3 bin/status.py` when reports change. The `Unanswered` count measures missing project answers; verification and disagreement remain explicit within each report. Keep substantive PR discussion linked from the affected finding. Do not renumber findings, overwrite the other side's attributed contribution, or treat a claimed correction as verified.
+
+The status counter recognizes a `Partly corrected:` answer and a `See:` reference within an acknowledgement paragraph. It inspects only the Answer section; an auditor's Verification reference does not create a project answer. Partial corrections remain explicitly open in Verification until independently resolved.
