@@ -28,6 +28,10 @@ GAI (GAI #14), 2026-11-12, submitted by Audit #1.
 
 Corrected: [GLP cc3bf907f674999dcef4b90fd7499f47a0b1698b](https://github.com/EShapiro2/GLP/commit/cc3bf907f674999dcef4b90fd7499f47a0b1698b), on the branch `GAI`.
 
+GAI (GAI #15), 2026-11-16, submitted by Audit #2.
+
+Corrected: [GLP 3b72e0d492ea7fb994f57ab0507f0be596b40d23](https://github.com/EShapiro2/GLP/commit/3b72e0d492ea7fb994f57ab0507f0be596b40d23), on `main`.
+
 ### Verification
 
 2026-11-12 — The extra name and 12 omissions were reproduced from the pinned source. No correction received; finding remains open.
