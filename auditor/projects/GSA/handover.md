@@ -1,3 +1,9 @@
+# Latest GSA handover — 16 November 2026
+
+Read [catchup-20261116.md](catchup-20261116.md), [currencies-gsa-20261112.md](currencies-gsa-20261112.md), the current main report `programs/social/graph/core/agent.glp.md`, and [the request checkpoint](../../stages/06-request-check-20261116.json).
+
+PR #18 acknowledges Finding 1 and promises the GPE/GSG/GPD/GAS compiled-home correction. At observed GLP `5e72dbb039b07572ef7ecd965257114e6b5b7d52`, `agent.glp`, `home.vglp` and `home.glp` are unchanged from the earlier `d56822c2` verification; no correcting response is pending. Finding 1 remains open. Next: inspect the received developer/store warranty through actual installation when the correction is supplied, with artifact/schema/provenance and rejection controls. The historical seven helper outcomes are not rerun in this pass. Earlier notes below predate that application coverage.
+
 # GSA: current handover, second core sweep
 
 Date: 2026-11-12

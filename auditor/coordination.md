@@ -1,3 +1,13 @@
+# Manual request check — 16 November 2026, 16:53 UTC
+
+Audit main remains `25b973e987f2f58a007321d07ed4de8123041d4e` ([PR #20](https://github.com/udi-shapiro/Grassroots-Audit/pull/20)). All 20 PRs are closed and merged; no PR, issue comment or inline review comment is awaiting a new response. The latest seven PR discussion timelines are empty. Earlier project comments are already reflected in the published reports. This is a fresh request inventory, not another execution of the earlier tests.
+
+The published position remains **28 reports, 16 findings, four unanswered**. PR #20 independently verified five application closures. GB Finding 1 remains partly corrected/open; GSA Finding 1 is acknowledged/open. Both sGLP answers are recorded but verification is deferred. GLP-Spec #1, IGLP #1–2 and vGLP #1 still lack answers, so the core-paper hold remains.
+
+GLP has advanced to `5e72dbb039b07572ef7ecd965257114e6b5b7d52`. Compared with the tested `d56822c2`, it changes the handwritten bonds/dated implementation and fixtures, the test harness, screenshots, the schema guide and website deployment. The adopted GB contract/schemas/cascade and compiled app platform, and GSA's `agent.glp`/`home.vglp`/`home.glp`, are unchanged. No closure of either open finding follows. The newer handwritten bonds code has not been independently executed in this pass; prior numerical results stay pinned to `d56822c2`.
+
+Exact inventory and changed paths: [stages/06-request-check-20261116.json](stages/06-request-check-20261116.json). Next application work: verify the newer handwritten currency code and boundary cases; verify GB's condition/modality revision and GSA's install correction when supplied. No routine approval is pending for this completed request check. Automation configuration was left unchanged; this manual check does not establish an automatic run.
+
 # PR-event automation enabled — 2026-11-16
 
 The Review Grassroots PRs automation was created successfully and is enabled for this audit repository's PR open/ready/closed events, commit updates, comments and reviews, including bot replies. No independent polling schedule was created. Its first event-triggered run has not yet been observed; setup success is not evidence of an automatic audit run. Exact trigger and automation metadata, processed PR heads through #20, and an empty active-run lease are in automation/pr-watch-state.json. The durable prompt is automation/pr-watch-prompt.md. Future runs recover from these repository records, avoid duplicate/self-generated dialogue, and preserve the core-paper hold and separation of working/publication branches.

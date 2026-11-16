@@ -1,3 +1,9 @@
+# Latest handover — manual request check, 16 November 2026
+
+Read [the current coordination record](../../coordination.md) and [the request checkpoint](../../stages/06-request-check-20261116.json) before the historical material below. Audit main is `25b973e987f2f58a007321d07ed4de8123041d4e`; GLP observed head is `5e72dbb039b07572ef7ecd965257114e6b5b7d52`. No new response PR or follow-up comment is pending. The published status is 28 reports, 16 findings, four unanswered; five application fixes were verified earlier in PR #20. GB and GSA remain open; both sGLP answers await verification under the core-paper hold. The four missing answers are GLP-Spec #1, IGLP #1–2 and vGLP #1.
+
+The source advanced after the earlier tests. The newer handwritten bonds/dated code and fixtures have not been executed by this pass; the adopted GB and GSA finding sources are unchanged. Prior numeric results remain pinned to `d56822c2`. Continue application code and boundary-case work using the current source; preserve the hold on core papers. No automation changes or automatic run are claimed here. Earlier records below are historical.
+
 # Published second core sweep — 2026-11-12
 
 [PR #9](https://github.com/udi-shapiro/Grassroots-Audit/pull/9) is merged as `0b5b8781b6025f8c7e8fb4fbded6a7936ba005fc`; all 16 publication file blobs were checked against the reviewed local contents. Published totals: **13 reports, nine findings, six unanswered**. Two new findings; three corrections independently verified, with Website's fix integrated and GSC's two source fixes awaiting integration into the observed GLP main. GSC's revised published paper is verified. The 72 selected existing tests passed; broader tests and full two-agent/phone execution remain outside this batch.

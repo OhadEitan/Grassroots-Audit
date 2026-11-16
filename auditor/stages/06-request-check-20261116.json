@@ -1,0 +1,435 @@
+{
+  "checked_at": "2026-11-16T16:53:26Z",
+  "mode": "manual request catch-up",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "audit_main": "25b973e987f2f58a007321d07ed4de8123041d4e",
+  "working_base": "683f2564b71e161d47960be89cc70d859b667862",
+  "source_head": "5e72dbb039b07572ef7ecd965257114e6b5b7d52",
+  "source_verified_previously": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
+  "request_inventory": {
+    "open_issues_or_pull_requests": 0,
+    "closed_pull_requests": 20,
+    "latest_pr": 20,
+    "latest_pr_updated_at": "2026-11-16T10:46:53Z",
+    "issue_comments_since_prior_publication": 0,
+    "inline_review_comments": 0,
+    "pr_discussions_checked": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "new_actionable_requests": 0,
+    "notes": "All PRs through #20 are closed and merged. No PR updated after the earlier #20 publication. Three historical issue comments are covered by the published response/integration records; no new unanswered comment found. Issues are disabled."
+  },
+  "published_status": {
+    "reports": 28,
+    "findings": 16,
+    "unanswered": 4,
+    "verified_closures_in_pr20": 5,
+    "open_application_findings": [
+      "programs/currencies/bonds/GB.glp.md#1",
+      "programs/social/graph/core/agent.glp.md#1"
+    ],
+    "unanswered_core_findings": [
+      "papers/GLP-Spec.pdf.md#1",
+      "papers/IGLP.pdf.md#1",
+      "papers/IGLP.pdf.md#2",
+      "papers/vGLP.pdf.md#1"
+    ],
+    "answered_core_findings_deferred": [
+      "papers/sGLP.pdf.md#1",
+      "papers/sGLP.pdf.md#2"
+    ]
+  },
+  "current_source_comparison": {
+    "base": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
+    "head": "5e72dbb039b07572ef7ecd965257114e6b5b7d52",
+    "ahead_by": 14,
+    "files": [
+      {
+        "filename": "docs/speech-act-schemas-guide.md",
+        "status": "modified",
+        "additions": 13,
+        "deletions": 13,
+        "changes": 26,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gb/screens/README.md",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gb/screens/gb-a-alice-mint-bond.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gb/screens/gb-b-bob-asked-loan.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gb/screens/gb-c-alice-redeem.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gb/screens/gb-d-carol-asked-deposit.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsg/screens/README.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsg/screens/gsg-a-bob-asked.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsg/screens/gsg-b-alice-friends.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsg/screens/gsg-c-alice-ended.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsn/screens/README.md",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsn/screens/gsn-a-bob-chat.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsn/screens/gsn-b-bob-asked-to-join.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsn/screens/gsn-c-bob-group.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsn/screens/gsn-d-alice-group.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/README.md",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 10,
+        "changes": 20,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gai-a-bob-chat-alf.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gai-b-alice-agents.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gai-c-alice-asked.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gai-d-bob-asked.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gai-e-bob-known-agents.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gsnp-a-bob-chat.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gsnp-b-bob-forward.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/apps/gsnp/screens/gsnp-c-fay-chat.png",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/collateral.glp",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 10,
+        "changes": 22,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/credit_instruments.glp",
+        "status": "modified",
+        "additions": 39,
+        "deletions": 33,
+        "changes": 72,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/credit_line.glp",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 5,
+        "changes": 12,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/dated/bonds_agent.glp",
+        "status": "modified",
+        "additions": 189,
+        "deletions": 138,
+        "changes": 327,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/dated/bonds_agent.vglp",
+        "status": "modified",
+        "additions": 342,
+        "deletions": 248,
+        "changes": 590,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/dated/escrow.glp",
+        "status": "modified",
+        "additions": 23,
+        "deletions": 17,
+        "changes": 40,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/dated/miniapp.glp",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 16,
+        "changes": 25,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/dated/person.glp",
+        "status": "modified",
+        "additions": 93,
+        "deletions": 67,
+        "changes": 160,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/dated/plays.glp",
+        "status": "modified",
+        "additions": 20,
+        "deletions": 20,
+        "changes": 40,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/dated/self.glp",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 9,
+        "changes": 14,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/instruments.glp",
+        "status": "modified",
+        "additions": 15,
+        "deletions": 12,
+        "changes": 27,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/loans.glp",
+        "status": "modified",
+        "additions": 24,
+        "deletions": 20,
+        "changes": 44,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/options.glp",
+        "status": "modified",
+        "additions": 17,
+        "deletions": 14,
+        "changes": 31,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/self.glp",
+        "status": "modified",
+        "additions": 124,
+        "deletions": 34,
+        "changes": 158,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/bonds/village.glp",
+        "status": "modified",
+        "additions": 49,
+        "deletions": 19,
+        "changes": 68,
+        "previous_filename": null
+      },
+      {
+        "filename": "programs/currencies/dated_mint_boot.glp",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "servers/peoplesweb/deploy/next.sh",
+        "status": "added",
+        "additions": 39,
+        "deletions": 0,
+        "changes": 39,
+        "previous_filename": null
+      },
+      {
+        "filename": "servers/peoplesweb/deploy/sweep.sh",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 1,
+        "changes": 6,
+        "previous_filename": null
+      },
+      {
+        "filename": "servers/peoplesweb/deploy/test.sh",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "previous_filename": null
+      },
+      {
+        "filename": "servers/peoplesweb/tools/next_tree.py",
+        "status": "added",
+        "additions": 25,
+        "deletions": 0,
+        "changes": 25,
+        "previous_filename": null
+      },
+      {
+        "filename": "test/OPEN_TYPES",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 5,
+        "changes": 5,
+        "previous_filename": null
+      },
+      {
+        "filename": "test/run_all_tests.sh",
+        "status": "modified",
+        "additions": 56,
+        "deletions": 32,
+        "changes": 88,
+        "previous_filename": null
+      }
+    ],
+    "interpretation": "New handwritten bonds/dated program and fixtures, test harness changes, screenshots, schema guide and website deployment changes. The GB adopted contract/schemas/cascade and compiled app platform are unchanged, as are GSA agent.glp, home.vglp and home.glp. Neither open application finding has a new correcting source change."
+  },
+  "execution": {
+    "rerun": false,
+    "reason": "This pass inventories requests and compares source versions. The newer handwritten bonds implementation has not been independently executed in this pass. Prior numeric results remain pinned to d56822c2; do not attribute them to 5e72dbb0."
+  },
+  "next_steps": [
+    "Currencies: independently examine and run the newer handwritten bonds implementation; retain the GB:4 condition/modality question until its revised adopted contract and evidence arrive.",
+    "GSA: await corrected installation implementation, then verify the received warranty/store-to-install path with rejection controls.",
+    "Maintain the core-paper hold until the four missing original answers arrive; both sGLP answers remain deferred.",
+    "Continue application boundary cases from the latest per-project catch-up records."
+  ],
+  "automation": "No automation setting changed or automatic execution claimed by this manual pass."
+}
