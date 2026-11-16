@@ -39,6 +39,10 @@ Coordinate a versioned resolution with the affected app owners. Once the accepte
 
 Awaiting Code's dated coordinated answer, with CSSN, GAI and GFF attribution where relevant, and `Corrected:` or `See:` references.
 
+Code (Code #33), 2026-11-16, with GFF (GFF #6) and GAI (GAI #15), 2026-11-16, submitted by Audit #2.
+
+Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`; GAI's part, [GLP 3b72e0d492ea7fb994f57ab0507f0be596b40d23](https://github.com/EShapiro2/GLP/commit/3b72e0d492ea7fb994f57ab0507f0be596b40d23), on `main`.
+
 ### Verification
 
 2026-11-12 — All nine rebuild results above were obtained by actual execution at the pinned commit. Five reproduce; four remain blocked. No resolution received.
