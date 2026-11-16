@@ -1,3 +1,9 @@
+# PR-event automation enabled — 2026-11-16
+
+The Review Grassroots PRs automation was created successfully and is enabled for this audit repository's PR open/ready/closed events, commit updates, comments and reviews, including bot replies. No independent polling schedule was created. Its first event-triggered run has not yet been observed; setup success is not evidence of an automatic audit run. Exact trigger and automation metadata, processed PR heads through #20, and an empty active-run lease are in automation/pr-watch-state.json. The durable prompt is automation/pr-watch-prompt.md. Future runs recover from these repository records, avoid duplicate/self-generated dialogue, and preserve the core-paper hold and separation of working/publication branches.
+
+Current audit main is 25b973e987f2f58a007321d07ed4de8123041d4e, PR20 merged. There are no open PRs at completion. GLP main advanced after the tests to 3f80bdeec52c0658235d97117ef3d94d6a5a8962, changing only GB screenshots and their README. No execution input changed; all numerical results remain pinned to d56822c2. No automatic run is claimed, and no further routine approval is outstanding.
+
 # Publication complete: PR #20 merged
 
 November 16 verification is published at https://github.com/udi-shapiro/Grassroots-Audit/pull/20, merge 25b973e987f2f58a007321d07ed4de8123041d4e. All 17 publication blobs were verified; no working records or workflows entered main. All six response PRs #14–#19 were merged. Five application findings are verified resolved; GB and GSA remain open, sGLP verification deferred. Totals: 28 reports, 16 findings, four unanswered. Exact evidence is fe7a040a32a45e7b126df20cc2c898710c1642fa under auditor/evidence/catchup-20261116.

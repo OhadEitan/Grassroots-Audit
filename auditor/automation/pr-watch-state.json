@@ -1,13 +1,30 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-16T10:48:00Z",
+  "updated_at": "2026-11-16T10:48:50.881907+00:00",
   "active_run": null,
   "pending_events": [],
   "automation": {
-    "status": "creation_pending",
-    "id": null,
-    "last_observed_automatic_run": null
+    "status": "enabled; first event-triggered run not yet observed",
+    "id": "Automation_a7418293ed34819191eb13c5bdbeb544",
+    "title": "Review Grassroots PRs",
+    "enabled": true,
+    "trigger": {
+      "connector_type": "github",
+      "webhook_name": "pull_request",
+      "params": {
+        "repository": "udi-shapiro/Grassroots-Audit",
+        "enable_comments": true,
+        "enable_commit_updates": true,
+        "enable_reviews": true,
+        "include_bot_reviews": true,
+        "only_on_merge": false
+      }
+    },
+    "last_observed_automatic_run": null,
+    "environment_selection": "inherited",
+    "environments": null,
+    "created_at": "2026-11-16T10:48:50.881907+00:00"
   },
   "publication_pr": 20,
   "publication_merge_sha": "25b973e987f2f58a007321d07ed4de8123041d4e",
@@ -29,8 +46,8 @@
       "state": "closed",
       "updated_at": "2026-11-16T10:30:52Z",
       "merged_at": "2026-11-16T10:30:51Z",
-      "comment_cursor": null,
-      "review_cursor": null,
+      "comment_cursor": "none present at catch-up",
+      "review_cursor": "none present at catch-up",
       "notes": "response accepted and verification published in PR20"
     },
     {
@@ -39,8 +56,8 @@
       "state": "closed",
       "updated_at": "2026-11-16T10:30:43Z",
       "merged_at": "2026-11-16T10:30:43Z",
-      "comment_cursor": null,
-      "review_cursor": null,
+      "comment_cursor": "none present at catch-up",
+      "review_cursor": "none present at catch-up",
       "notes": "response accepted and verification published in PR20"
     },
     {
@@ -49,8 +66,8 @@
       "state": "closed",
       "updated_at": "2026-11-16T10:30:35Z",
       "merged_at": "2026-11-16T10:30:34Z",
-      "comment_cursor": null,
-      "review_cursor": null,
+      "comment_cursor": "none present at catch-up",
+      "review_cursor": "none present at catch-up",
       "notes": "response accepted and verification published in PR20"
     },
     {
@@ -59,8 +76,8 @@
       "state": "closed",
       "updated_at": "2026-11-16T10:30:26Z",
       "merged_at": "2026-11-16T10:30:25Z",
-      "comment_cursor": null,
-      "review_cursor": null,
+      "comment_cursor": "none present at catch-up",
+      "review_cursor": "none present at catch-up",
       "notes": "response accepted and verification published in PR20"
     },
     {
@@ -69,8 +86,8 @@
       "state": "closed",
       "updated_at": "2026-11-16T10:30:17Z",
       "merged_at": "2026-11-16T10:30:16Z",
-      "comment_cursor": null,
-      "review_cursor": null,
+      "comment_cursor": "none present at catch-up",
+      "review_cursor": "none present at catch-up",
       "notes": "response accepted and verification published in PR20"
     },
     {
@@ -79,8 +96,8 @@
       "state": "closed",
       "updated_at": "2026-11-16T10:30:09Z",
       "merged_at": "2026-11-16T10:30:08Z",
-      "comment_cursor": null,
-      "review_cursor": null,
+      "comment_cursor": "none present at catch-up",
+      "review_cursor": "none present at catch-up",
       "notes": "response accepted and verification published in PR20"
     },
     {
@@ -213,5 +230,16 @@
       "review_cursor": null,
       "notes": "historical completed PR; read new discussion if an event arrives"
     }
-  ]
+  ],
+  "source_observed_after_tests": {
+    "commit": "3f80bdeec52c0658235d97117ef3d94d6a5a8962",
+    "changes": [
+      "programs/apps/gb/screens/README.md",
+      "programs/apps/gb/screens/gb-a-alice-mint-bond.png",
+      "programs/apps/gb/screens/gb-b-bob-asked-loan.png",
+      "programs/apps/gb/screens/gb-c-alice-redeem.png",
+      "programs/apps/gb/screens/gb-d-carol-asked-deposit.png"
+    ],
+    "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
+  }
 }

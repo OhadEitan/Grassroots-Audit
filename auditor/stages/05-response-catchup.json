@@ -36,7 +36,7 @@
   "findings": 16,
   "unanswered": 4,
   "publication": "merged",
-  "automation": "not yet created; create after publication so initial work is not duplicated",
+  "automation": "Enabled: GitHub PR open/update/review/comment events; first automatic run not yet observed. See automation/pr-watch-state.json.",
   "next": [
     "Inspect incoming GSA corrected install implementation and GB modality revision when provided.",
     "Extend currency adversarial execution to invalid amounts, insufficient holdings, maturity boundaries and concurrent transactions; do not infer these from existing happy-path counts.",
@@ -45,5 +45,6 @@
   ],
   "publication_pr": 20,
   "publication_merge_sha": "25b973e987f2f58a007321d07ed4de8123041d4e",
-  "evidence_commit": "fe7a040a32a45e7b126df20cc2c898710c1642fa"
+  "evidence_commit": "fe7a040a32a45e7b126df20cc2c898710c1642fa",
+  "source_observed_after_tests": "3f80bdeec52c0658235d97117ef3d94d6a5a8962: GB screenshots and README only; tests stay pinned to d56822c2."
 }
