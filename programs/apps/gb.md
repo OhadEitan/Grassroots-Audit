@@ -13,3 +13,7 @@ Executed the existing `play_bonds` and two audit-only escrow plays against the c
 `play_bonds` and `play_village` are app scripts. GB's recorded cascade explicitly contains **no run**. The village's release on day 30 is scheduled by its scripted person; it is not an escrow-condition predicate in the contract implementation. The app receives a stream of dates, and the play supplies it. No independently attested device clock was tested.
 
 The prior [APPS run](compile.sh.md#existing-application-tests), at `5c17c4a`, had 27 passing GB assertions. That history and the present targeted run do not establish arbitrary concurrency, economic solvency, device operation or input-domain safety. [Known reds](../../test/run_all_tests.sh.md) are tracked once for the shared suite.
+
+## Follow-up, 2026-11-16
+
+At GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486`, The current GB platform rebuilds byte for byte and its checks pass within the APPS section, including the revised escrow-record village scenario. The unresolved enforced-condition issue remains GB Finding 1. The complete APPS section passes 249/249. [Execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772) and [durable evidence](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116). This extends the stated reproduction coverage; it is not a new full contract audit.

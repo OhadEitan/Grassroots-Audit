@@ -13,3 +13,7 @@ All nine compared artifacts match: `GC.glp`, `GC.txt`, `schemas.txt`, `verdict.t
 The four recorded plays—`play_pay_swap`, `play_redeem`, `play_busy`, `play_declined`—replay to the same 20-line normalized run log. The driver normalizes REPL prompts and unbound-variable identifiers. This is actual execution, not just file equality. The app platform is also byte-identical to this record's vGLP platform.
 
 No new finding. Replay tests these four examples and reproducibility, not the truth of all contract/economic claims. See [the contract review](../programs/currencies/coins/GC.glp.md).
+
+## Follow-up, 2026-11-16
+
+At GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486`, The revised adopted-contract pipeline reproduces all 13 recorded artifacts, including four plays in run.log. The complete APPS section passes 249/249. [Execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772) and [durable evidence](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116). This extends the stated reproduction coverage; it is not a new full contract audit.

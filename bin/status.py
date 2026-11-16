@@ -5,6 +5,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKIP = {'README.md', 'REPORT-TEMPLATE.md', 'CONTRIBUTING.md'}
 def tex(s):
     return re.sub(r'([_&%#$])', r'\\\1', s)
+def has_answer(part):
+    # Only the Answer section counts. Verification may cite a correction while
+    # the project has still supplied no answer. A partial correction is an answer,
+    # and an acknowledgement may introduce its See reference within a paragraph.
+    m = re.search(r'^### Answer\s*\n(.*?)(?=^### |\Z)', part, re.M | re.S)
+    return bool(m and re.search(
+        r'(?<![\w`])(?:Corrected|Partly corrected|See):[ \t]*(?!`)(?=\S)',
+        m.group(1), re.I))
 rows = []
 for d, dirs, files in os.walk(ROOT):
     dirs[:] = sorted(x for x in dirs if not x.startswith('.'))
@@ -19,8 +27,7 @@ for d, dirs, files in os.walk(ROOT):
         n = len(parts)
         is_open = 0
         for part in parts:
-            m = re.search(r'^### Answer\s*$(.*)', part, re.M | re.S)
-            if not m or not re.search(r'^\s*(Corrected|See)\b', m.group(1), re.M):
+            if not has_answer(part):
                 is_open += 1
         rows.append((p[:-3], commit.group(1)[:8] if commit else '', date.group(1) if date else '', n, is_open))
 out = ['{\\footnotesize', '\\begin{longtable}{L{6.0cm}L{1.8cm}L{2.0cm}L{1.5cm}L{1.9cm}}', '\\toprule',

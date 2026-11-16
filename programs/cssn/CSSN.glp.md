@@ -30,6 +30,8 @@ Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/ESh
 
 ### Verification
 
+2026-11-16 — **Correction verified at GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486`; Finding 1 resolved.** The adopted English clause CSSN:2 explicitly requires that Bob knows Carol, and the Logic pragmas and generated `children_acquaint` schema retain the same condition. This resolves the original extra-prerequisite mismatch by revising the English contract. `adopt.py --check CSSN` and the CSSN rebuild pass; [Section K execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772) passes all 134 checks, including the village and figure acquaintance scenarios. [Evidence](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116).
+
 2026-11-12 — Both traces were calculated from the pinned source. No correction received; finding remains open.
 
 ## Finding 2: A creator who resigns cannot perform the promised coming-of-age declaration
@@ -53,5 +55,7 @@ CSSN (CSSN #16), 2026-11-16, submitted by Audit #2.
 Corrected: [GLP 8d707e09ec2ef00580695cbfe516f261cb2a415d](https://github.com/EShapiro2/GLP/commit/8d707e09ec2ef00580695cbfe516f261cb2a415d), on `main`: `programs/cssn/CSSN.txt`, the Logic pragma of clause 4; `programs/cssn/plays.glp`, `play_resigned`; `test/run_all_tests.sh`, Section K.
 
 ### Verification
+
+2026-11-16 — **Correction verified at GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486`; Finding 2 resolved.** `of_age` requires creator Alice and a remaining parent Bob without requiring Alice to remain a parent. Its effects end all current guardianships. The actual `play_resigned` checks pass: Alice makes Bob a parent, resigns, retains her creator record, declares Carol of age, and Bob's guardianship disappears at both Carol and Bob while Carol's friendships remain. All 134 Section K assertions pass in [the independent run](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772); [source and execution evidence](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116) are preserved. This checks the reported case with another parent remaining, not every possible ward state.
 
 2026-11-12 — The reachable resignation trace and pre-resignation control were calculated from the pinned source. No correction received; finding remains open.

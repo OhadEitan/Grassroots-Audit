@@ -68,6 +68,8 @@ Corrected: the paper's repository, `EShapiro2/svGLP-Stochastic-Volitional-GLP`, 
 
 ### Verification
 
+2026-11-16 — **Answer received; verification deferred.** [PR #17](https://github.com/udi-shapiro/Grassroots-Audit/pull/17) preserves sGLP #13's answer and private-source commit reference. No independent proof check or private-source access is claimed. Both sGLP findings now have answers; GLP-Spec #1, IGLP #1–2 and vGLP #1 still lack answers. Udi's hold on core-paper investigations therefore remains in force. When it lifts, verify the actual public built PDF and its correspondence to the claimed correction; accepting this answer does not close the finding.
+
 2026-11-12 — Checked both exact PDFs and the displayed proof/rules. No correction received or verified; Finding 2 remains open.
 
 ### Rebuilt-paper check before publication
