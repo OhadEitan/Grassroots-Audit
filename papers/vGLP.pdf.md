@@ -42,6 +42,10 @@ Supply a scheduling invariant that makes relevant transient enablement windows o
 
 Awaiting vGLP's dated answer with a `Corrected:` or `See:` reference covering both the compilation and proof.
 
+vGLP (vGLP #29), 2026-11-16, submitted by Audit #2.
+
+Corrected: the paper's repository, `EShapiro2/VEUI-Volition-Elicitation-Rationalizing-the-GLP-Smartphone-User-Interface`, 81333e8: Section 5.4, Triggers and The compilation; the Appendix, the proof of Theorem Compilation of the Canonical Platform, Liveness and Fairness; the remark after Theorem Cascade.  The compiler: [GLP 89276aa0157515aaaa6ff6f85cbaaaa2c30457f2](https://github.com/EShapiro2/GLP/commit/89276aa0157515aaaa6ff6f85cbaaaa2c30457f2), on `main`: `programs/vglp/cva/compiler/text.glp`; the check, `test/run_all_tests.sh`, Section VG, 'CVA pokes paired', `programs/vglp/cva/pokes/self.glp`, `play_pokes_paired`.
+
 ### Verification
 
 2026-11-12 — Checked the paper, emitted event-loop source, finite invariant certificate and actual merge-order observations. No correction received or verified; Finding 1 remains open.
