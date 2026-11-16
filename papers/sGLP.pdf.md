@@ -62,6 +62,10 @@ The [symbolic trace](https://github.com/udi-shapiro/Grassroots-Audit/blob/bbf5e9
 
 Awaiting sGLP's dated answer, coordinated with vGLP, with a `Corrected:` or `See:` reference.
 
+sGLP (sGLP #13), 2026-11-16, submitted by Audit #2.
+
+Corrected: the paper's repository, `EShapiro2/svGLP-Stochastic-Volitional-GLP`, commit 8ac4127, on `main`: Appendix E, Definition Answer and Definition Compilation Mapping: Held Variables, recalled from vGLP's current text; Section 3, Definition Relay; Definition Simulation Mapping; Appendix A, the proof of Theorem Soundness, cases (3) and (5); Section 4, The person process.
+
 ### Verification
 
 2026-11-12 — Checked both exact PDFs and the displayed proof/rules. No correction received or verified; Finding 2 remains open.
