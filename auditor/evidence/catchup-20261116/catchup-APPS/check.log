@@ -1,0 +1,262 @@
+Compiling REPL AOT binary...
+======================================
+   GLP Unified Test Suite v1.0        
+======================================
+Sections (PARTIAL, GLP_SECTIONS="APPS"): APPS
+
+=== Section APPS: the apps (programs/apps) ===
+
+  PASS: APPS gsg: platform.vglp is what vGLP's compiler prints from GSG.glp
+  PASS: APPS compile.sh --check exits 0
+  PASS: APPS gsg: the mini-app's artefact is certified
+  PASS: APPS gsg loads
+  PASS: APPS gsg router: bob's hello reaches the agent, carrying the acquaintance it asks for
+  PASS: APPS gsg router: the hello held for bob goes first on his conversation, then the start
+  PASS: APPS gsg router: the hello held for carol goes on hers
+  PASS: APPS gsg friends: alice's screen, each request pending until it commits, bob known once his hello comes back
+  PASS: APPS gsg friends: bob's screen, asked on alice's hello of acquaint and answering yes, his request, and asked on her attempt of befriend
+  PASS: APPS gsg: alice establishes her identity by the key her view shows
+  PASS: APPS gsg: ... the key written into each hole
+  PASS: APPS gsg: the types written again hold the notices of the platform's output, refused(N, Q, D), and the approvals pending, each by its request name, N and the approvals of type Approved ::= Proposal (vGLP e286276, Section 5.4), the lists its app shows (vGLP 1423679, Section 5.4), and the agent's own key first (vGLP 12f629d, Section 5.4)
+  PASS: APPS gsg: the person's screen shows a notice written after the last view, refused(P, Q, D)
+  PASS: APPS gsg: no failed play
+  PASS: APPS gsg: no error
+  PASS: APPS gsg friends: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gsg friends: ... and is not stopped at the limit
+  PASS: APPS gkk: platform.vglp is what vGLP's compiler prints from GKK.glp
+  PASS: APPS gkk: the request type proposes GKK's three classes
+  PASS: APPS gkk: miniapp.glp is the same file as GSG's app's
+  PASS: APPS gkk: the mini-app's artefact is certified
+  PASS: APPS gkk loads
+  PASS: APPS gkk keys: alice's screen, each acquaintance a cold call, each request pending until it commits
+  PASS: APPS gkk keys: bob's screen: once he has answered yes to the introduction, his agent, introduced to carol's by alice's at the commit, comes to know her by the ihello exchange, and he comes to know her, so no hello is sent, holding knows(carol) twice
+  PASS: APPS gkk keys: carol's screen: asked on alice's hello of acquaint and answering yes; not asked on the introduction, her agent comes to know bob's by it, and she answers yes on his attempt to come to know her
+  PASS: APPS gkk: alice introduces carol to bob, in the order of introduce's names in the adopted GKK.glp, Bob, Alice, Carol, the introducer second
+  PASS: APPS gkk: the types written again hold knows(Peer)
+  PASS: APPS gkk: no failed play
+  PASS: APPS gkk: no error
+  PASS: APPS gkk keys: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gkk keys: ... and is not stopped at the limit
+  PASS: APPS gsn: platform.vglp is what vGLP's compiler prints from GSN.glp
+  PASS: APPS gsn: the request type proposes the guarded classes, remove and post_own (the second adoption, Calculus 3b5fd5d) and not deliver or deliver_leader
+  PASS: APPS gsn: miniapp.glp is the same file as GSG's app's
+  PASS: APPS gsn: the mini-app's artefact is certified
+  PASS: APPS gsn loads
+  PASS: APPS gsn network: alice's screen, each request pending, by its request name, until its transaction is taken
+  PASS: APPS gsn network: bob's screen, each request pending, by its request name, until its transaction is taken
+  PASS: APPS gsn: post, of the names Alice, Bob and the values Text, Grupo, compiles as post(Alice, Bob, Text, Grupo), the leader first and the author second
+  PASS: APPS gsn: close's class term carries the list of the people of its listed role, a[listed(*, n)]
+  PASS: APPS gsn: member(x, g, y) holds at x the group's name and its leader, two arguments, the adopted GSN writing no name term
+  PASS: APPS gsn: ... written in the view as the contract writes it
+  PASS: APPS gsn: ... the community name of the person bound to u followed by the speech acts bound to the y's, and dot_any(C), the image of N.* under a binding, of a cleared atom (vGLP f8127b1, Section 5.4; GSC 327e035, Definition Binding)
+  PASS: APPS gsn: bob's group message in the order of post's names, the leader before its author, its content before the group's name
+  PASS: APPS gsn: the types written again: close's list and the community name, dot_any(C) with it
+  PASS: APPS gsn: alice signs her message by the key her view shows
+  PASS: APPS gsn: no failed play
+  PASS: APPS gsn: no error
+  PASS: APPS gsn network: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gsn network: ... and is not stopped at the limit
+  PASS: APPS gsnp: platform.vglp is what vGLP's compiler prints from GSNP.glp
+  PASS: APPS gsnp: the request type proposes the guarded classes, GKK's, GSG's, GSN's, GnW's, GFP's and GAI's with agent_message and post_forward, not deliver, deliver_leader or deliver_own
+  PASS: APPS gsnp: miniapp.glp is the same file as GSG's app's
+  PASS: APPS gsnp: the mini-app's artefact is certified
+  PASS: APPS gsnp loads
+  PASS: APPS gsnp provenance: dan's screen, each request pending, by its request name, until its transaction is taken
+  PASS: APPS gsnp provenance: eve's screen, each request pending, by its request name, until its transaction is taken
+  PASS: APPS gsnp provenance: carol's screen, each request pending, by its request name, until its transaction is taken
+  PASS: APPS gsnp provenance: bob's screen, each request pending, by its request name, until its transaction is taken
+  PASS: APPS gsnp provenance: fay's screen, each request pending, by its request name, until its transaction is taken
+  PASS: APPS gsnp: dan signs the item by the key his request question shows
+  PASS: APPS gsnp: dan sends the item he authored to eve in a message, as he signed it
+  PASS: APPS gsnp: carol finds the signer of the item before eve by matching it
+  PASS: APPS gsnp: carol forwards to bob the item signed by dan and then by eve
+  PASS: APPS gsnp: bob finds the signers of the item before carol by matching it
+  PASS: APPS gsnp: bob forwards to fay the item signed by dan, eve and carol
+  PASS: APPS gsnp: no script names a signer by an atom
+  PASS: APPS gsnp: no failed play
+  PASS: APPS gsnp: no error
+  PASS: APPS gsnp provenance: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gsnp provenance: ... and is not stopped at the limit
+  PASS: APPS gsnp agents: acme_ltd's screen
+  PASS: APPS gsnp agents: alice's screen
+  PASS: APPS gsnp agents: alf's screen
+  PASS: APPS gsnp agents: bob's screen
+  PASS: APPS gsnp agents: bob records alf with alice's attestation y, the speech act she signed
+  PASS: APPS gsnp agents: bob holds the item alf signed
+  PASS: APPS gsnp agents: alice retires alf, alf retired, its friendships ended
+  PASS: APPS gsnp agents: no unfriend in the play, retire ending alf's friendships
+  PASS: APPS gsnp agents: no failed play
+  PASS: APPS gsnp agents: no error
+  PASS: APPS gsnp agents: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gsnp agents: ... and is not stopped at the limit
+  PASS: APPS gff: platform.vglp is what vGLP's compiler prints from GFF.glp
+  PASS: APPS gff: miniapp.glp is the same file as GSG's app's
+  PASS: APPS gff: the mini-app's artefact is certified
+  PASS: APPS gff loads
+  PASS: APPS gff feeds: alice's screen
+  PASS: APPS gff feeds: bob's screen
+  PASS: APPS gff feeds: carol's screen
+  PASS: APPS gff feeds: dave's screen
+  PASS: APPS gff feeds: carol holds the third item, received from bob
+  PASS: APPS gff feeds: dave has an alice-pointer to bob, whom carol introduced
+  PASS: APPS gff feeds: bob holds the fourth item
+  PASS: APPS gff feeds: dave holds the fourth item
+  PASS: APPS gff feeds: carol, who removed her alice-pointer, does not hold the fourth item
+  PASS: APPS gff feeds: no screen shows a refusal
+  PASS: APPS gff: no failed play
+  PASS: APPS gff: no error
+  PASS: APPS gff feeds: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gff feeds: ... and is not stopped at the limit
+  PASS: APPS gai: platform.vglp is what vGLP's compiler prints from GAI.glp
+  PASS: APPS gai: platform.vglp is the platform of the recorded run of the cascade on GAI
+  PASS: APPS gai: the request type proposes the guarded classes of the adopted GAI, every schema marking a role
+  PASS: APPS gai: the view writes the record of an AI agent's attestation, attestation_record(r, y), at each guardian (GAI:2, Enter)
+  PASS: APPS gai: the types written again hold GAI's atoms, as the platform prints them
+  PASS: APPS gai: miniapp.glp is the same file as GSG's app's
+  PASS: APPS gai: the mini-app's artefact is certified
+  PASS: APPS gai loads
+  PASS: APPS gai agents: alice's screen
+  PASS: APPS gai agents: alf's screen
+  PASS: APPS gai agents: bob's screen
+  PASS: APPS gai: alice asks to come to know bob by the key her request question shows (GKK:2)
+  PASS: APPS gai: bob, once he knows alf, offers alice friendship by the key his request question shows (GSG:1)
+  PASS: APPS gai: ... and alice answers yes
+  PASS: APPS gai: alice signs her attestation y, by the key her request question shows, GAI's "Alice [Sign] <text>" (GAI:2)
+  PASS: APPS gai: alice enters her AI agent alf with y, by the key her request question shows (GnW:1)
+  PASS: APPS gai: bob, once he knows alice, proposes his acquaintance with her AI agent alf, GAI's "Bob [AI agent acquaint] <AI agent>" (GnW:3, GAI:2)
+  PASS: APPS gai: ... and alice, once bob is her friend, alf's befriending bob, GAI's "Alice [AI agent befriend] <AI agent>" (GnW:3, GAI:2)
+  PASS: APPS gai: ... and once that is done retires alf, the AI agent retire's first role (GnW:5)
+  PASS: APPS gai: nobody ends a friendship with alf by unfriend: retire ends its friendships (GnW:5)
+  PASS: APPS gai: no failed play
+  PASS: APPS gai: no error
+  PASS: APPS gai agents: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gai agents: ... and is not stopped at the limit
+  PASS: APPS gc: platform.vglp is what vGLP's compiler prints from GC.glp
+  PASS: APPS gc: platform.vglp is the platform of the recorded run of the cascade on GC
+  PASS: APPS gc: the request type proposes GKK's three classes and GC's four, issue, swap and pay naming their amounts (vGLP, Section 7.3)
+  PASS: APPS gc: the types written again hold coin(Peer)
+  PASS: APPS gc: miniapp.glp is the same file as GSG's app's
+  PASS: APPS gc: the mini-app's artefact is certified
+  PASS: APPS gc loads
+  PASS: APPS gc coins: alice's screen, each request pending until it commits, her amounts the fields of her requests
+  PASS: APPS gc coins: bob's screen, asked on alice's hello of acquaint and on her attempt of the swap
+  PASS: APPS gc: alice asks bob to swap two Alice-coins for three Bob-coins, in the order of swap's head, swap(p?, q? ; u, k, v, k')
+  PASS: APPS gc: alice pays two Bob-coins to bob by the key her request question shows, pay(p?, q ; k)
+  PASS: APPS gc: no failed play
+  PASS: APPS gc: no error
+  PASS: APPS gc coins: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gc coins: ... and is not stopped at the limit
+  PASS: APPS gb: platform.vglp is what vGLP's compiler prints from GB.glp and GB.txt
+  PASS: APPS gb: the view names three tabs, one for each list line of the pragmas, GKK's Contacts and GB's Coins and Bonds, the two counted, GB adding and deleting coin and bond with multiplicities (GSC, Section 2; vGLP, Section 5.4)
+  PASS: APPS gb: Redeem bond's and Redeem bond against bond's fields name the variables the atoms the proposer's role requires do not bind, the current date, today(Bob,Today), required at the issuer's role and not at the bearer's (GB:3; vGLP, Section 5.4)
+  PASS: APPS gb: the types written again hold the atoms of the platform, coin(Peer), bond(Peer, Integer) and the escrow's escrow_coin and escrow_bond, the current date no atom of the view (GB.txt, Vocabulary; vGLP, Section 5.4)
+  PASS: APPS gb: miniapp.glp is the same file as GSG's app's, the agent taking no calendar
+  PASS: APPS gb: the mini-app's artefact is certified
+  PASS: APPS gb loads
+  PASS: APPS gb: no failed play
+  PASS: APPS gb: no error
+  PASS: APPS gb bonds: the run suspends, no agent left with an own transaction or a trigger
+  PASS: APPS gb bonds: ... and is not stopped at the limit
+  PASS: APPS gb bonds: no attempt refused
+  PASS: APPS gb bonds: bob issues four Bob-bonds due day 5, later than day 1, the current date his clock gives (GB:1, Issue bond: today(Alice,Today), gt(Day,Today))
+  PASS: APPS gb bonds: alice issues three Alice-bonds due day 10, later than day 1, the current date (GB:1, Issue bond)
+  PASS: APPS gb bonds: bob answers yes to the loan, two Alice-coins for three Bob-bonds due day 5 (GB:2, Swap coin for bond)
+  PASS: APPS gb bonds: once the loan is taken bob holds two Alice-coins and one of his four Bob-bonds, knowing alice twice over, by their meeting and by the Alice-coins he took (GB:2, Swap coin for bond: knows(Bob,Carol))
+  PASS: APPS gb bonds: alice redeems a Bob-bond due day 5 once the current date at bob, its issuer, is day 5, against an Alice-coin bob holds, nobody asked, and comes to know the coin's issuer, herself (GB:3, Redeem bond: today(Bob,Today), le(Day,Today), knows(Alice,Carol))
+  PASS: APPS gb bonds: ... and bob holds the bond presented and one Alice-coin
+  PASS: APPS gb bonds: carol answers yes to alice's deposit of two Alice-coins for bob on the condition day 10, and holds them in escrow from alice for bob (GB:4, Deposit: escrow_coin(Carol,Dave,Alice,Bob,Cond,*Sum))
+  PASS: APPS gsg on two smartphones: the mini-app's artefact is certified
+  PASS: APPS gsg on two smartphones: the boot settles
+  PASS: APPS gsg on two smartphones: no event stopped at the cap
+  PASS: APPS gsg on two smartphones: alice's lines
+  PASS: APPS gsg on two smartphones: bob's lines
+  PASS: APPS gsn on two smartphones: the mini-app's artefact is certified
+  PASS: APPS gsn on two smartphones: the boot settles
+  PASS: APPS gsn on two smartphones: no event stopped at the cap
+  PASS: APPS gsn on two smartphones: alice's lines
+  PASS: APPS gsn on two smartphones: bob's lines
+  PASS: APPS gkk on three smartphones: the mini-app's artefact is certified
+  PASS: APPS gkk on three smartphones: the boot settles
+  PASS: APPS gkk on three smartphones: no event stopped at the cap
+  PASS: APPS gkk on three smartphones: alice's super-app lines
+  PASS: APPS gkk on three smartphones: bob's super-app lines
+  PASS: APPS gkk on three smartphones: carol's super-app lines
+  PASS: APPS gkk on three smartphones: alice's screen is play_keys's
+  PASS: APPS gkk on three smartphones: bob's screen is play_keys's
+  PASS: APPS gkk on three smartphones: carol's screen is play_keys's
+  PASS: APPS gsnp on five smartphones: the mini-app's artefact is certified
+  PASS: APPS gsnp on five smartphones: the boot settles
+  PASS: APPS gsnp on five smartphones: no event stopped at the cap
+  PASS: APPS gsnp on five smartphones: dan's super-app lines
+  PASS: APPS gsnp on five smartphones: dan's screen
+  PASS: APPS gsnp on five smartphones: eve's super-app lines
+  PASS: APPS gsnp on five smartphones: eve's screen
+  PASS: APPS gsnp on five smartphones: carol's super-app lines
+  PASS: APPS gsnp on five smartphones: carol's screen
+  PASS: APPS gsnp on five smartphones: bob's super-app lines
+  PASS: APPS gsnp on five smartphones: bob's screen
+  PASS: APPS gsnp on five smartphones: fay's super-app lines
+  PASS: APPS gsnp on five smartphones: fay's screen
+  PASS: APPS gai on three smartphones: the mini-app's artefact is certified
+  PASS: APPS gai on three smartphones: the boot settles
+  PASS: APPS gai on three smartphones: no event stopped at the cap
+  PASS: APPS gai on three smartphones: alice's super-app lines
+  PASS: APPS gai on three smartphones: alice's screen
+  PASS: APPS gai on three smartphones: alf's super-app lines
+  PASS: APPS gai on three smartphones: alf's screen
+  PASS: APPS gai on three smartphones: bob's super-app lines
+  PASS: APPS gai on three smartphones: bob's screen
+  PASS: APPS gc on two smartphones: the mini-app's artefact is certified
+  PASS: APPS gc on two smartphones: the boot settles
+  PASS: APPS gc on two smartphones: no event stopped at the cap
+  PASS: APPS gc on two smartphones: alice's lines
+  PASS: APPS gc on two smartphones: bob's lines
+  PASS: APPS gc village on six smartphones: the mini-app's artefact is certified
+  PASS: APPS gc village on six smartphones: the boot settles
+  PASS: APPS gc village on six smartphones: no event stopped at the cap
+  PASS: APPS gc village on six smartphones: alice's super-app lines, one connection each
+  PASS: APPS gc village on six smartphones: alice's answers and looks, in order
+  PASS: APPS gc village on six smartphones: alice's screen has play_village's 26 lines
+  PASS: APPS gc village on six smartphones: alice's last view is play_village's
+  PASS: APPS gc village on six smartphones: bob's super-app lines, one connection each
+  PASS: APPS gc village on six smartphones: bob's answers and looks, in order
+  PASS: APPS gc village on six smartphones: bob's screen has play_village's 22 lines
+  PASS: APPS gc village on six smartphones: bob's last view is play_village's
+  PASS: APPS gc village on six smartphones: charlie's super-app lines, one connection each
+  PASS: APPS gc village on six smartphones: charlie's answers and looks, in order
+  PASS: APPS gc village on six smartphones: charlie's screen has play_village's 22 lines
+  PASS: APPS gc village on six smartphones: charlie's last view is play_village's
+  PASS: APPS gc village on six smartphones: diana's super-app lines, one connection each
+  PASS: APPS gc village on six smartphones: diana's answers and looks, in order
+  PASS: APPS gc village on six smartphones: diana's screen has play_village's 22 lines
+  PASS: APPS gc village on six smartphones: diana's last view is play_village's
+  PASS: APPS gc village on six smartphones: eve's super-app lines, one connection each
+  PASS: APPS gc village on six smartphones: eve's answers and looks, in order
+  PASS: APPS gc village on six smartphones: eve's screen has play_village's 31 lines
+  PASS: APPS gc village on six smartphones: eve's last view is play_village's
+  PASS: APPS gc village on six smartphones: frank's super-app lines, one connection each
+  PASS: APPS gc village on six smartphones: frank's answers and looks, in order
+  PASS: APPS gc village on six smartphones: frank's screen has play_village's 36 lines
+  PASS: APPS gc village on six smartphones: frank's last view is play_village's
+  PASS: APPS gb village: no failed play
+  PASS: APPS gb village: no error
+  PASS: APPS gb village: the run suspends, every operation taken
+  PASS: APPS gb village: diana's presentation of a frank-bond due day 28, against a diana-coin frank holds, before frank's clock gives day 28 is refused by frank's machine, the issuer's, unable, the bond not mature by the current date, no atom lacking or forbidden (GB:3, Redeem bond: today(Bob,Today), le(Day,Today) at Bob)
+  PASS: APPS gb village: the escrow agent releases the deposit to frank, who answers yes, the release naming the escrow record it removes, charlie the depositor and the condition day 30 (GB:4, Release: ~escrow_coin(Carol,Dave,Alice,Bob,Cond,*Sum))
+  PASS: APPS gb village: frank's holdings, 7 diana-coins, 10 eve-coins, 6 frank-bonds due day 28, 4 frank-coins; knows of the issuer added at the role that receives coins or bonds in each swap, redemption and release (GC:2, GB:2, GB:3, GB:4: knows(Alice,Dave), knows(Alice,Carol), knows(Bob,Dave)): alice by meeting, whom she comes to know before she asks eve for frank-coins (GKK:2), diana and eve by meeting and by a swap, and himself by five redemptions against frank-bonds and by the release of charlie's deposit of frank-coins
+  PASS: APPS gb village: the escrow agent holds nothing in escrow once it has released, knowing charlie and frank by meeting, a deposit adding at it the escrow atom alone (GB:4, Deposit and Release)
+  PASS: APPS gb village: diana's holdings, knowing bob by meeting and by the bob-bonds of her swap, and frank by meeting, by the frank-bonds of her swap and by the frank-coin her redemption takes (GB:2, GB:3)
+  PASS: APPS gc village: no failed play
+  PASS: APPS gc village: no error
+  PASS: APPS gc village: the run suspends, every operation taken
+  PASS: APPS gc village: alice's holdings, 5 bob-coins, 8 alice-coins, 15 charlie-coins, 4 frank-coins
+  PASS: APPS gc village: bob's holdings, 10 alice-coins, 20 diana-coins
+  PASS: APPS gc village: charlie's holdings, 10 alice-coins, 10 eve-coins, 6 charlie-coins, 5 frank-coins
+  PASS: APPS gc village: diana's holdings, 24 bob-coins, 13 frank-coins, 8 diana-coins
+  PASS: APPS gc village: eve's holdings, 4 charlie-coins, 1 frank-coin, 2 alice-coins, 10 bob-coins
+  PASS: APPS gc village: frank's holdings, 7 diana-coins, 10 eve-coins, 5 frank-coins
+
+======================================
+PARTIAL Total: 249 | Passed: 249 | Failed: 0 | Sections: APPS
+======================================
+PARTIAL: ALL TESTS OF THESE SECTIONS PASSED (not the full suite)

@@ -1,0 +1,38 @@
+[
+  {
+    "contract": "CSSN",
+    "command": [
+      "python3",
+      "calculus/tools/adopt.py",
+      "--check",
+      "CSSN"
+    ],
+    "exit_code": 0,
+    "output": "",
+    "seconds": 0.513
+  },
+  {
+    "contract": "GAI",
+    "command": [
+      "python3",
+      "calculus/tools/adopt.py",
+      "--check",
+      "GAI"
+    ],
+    "exit_code": 0,
+    "output": "",
+    "seconds": 0.371
+  },
+  {
+    "contract": "GSNP",
+    "command": [
+      "python3",
+      "calculus/tools/adopt.py",
+      "--check",
+      "GSNP"
+    ],
+    "exit_code": 0,
+    "output": "",
+    "seconds": 0.529
+  }
+]

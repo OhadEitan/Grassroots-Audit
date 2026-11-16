@@ -1,0 +1,96 @@
+{
+  "source_commit": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
+  "method": "source inspection and exact set comparison",
+  "certificates": [
+    {
+      "app": "gai",
+      "act_count": 23,
+      "contract_certificate_platform_sets_equal": true,
+      "verdict_equal": true,
+      "names": [
+        "acquaint",
+        "agent_forward",
+        "agent_sign",
+        "ai_agent_acquaint",
+        "ai_agent_befriend",
+        "ai_agent_end",
+        "ai_agent_unfriend",
+        "ai_agents_acquaint",
+        "ai_agents_befriend",
+        "ai_agents_of_one_guardian_befriend",
+        "befriend",
+        "end_guardian",
+        "enter",
+        "establish",
+        "forward",
+        "guardian_unfriend",
+        "introduce",
+        "make_guardian",
+        "person_unfriend",
+        "resign",
+        "retire",
+        "sign",
+        "unfriend"
+      ]
+    },
+    {
+      "app": "gsnp",
+      "act_count": 36,
+      "contract_certificate_platform_sets_equal": true,
+      "verdict_equal": true,
+      "names": [
+        "acquaint",
+        "agent_forward",
+        "agent_message",
+        "agent_sign",
+        "ai_agent_acquaint",
+        "ai_agent_befriend",
+        "ai_agent_end",
+        "ai_agent_unfriend",
+        "ai_agents_acquaint",
+        "ai_agents_befriend",
+        "ai_agents_of_one_guardian_befriend",
+        "befriend",
+        "close",
+        "create",
+        "deliver",
+        "deliver_leader",
+        "deliver_own",
+        "end_guardian",
+        "enter",
+        "establish",
+        "forward",
+        "guardian_unfriend",
+        "introduce",
+        "join",
+        "leave",
+        "make_guardian",
+        "message",
+        "person_unfriend",
+        "post",
+        "post_forward",
+        "post_own",
+        "remove",
+        "resign",
+        "retire",
+        "sign",
+        "unfriend"
+      ]
+    }
+  ],
+  "cssn": {
+    "finding_1": "English clause now explicitly requires Bob knows Carol, matching the schema.",
+    "finding_2": "Creator Alice remains authorized when another parent Bob remains; the schema no longer requires Alice to remain a parent. Runtime play is checked separately."
+  },
+  "gb": {
+    "finding_1": "Partially repaired: escrow records include depositor, beneficiary and condition, consumed by release/return. The condition remains uninterpreted and the enforced mark is unresolved.",
+    "schemas": {
+      "deposit": "sas(deposit, ['Alice', 'Carol', 'Dave', 'Bob'], ['Dave', 'Sum', 'Bob', 'Cond'], [not(times(num('Sum'), atom(coin, ['Alice', 'Dave']))), times(num('Sum'), atom(escrow_coin, ['Carol', 'Dave', 'Alice', 'Bob', 'Cond']))], [atom(identity, ['Alice']), atom(identity, ['Carol']), atom(knows, ['Alice', 'Carol']), atom(knows, ['Carol', 'Alice']), atom(knows, ['Alice', 'Bob']), times(num('Sum'), atom(coin, ['Alice', 'Dave']))], true, ['Alice', 'Carol']),",
+      "deposit_bond": "sas(deposit_bond, ['Alice', 'Carol', 'Dave', 'Bob'], ['Dave', 'Day', 'Sum', 'Bob', 'Cond'], [not(times(num('Sum'), atom(bond, ['Alice', 'Dave', num('Day')]))), times(num('Sum'), atom(escrow_bond, ['Carol', 'Dave', num('Day'), 'Alice', 'Bob', 'Cond']))], [atom(identity, ['Alice']), atom(identity, ['Carol']), atom(knows, ['Alice', 'Carol']), atom(knows, ['Carol', 'Alice']), atom(knows, ['Alice', 'Bob']), times(num('Sum'), atom(bond, ['Alice', 'Dave', num('Day')]))], true, ['Alice', 'Carol']),",
+      "release": "sas(release, ['Carol', 'Bob', 'Dave', 'Alice'], ['Dave', 'Alice', 'Cond', 'Sum'], [not(times(num('Sum'), atom(escrow_coin, ['Carol', 'Dave', 'Alice', 'Bob', 'Cond']))), times(num('Sum'), atom(coin, ['Bob', 'Dave'])), atom(knows, ['Bob', 'Dave'])], [atom(identity, ['Carol']), atom(identity, ['Bob']), atom(knows, ['Carol', 'Bob']), atom(knows, ['Bob', 'Carol']), times(num('Sum'), atom(escrow_coin, ['Carol', 'Dave', 'Alice', 'Bob', 'Cond']))], true, ['Carol', 'Bob']),",
+      "release_bond": "sas(release_bond, ['Carol', 'Bob', 'Dave', 'Alice'], ['Dave', 'Day', 'Alice', 'Cond', 'Sum'], [not(times(num('Sum'), atom(escrow_bond, ['Carol', 'Dave', num('Day'), 'Alice', 'Bob', 'Cond']))), times(num('Sum'), atom(bond, ['Bob', 'Dave', num('Day')])), atom(knows, ['Bob', 'Dave'])], [atom(identity, ['Carol']), atom(identity, ['Bob']), atom(knows, ['Carol', 'Bob']), atom(knows, ['Bob', 'Carol']), times(num('Sum'), atom(escrow_bond, ['Carol', 'Dave', num('Day'), 'Alice', 'Bob', 'Cond']))], true, ['Carol', 'Bob']),",
+      "return": "sas(return, ['Carol', 'Alice', 'Dave', 'Bob'], ['Dave', 'Bob', 'Cond', 'Sum'], [not(times(num('Sum'), atom(escrow_coin, ['Carol', 'Dave', 'Alice', 'Bob', 'Cond']))), times(num('Sum'), atom(coin, ['Alice', 'Dave'])), atom(knows, ['Alice', 'Dave'])], [atom(identity, ['Carol']), atom(identity, ['Alice']), atom(knows, ['Carol', 'Alice']), atom(knows, ['Alice', 'Carol']), times(num('Sum'), atom(escrow_coin, ['Carol', 'Dave', 'Alice', 'Bob', 'Cond']))], true, ['Carol', 'Alice']),",
+      "return_bond": "sas(return_bond, ['Carol', 'Alice', 'Dave', 'Bob'], ['Dave', 'Day', 'Bob', 'Cond', 'Sum'], [not(times(num('Sum'), atom(escrow_bond, ['Carol', 'Dave', num('Day'), 'Alice', 'Bob', 'Cond']))), times(num('Sum'), atom(bond, ['Alice', 'Dave', num('Day')])), atom(knows, ['Alice', 'Dave'])], [atom(identity, ['Carol']), atom(identity, ['Alice']), atom(knows, ['Carol', 'Alice']), atom(knows, ['Alice', 'Carol']), times(num('Sum'), atom(escrow_bond, ['Carol', 'Dave', num('Day'), 'Alice', 'Bob', 'Cond']))], true, ['Carol', 'Alice'])])))."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "number": 14,
+  "head": "39435fa3585770e3294b79f80f51deb5767a260d",
+  "body": "Report: `programs/apps/compile.sh.md`, Finding 1.\n\nAnswer of Code (Code #33), with GFF (GFF #6) and GAI (GAI #15), 2026-11-16, submitted by Audit #2: Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`; GAI's part, [GLP 3b72e0d492ea7fb994f57ab0507f0be596b40d23](https://github.com/EShapiro2/GLP/commit/3b72e0d492ea7fb994f57ab0507f0be596b40d23), on `main`.\n\nValidation reported by Code: on that tree, Section APPS of `test/run_all_tests.sh` passes 249 of 249, holding each app's platform, gai, gsnp and gff among them, to what `programs/apps/compile.sh` prints from its contract; Section K passes 122 of 122, with `programs/cssn/compile.sh --check` as printed. GAI reports, on GLP main 534c477b, `bash programs/apps/compile.sh --check` giving `gai/platform.vglp: as printed` and `gsnp/platform.vglp: as printed`.\n\nThe branch is based on `main` 17cde7e and changes only the Answer of Finding 1.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_013FJ396EcQesMYoyzWsvJU2",
+  "files": [
+    {
+      "sha": "0b3d97785019c546bff0a707b947e01f63749e12",
+      "filename": "programs/apps/compile.sh.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/udi-shapiro/Grassroots-Audit/blob/39435fa3585770e3294b79f80f51deb5767a260d/programs%2Fapps%2Fcompile.sh.md",
+      "raw_url": "https://github.com/udi-shapiro/Grassroots-Audit/raw/39435fa3585770e3294b79f80f51deb5767a260d/programs%2Fapps%2Fcompile.sh.md",
+      "contents_url": "https://api.github.com/repos/udi-shapiro/Grassroots-Audit/contents/programs%2Fapps%2Fcompile.sh.md?ref=39435fa3585770e3294b79f80f51deb5767a260d",
+      "patch": "@@ -39,6 +39,10 @@ Coordinate a versioned resolution with the affected app owners. Once the accepte\n \n Awaiting Code's dated coordinated answer, with CSSN, GAI and GFF attribution where relevant, and `Corrected:` or `See:` references.\n \n+Code (Code #33), 2026-11-16, with GFF (GFF #6) and GAI (GAI #15), 2026-11-16, submitted by Audit #2.\n+\n+Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`; GAI's part, [GLP 3b72e0d492ea7fb994f57ab0507f0be596b40d23](https://github.com/EShapiro2/GLP/commit/3b72e0d492ea7fb994f57ab0507f0be596b40d23), on `main`.\n+\n ### Verification\n \n 2026-11-12 — All nine rebuild results above were obtained by actual execution at the pinned commit. Five reproduce; four remain blocked. No resolution received."
+    }
+  ],
+  "merge": {
+    "sha": "6d530c010bbf6aa0151fdacf70b2b4bd0b051ec7",
+    "merged": true,
+    "message": "Pull Request successfully merged"
+  }
+}

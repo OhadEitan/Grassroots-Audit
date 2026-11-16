@@ -1,0 +1,20 @@
+gc: adopted: GC.glp and schemas.txt, full-contract.txt, full-pragmas.txt, flat.txt, full-schemas.txt as calculus/tools/adopt.py prints them
+gc: verdict: syntactically_grassroots
+gc: VMAT form: 7 displays
+gc: platform.vglp: 7062 lines
+gc: platform.glp: 4881 lines
+gc: interface.glp: 1304 items
+gc: run.log: 4 plays, 20 lines
+GC.glp: as printed
+GC.txt: as printed
+flat.txt: as printed
+full-contract.txt: as printed
+full-pragmas.txt: as printed
+full-schemas.txt: as printed
+interface.glp: as printed
+platform.glp: as printed
+platform.vglp: as printed
+run.log: as printed
+schemas.txt: as printed
+verdict.txt: as printed
+vmat.tex: as printed

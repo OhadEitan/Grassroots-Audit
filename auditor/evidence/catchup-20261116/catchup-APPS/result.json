@@ -1,0 +1,13 @@
+{
+  "exit_code": 0,
+  "timeout": false,
+  "check": "APPS",
+  "command": [
+    "bash",
+    "test/run_all_tests.sh"
+  ],
+  "source_commit": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
+  "seconds": 277.605,
+  "dart_sdk": "3.9.4",
+  "section": "APPS"
+}

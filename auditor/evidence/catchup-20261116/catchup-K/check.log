@@ -1,0 +1,152 @@
+Compiling REPL AOT binary...
+======================================
+   GLP Unified Test Suite v1.0        
+======================================
+Sections (PARTIAL, GLP_SECTIONS="K"): K
+
+=== Section K: CSSN, the child-safe social network ===
+
+--- CSSN contract, GSC's verdict, the platform ---
+  PASS: CSSN contract: GSC gives a verdict
+  PASS: CSSN contract: syntactically grassroots with wards, acquaint the introductory act, child the mark, its guardianship
+  PASS: CSSN contract: ... child_acquaint a relay act
+  PASS: CSSN contract: ... children_acquaint a relay act
+  PASS: CSSN contract: ... identity and person the atoms its introductory act requires
+  PASS: CSSN contract: its predicates have traceable provenance
+  PASS: CSSN contract: it satisfies volition
+  PASS: CSSN contract: it is not malformed
+  PASS: CSSN contract: compiled to its canonical CVA platform, platform.vglp as the compiler prints it
+  PASS: CSSN contract: compile.sh --check exits 0
+  PASS: CSSN contract: compiled with knows its introduction predicate
+  PASS: CSSN: platform.vglp is the platform of the recorded run of the cascade on CSSN
+  PASS: CSSN: miniapp.glp is the same file as the apps'
+--- CSSN program ---
+  PASS: CSSN program: the mini-app's artefact is certified
+  PASS: CSSN program loads
+  PASS: CSSN program no type errors
+  PASS: CSSN program is certified
+--- CSSN village, eight acts, alice's closing of kids_chat among them ---
+  PASS: CSSN village: no failed goal
+  PASS: CSSN village: the run suspends, no agent left with an own transaction or a trigger
+  PASS: CSSN village: ... and is not stopped at the limit
+  PASS: CSSN village: no attempt refused, refused(P, Q, D) the notice (vGLP f0acbc1)
+  PASS: CSSN village: nobody signs, and no item or authored atom is written (CSSN extends GSN)
+  PASS: CSSN village act 1: alice, bob, grace and frank establish their identities
+  PASS: CSSN village act 1: alice and bob come to know each other (GKK:2), alice requesting
+  PASS: CSSN village act 1: ... and bob approving
+  PASS: CSSN village act 1: bob and frank come to know each other, frank approving
+  PASS: CSSN village act 1: bob and grace come to know each other, grace approving
+  PASS: CSSN village act 1: carol enters with her creator alice, at alice
+  PASS: CSSN village act 1: ... and at carol, her phone answering yes
+  PASS: CSSN village act 1: ... carol a child, alice her creator and first friend
+  PASS: CSSN village act 1: bob enters dave
+  PASS: CSSN village act 1: ... dave's phone answering yes, bob his creator
+  PASS: CSSN village act 1: bob makes grace a parent of dave (CSSN:1)
+  PASS: CSSN village act 1: ... grace approving
+  PASS: CSSN village act 1: bob enters eve
+  PASS: CSSN village act 1: bob makes grace a parent of eve
+  PASS: CSSN village act 1: ... grace approving
+  PASS: CSSN village act 2: dave records grace a parent bob made
+  PASS: CSSN village act 1: grace is parenting dave
+  PASS: CSSN village act 1: dave knows grace
+  PASS: CSSN village act 1: dave records only his creator
+  PASS: CSSN village act 2: alice and bob are friends
+  PASS: CSSN village act 2: alice sends bob a message, which he holds as received from her
+  PASS: CSSN village act 2: bob and frank are friends
+  PASS: CSSN village act 2: bob introduces frank to alice (GKK:3)
+  PASS: CSSN village act 2: ... an act of bob and alice, alice approving
+  PASS: CSSN village act 2: ... after which alice knows frank
+  PASS: CSSN village act 2: bob introduces alice to frank
+  PASS: CSSN village act 2: ... an act of bob and frank, frank approving
+  PASS: CSSN village act 2: ... after which frank knows alice
+  PASS: CSSN village act 2: alice befriends frank
+  PASS: CSSN village act 2: ... and alice and frank are friends
+  PASS: CSSN village act 3: alice requests that carol and dave come to know each other, naming bob
+  PASS: CSSN village act 3: ... and bob approves
+  PASS: CSSN village act 3: ... and carol
+  PASS: CSSN village act 3: ... and dave
+  PASS: CSSN village act 3: dave knows carol by their child acquaintance
+  PASS: CSSN village act 3: alice then proposes that carol and dave befriend, naming bob
+  PASS: CSSN village act 3: ... and bob approves
+  PASS: CSSN village act 3: carol and dave are friends
+  PASS: CSSN village act 3: the sibling case, bob both parents named, dave and eve coming to know each other
+  PASS: CSSN village act 3: ... and then befriending
+  PASS: CSSN village act 3: ... dave and eve are friends
+  PASS: CSSN village act 3: alice requests that carol and eve come to know each other, naming bob
+  PASS: CSSN village act 3: ... then that they befriend
+  PASS: CSSN village act 3: ... and carol and eve are friends
+  PASS: CSSN village act 3: alice knows dave by their child acquaintance, and nothing more of him
+  PASS: CSSN village act 4: bob requests that dave and frank come to know each other
+  PASS: CSSN village act 4: ... frank approving
+  PASS: CSSN village act 4: ... then that they befriend
+  PASS: CSSN village act 4: alice requests that carol and frank come to know each other
+  PASS: CSSN village act 4: ... carol approving
+  PASS: CSSN village act 4: ... then that they befriend
+  PASS: CSSN village act 4: frank and dave are friends
+  PASS: CSSN village act 4: ... and frank and carol
+  PASS: CSSN village act 5: carol creates kids_chat
+  PASS: CSSN village act 5: carol invites dave, alice, bob and dave approving
+  PASS: CSSN village act 5: ... and eve
+  PASS: CSSN village act 5: carol's own post, delivered to every member
+  PASS: CSSN village act 5: dave's post, sent to carol and delivered by her
+  PASS: CSSN village act 5: eve's post, delivered to dave
+  PASS: CSSN village act 5: eve leaves kids_chat
+  PASS: CSSN village act 6: frank invites dave, bob approving
+  PASS: CSSN village act 6: ... and carol, alice approving
+  PASS: CSSN village act 6: frank's post, delivered to dave
+  PASS: CSSN village act 6: dave's post, delivered to carol by frank
+  PASS: CSSN village act 6: carol's post, delivered to dave by frank
+  PASS: CSSN village act 7: grace ends dave's friendship with carol
+  PASS: CSSN village act 7: ... at dave
+  PASS: CSSN village act 7: ... and at carol
+  PASS: CSSN village act 7: carol's agent drops dave from kids_chat, his leader no longer his friend (GSN:4)
+  PASS: CSSN village act 7: bob ends dave's membership of the study group
+  PASS: CSSN village act 7: ... at dave
+  PASS: CSSN village act 7: ... and at frank
+  PASS: CSSN village act 7: alice requests that kids_chat be closed, child_close(carol, alice, n), its parts opened by carol
+  PASS: CSSN village act 7: ... carol's machine proposes it on alice's request, and kids_chat is closed at carol, who leads it no longer
+  PASS: CSSN village act 7: ... carol's membership and her listing of herself ended in the one act
+  PASS: CSSN village act 7: ... alice's person is never asked on the close, her request her approval
+  PASS: CSSN village act 8: bob, eve's creator, declares eve of age
+  PASS: CSSN village act 8: ... and nobody is asked, grace not
+  PASS: CSSN village act 8: which ends bob's parenting of eve
+  PASS: CSSN village act 8: ... bob remaining the creator of eve, the record of who declared her of age
+  PASS: CSSN village act 8: ... and grace's parenting of eve, the parent bob made
+  PASS: CSSN village act 8: ... grace's parenting of dave remaining
+  PASS: CSSN village act 8: eve is an adult
+  PASS: CSSN village act 8: ... with no parent
+  PASS: CSSN village act 8: eve comes to know frank (GKK:2), with no parent among the guards
+  PASS: CSSN village act 8: ... frank approving
+  PASS: CSSN village act 8: ... after which eve knows frank
+  PASS: CSSN village act 8: eve befriends frank
+  PASS: CSSN village act 8: ... and eve and frank are friends, with no parent among the guards
+  PASS: CSSN village act 8: eve and bob remain friends
+  PASS: CSSN village: a parent's state does not change by the child's acts
+--- CSSN, the app's scenario of four ---
+  PASS: CSSN figure: no failed goal
+  PASS: CSSN figure: the run suspends
+  PASS: CSSN figure: no attempt refused
+  PASS: CSSN figure: alice requests that carol and bob come to know each other (CSSN:2)
+  PASS: CSSN figure: bob requests that dave and alice come to know each other, alice approving
+  PASS: CSSN figure: alice, knowing dave, requests that carol and dave come to know each other
+  PASS: CSSN figure: ... bob approving
+  PASS: CSSN figure: alice requests that carol and dave befriend, dave approving
+  PASS: CSSN figure: carol ends the friendship with dave
+--- CSSN, the creator who resigned declares her child of age ---
+  PASS: CSSN resigned creator: no failed goal
+  PASS: CSSN resigned creator: no attempt refused
+  PASS: CSSN resigned creator: alice makes bob a parent of carol, bob approving
+  PASS: CSSN resigned creator: alice resigns her guardianship of carol (GnW:2)
+  PASS: CSSN resigned creator: ... and is a parent of carol no longer
+  PASS: CSSN resigned creator: ... remaining her creator
+  PASS: CSSN resigned creator: alice, the creator, declares carol of age (CSSN:4)
+  PASS: CSSN resigned creator: carol is a person, of age
+  PASS: CSSN resigned creator: ... a child no longer
+  PASS: CSSN resigned creator: ... bob's guardianship ended, at carol
+  PASS: CSSN resigned creator: ... and at bob
+  PASS: CSSN resigned creator: carol's friendships remain
+
+======================================
+PARTIAL Total: 134 | Passed: 134 | Failed: 0 | Sections: K
+======================================
+PARTIAL: ALL TESTS OF THESE SECTIONS PASSED (not the full suite)

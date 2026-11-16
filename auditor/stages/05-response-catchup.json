@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-16",
+  "source_commit": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
+  "responses_merged": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "response_main": "f466a695d77a848bcdab074579cb6d6a01c6f2b8",
+  "execution_run": 43849758772,
+  "verified_resolved": [
+    "programs/apps/compile.sh.md#1",
+    "programs/cssn/CSSN.glp.md#1",
+    "programs/cssn/CSSN.glp.md#2",
+    "programs/social/graph/core/gai_phone.glp.md#1",
+    "programs/social/graph/core/gsnp_phone.glp.md#1"
+  ],
+  "answered_open": [
+    "programs/currencies/bonds/GB.glp.md#1",
+    "programs/social/graph/core/agent.glp.md#1"
+  ],
+  "core_verification_deferred": [
+    "papers/sGLP.pdf.md#1",
+    "papers/sGLP.pdf.md#2"
+  ],
+  "core_answers_missing": [
+    "papers/GLP-Spec.pdf.md#1",
+    "papers/IGLP.pdf.md#1",
+    "papers/IGLP.pdf.md#2",
+    "papers/vGLP.pdf.md#1"
+  ],
+  "reports": 28,
+  "findings": 16,
+  "unanswered": 4,
+  "publication": "prepared",
+  "automation": "not yet created; create after publication so initial work is not duplicated",
+  "next": [
+    "Inspect incoming GSA corrected install implementation and GB modality revision when provided.",
+    "Extend currency adversarial execution to invalid amounts, insufficient holdings, maturity boundaries and concurrent transactions; do not infer these from existing happy-path counts.",
+    "Hold core-paper investigations until all six original findings have answers.",
+    "Read newest per-project handovers; preserve exact source paths and stable finding IDs."
+  ]
+}

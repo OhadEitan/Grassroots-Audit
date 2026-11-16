@@ -1,0 +1,24 @@
+{
+  "number": 17,
+  "head": "0b448618f921dabbf2ebe37d13eab3ad0806fcda",
+  "body": "Report: `papers/sGLP.pdf.md`, Finding 2.\n\nAnswer of sGLP (sGLP #13), 2026-11-16, submitted by Audit #2: Corrected: the paper's repository, `EShapiro2/svGLP-Stochastic-Volitional-GLP`, commit 8ac4127, on `main`, reviewed by Udi in Overleaf on 2026-11-16. vGLP's rule is taken as it stands; vGLP's paper is unchanged.\n\nPlaces corrected: Appendix E, Definition Answer and Definition Compilation Mapping: Held Variables, recalled from vGLP's current text; Section 3, Definition Relay; Definition Simulation Mapping; Appendix A, the proof of Theorem Soundness, cases (3) and (5); Section 4, The person process.\n\nThe branch is based on `main` 17cde7e and changes only the Answer of Finding 2.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_013FJ396EcQesMYoyzWsvJU2",
+  "files": [
+    {
+      "sha": "d8eedee07508e9685928959093162789913e9ff2",
+      "filename": "papers/sGLP.pdf.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/udi-shapiro/Grassroots-Audit/blob/0b448618f921dabbf2ebe37d13eab3ad0806fcda/papers%2FsGLP.pdf.md",
+      "raw_url": "https://github.com/udi-shapiro/Grassroots-Audit/raw/0b448618f921dabbf2ebe37d13eab3ad0806fcda/papers%2FsGLP.pdf.md",
+      "contents_url": "https://api.github.com/repos/udi-shapiro/Grassroots-Audit/contents/papers%2FsGLP.pdf.md?ref=0b448618f921dabbf2ebe37d13eab3ad0806fcda",
+      "patch": "@@ -62,6 +62,10 @@ The [symbolic trace](https://github.com/udi-shapiro/Grassroots-Audit/blob/bbf5e9\n \n Awaiting sGLP's dated answer, coordinated with vGLP, with a `Corrected:` or `See:` reference.\n \n+sGLP (sGLP #13), 2026-11-16, submitted by Audit #2.\n+\n+Corrected: the paper's repository, `EShapiro2/svGLP-Stochastic-Volitional-GLP`, commit 8ac4127, on `main`: Appendix E, Definition Answer and Definition Compilation Mapping: Held Variables, recalled from vGLP's current text; Section 3, Definition Relay; Definition Simulation Mapping; Appendix A, the proof of Theorem Soundness, cases (3) and (5); Section 4, The person process.\n+\n ### Verification\n \n 2026-11-12 — Checked both exact PDFs and the displayed proof/rules. No correction received or verified; Finding 2 remains open."
+    }
+  ],
+  "merge": {
+    "sha": "b0a58d90e46adab54b5f68f076b3c6ff947cafa8",
+    "merged": true,
+    "message": "Pull Request successfully merged"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "number": 15,
+  "head": "73a90f214a8098c1c695ee0f715ff7cb702d755f",
+  "body": "Report: `programs/cssn/CSSN.glp.md`, Findings 1 and 2.\n\nAnswers of CSSN (CSSN #16), 2026-11-16, submitted by Audit #2:\n\n- Finding 1: Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`, `programs/cssn/CSSN.txt`, clause 2.\n- Finding 2: Corrected: [GLP 8d707e09ec2ef00580695cbfe516f261cb2a415d](https://github.com/EShapiro2/GLP/commit/8d707e09ec2ef00580695cbfe516f261cb2a415d), on `main`: `programs/cssn/CSSN.txt`, the Logic pragma of clause 4; `programs/cssn/plays.glp`, `play_resigned`, the finding's case; `test/run_all_tests.sh`, Section K.\n\nValidation reported by CSSN: the schemas are printed from the contract's Logic pragmas; Section K of `test/run_all_tests.sh` checks the village and figure plays (`play_village`, `play_figure`) and the resignation play (`play_resigned`).\n\nThe branch is based on `main` 17cde7e and changes only the Answers of Findings 1 and 2.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_013FJ396EcQesMYoyzWsvJU2",
+  "files": [
+    {
+      "sha": "8aea4ec799748916c52f50e789b4f0cd8a61e37d",
+      "filename": "programs/cssn/CSSN.glp.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "changes": 8,
+      "blob_url": "https://github.com/udi-shapiro/Grassroots-Audit/blob/73a90f214a8098c1c695ee0f715ff7cb702d755f/programs%2Fcssn%2FCSSN.glp.md",
+      "raw_url": "https://github.com/udi-shapiro/Grassroots-Audit/raw/73a90f214a8098c1c695ee0f715ff7cb702d755f/programs%2Fcssn%2FCSSN.glp.md",
+      "contents_url": "https://api.github.com/repos/udi-shapiro/Grassroots-Audit/contents/programs%2Fcssn%2FCSSN.glp.md?ref=73a90f214a8098c1c695ee0f715ff7cb702d755f",
+      "patch": "@@ -24,6 +24,10 @@ Reconcile the intended prerequisite in the English contract and schema. If the e\n \n Awaiting CSSN's dated answer with a `Corrected:` or `See:` reference.\n \n+CSSN (CSSN #16), 2026-11-16, submitted by Audit #2.\n+\n+Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`: `programs/cssn/CSSN.txt`, clause 2.\n+\n ### Verification\n \n 2026-11-12 — Both traces were calculated from the pinned source. No correction received; finding remains open.\n@@ -44,6 +48,10 @@ Reconcile creator authority after resignation with the English clause and encode\n \n Awaiting CSSN's dated answer with a `Corrected:` or `See:` reference.\n \n+CSSN (CSSN #16), 2026-11-16, submitted by Audit #2.\n+\n+Corrected: [GLP 8d707e09ec2ef00580695cbfe516f261cb2a415d](https://github.com/EShapiro2/GLP/commit/8d707e09ec2ef00580695cbfe516f261cb2a415d), on `main`: `programs/cssn/CSSN.txt`, the Logic pragma of clause 4; `programs/cssn/plays.glp`, `play_resigned`; `test/run_all_tests.sh`, Section K.\n+\n ### Verification\n \n 2026-11-12 — The reachable resignation trace and pre-resignation control were calculated from the pinned source. No correction received; finding remains open."
+    }
+  ],
+  "merge": {
+    "sha": "1ca2d98d7d952157091d3b395fd5fb1c40f5698b",
+    "merged": true,
+    "message": "Pull Request successfully merged"
+  }
+}

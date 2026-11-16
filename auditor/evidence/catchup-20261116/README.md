@@ -1,0 +1,9 @@
+# November 16 response verification
+
+Pinned source: EShapiro2/GLP d56822c2e6c474d883f8535bd63d0ef1b6381486. Workflow: https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772, execution commit e27d298211f73024842926fc6abb304e0e77e2b7. Ubuntu 24.04, Dart 3.9.4, committed dependency lockfile enforced; no GLP changes published.
+
+All six commands pass: APPS 249/249; CSSN K 134/134; eight app rebuilds plus CSSN byte equality; GC and GB recorded cascades. GC has four recorded plays; GB has none. These are repository fixtures, not physical-phone execution or the full suite. APPS now uses the adopted GFF contract, not the superseded GFF-I input. Local stdlib adoption checks pass for CSSN, GAI and GSNP; the runtime cascades already check GC/GB adoption.
+
+The downloaded source archive was compared with the pinned recursive Git tree: all 3,882 tracked blobs match. The large source archive remains a workflow artifact; its durable source is the pinned GLP commit. Logs, checks, parsed results and PR answers are preserved here. source-checks.json is static analysis, not execution of GLP semantics. The initial source-check helper split a comment mentioning Logic pragmas; its boundary was corrected to the exact heading before recording a passing result. This was an auditor helper error, not a project defect. The contents API returned an empty payload for the >1 MB suite; its Git blob was fetched instead, and the complete workflow snapshot validates it.
+
+Five finding closures: CSSN #1 and #2, application integration #1, and the GAI/GSNP phone act-list findings. GB #1 remains open with its agreement record repaired but the condition unenforced; GSA #1 remains open with its missing developer/schema validation acknowledged. sGLP #2 is answered, with proof verification deferred. Four core answers are still missing. Known reds: 20 SG names, recorded once; SG and the full suite were not rerun.
