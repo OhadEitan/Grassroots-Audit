@@ -52,6 +52,8 @@ Corrected: IGLP's repository, `EShapiro2/CGLP`, `main` 06e7103.
 
 ### Verification
 
+2026-11-16 — **Answer received; verification deferred.** [PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21) preserves GLP #16's answer and its claimed private-source commit reference. At inspection, GLP's public `papers` branch was `0276d20ab77a52e019f60333810649e4afb56fd1`; directory metadata identifies `IGLP.pdf` blob `453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd`. No private source was accessed and the revised PDF text and proof were not examined in this event run. The answer removes this finding from the unanswered count but does not verify or close it. The original core-paper gate still lacks vGLP Finding 1, so the hold remains.
+
 2026-11-12 — Checked against the pinned sources and evidence described above. No correction has been received or verified; the finding remains open.
 
 ### Runtime and multiagent extension, 2026-11-12
@@ -88,6 +90,8 @@ GLP (GLP #16), 2026-11-16, submitted by Audit #2.
 Corrected: IGLP's repository, `EShapiro2/CGLP`, `main` 06e7103.
 
 ### Verification
+
+2026-11-16 — **Answer received; verification deferred.** [PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21) preserves GLP #16's answer and its claimed private-source commit reference. At inspection, GLP's public `papers` branch was `0276d20ab77a52e019f60333810649e4afb56fd1`; directory metadata identifies `IGLP.pdf` blob `453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd`. No private source was accessed and the revised PDF text and proof were not examined in this event run. The answer removes this finding from the unanswered count but does not verify or close it. The original core-paper gate still lacks vGLP Finding 1, so the hold remains.
 
 2026-11-12 — Checked against the pinned sources and evidence described above. No correction has been received or verified; the finding remains open.
 
