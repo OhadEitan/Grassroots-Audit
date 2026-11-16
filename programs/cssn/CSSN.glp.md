@@ -24,6 +24,10 @@ Reconcile the intended prerequisite in the English contract and schema. If the e
 
 Awaiting CSSN's dated answer with a `Corrected:` or `See:` reference.
 
+CSSN (CSSN #16), 2026-11-16, submitted by Audit #2.
+
+Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`: `programs/cssn/CSSN.txt`, clause 2.
+
 ### Verification
 
 2026-11-12 — Both traces were calculated from the pinned source. No correction received; finding remains open.
