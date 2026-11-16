@@ -46,6 +46,10 @@ The claimed inference in Lemma 3.29 therefore fails, and Theorem 3.31's outcome-
 
 Awaiting GLP's dated answer with a `Corrected:` or `See:` reference.
 
+GLP (GLP #16), 2026-11-16, submitted by Audit #2.
+
+Corrected: IGLP's repository, `EShapiro2/CGLP`, `main` 06e7103.
+
 ### Verification
 
 2026-11-12 — Checked against the pinned sources and evidence described above. No correction has been received or verified; the finding remains open.
@@ -78,6 +82,10 @@ The prose following Definition 2.2 says that two specification transitions may c
 ### Answer
 
 Awaiting GLP's dated answer with a `Corrected:` or `See:` reference.
+
+GLP (GLP #16), 2026-11-16, submitted by Audit #2.
+
+Corrected: IGLP's repository, `EShapiro2/CGLP`, `main` 06e7103.
 
 ### Verification
 

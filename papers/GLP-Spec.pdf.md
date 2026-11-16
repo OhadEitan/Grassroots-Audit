@@ -60,6 +60,10 @@ Relevant source paths inspected were `glp_runtime/lib/bytecode/runner.dart` (mat
 
 Awaiting GLP's dated answer with a `Corrected:` or `See:` reference addressing this example and the fixed-point/LP-correspondence obligations.
 
+GLP (GLP #16), 2026-11-16, submitted by Audit #2.
+
+Corrected: the GLP paper's repository, `EShapiro2/GLP-ICLP-2026`, `main` b888998, the revision d128901: `sections/glp.tex`, `sections/maglp.tex` and `sections/appendix-proofs.tex`; and TGLP's repository, `EShapiro2/Moded-Types`, `main` 4792cfe, the revision 6927dab: `sections/glp.tex`.
+
 ### Verification
 
 2026-11-12 — Counterexample checked against the pinned definitions, visually checked matching table, and executed finite-term certificate. No project answer or correction has yet been received; the finding remains open.
