@@ -24,6 +24,10 @@ Reconcile the intended prerequisite in the English contract and schema. If the e
 
 Awaiting CSSN's dated answer with a `Corrected:` or `See:` reference.
 
+CSSN (CSSN #16), 2026-11-16, submitted by Audit #2.
+
+Corrected: [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](https://github.com/EShapiro2/GLP/commit/c90ae8f77a9679495df62978aa7725c6744fc8af), on `main`: `programs/cssn/CSSN.txt`, clause 2.
+
 ### Verification
 
 2026-11-12 — Both traces were calculated from the pinned source. No correction received; finding remains open.
@@ -43,6 +47,10 @@ Reconcile creator authority after resignation with the English clause and encode
 ### Answer
 
 Awaiting CSSN's dated answer with a `Corrected:` or `See:` reference.
+
+CSSN (CSSN #16), 2026-11-16, submitted by Audit #2.
+
+Corrected: [GLP 8d707e09ec2ef00580695cbfe516f261cb2a415d](https://github.com/EShapiro2/GLP/commit/8d707e09ec2ef00580695cbfe516f261cb2a415d), on `main`: `programs/cssn/CSSN.txt`, the Logic pragma of clause 4; `programs/cssn/plays.glp`, `play_resigned`; `test/run_all_tests.sh`, Section K.
 
 ### Verification
 
