@@ -1,31 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-17T13:40:25Z",
-  "active_run": {
-    "run_id": "github-6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
-    "delivery_id": "6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
-    "event": "pull_request.opened",
-    "pull_request_number": 27,
-    "acquired_at": "2026-11-17T13:40:25Z",
-    "expires_at": "2026-11-17T14:10:25Z",
-    "recovered_expired_run": {
-      "run_id": "github-5700a1b0-e27b-11f1-8c93-3e7301469b18",
-      "delivery_id": "5700a1b0-e27b-11f1-8c93-3e7301469b18",
-      "event": "pull_request.opened",
-      "pull_request_number": 25,
-      "acquired_at": "2026-11-17T11:38:08Z",
-      "expires_at": "2026-11-17T12:08:08Z",
-      "recovered_expired_run": {
-        "run_id": "github-5aed6220-e200-11f1-8f7c-d78696c84443",
-        "delivery_id": "5aed6220-e200-11f1-8f7c-d78696c84443",
-        "event": "pull_request.opened",
-        "pull_request_number": 23,
-        "acquired_at": "2026-11-16T20:57:46Z",
-        "expires_at": "2026-11-16T21:27:46Z"
-      }
-    }
-  },
+  "updated_at": "2026-11-17T13:47:00Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -45,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "d0b705b0-e1e2-11f1-8487-393589f76bae",
-      "event": "pull_request.opened",
-      "pull_request_number": 21,
-      "observed_at": "2026-11-16T17:36:30Z",
-      "outcome": "response merged; auditor disposition published and merged"
+      "delivery_id": "6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
+      "event": "pull_request.opened plus concurrent PR28 opened and own review events",
+      "pull_request_number": 27,
+      "observed_at": "2026-11-17T13:47:00Z",
+      "outcome": "PR27 and PR28 changes requested; handovers and stage recorded"
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -59,6 +36,66 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 28,
+      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
+      "state": "open",
+      "updated_at": "2026-11-17T13:44:06Z",
+      "merged_at": null,
+      "comment_cursor": "review 5939560673",
+      "review_cursor": "CHANGES_REQUESTED at head 641d4a705ce9658f777a20c2a80d564201d523ad",
+      "notes": "new Website finding proposal supported by source inspection; changes requested for totals, ownership and regenerated status"
+    },
+    {
+      "number": 27,
+      "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
+      "state": "open",
+      "updated_at": "2026-11-17T13:42:36Z",
+      "merged_at": null,
+      "comment_cursor": "review 5939538357",
+      "review_cursor": "CHANGES_REQUESTED at head da764b4829d4e0b7210d11469097e03891cb5903",
+      "notes": "audit-plan proposal; executed fixture reproduced ISSUES.md false positive; stable-identifier semantics also block merge"
+    },
+    {
+      "number": 26,
+      "head_sha": "19a3d0b58e4e21aa920a215823550719f4e0ca6c",
+      "state": "closed",
+      "updated_at": "2026-11-17T11:43:24Z",
+      "merged_at": "2026-11-17T11:43:24Z",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "auditor publication merged; self-generated events, no reply loop"
+    },
+    {
+      "number": 25,
+      "head_sha": "decaee48d2af859524d71c639849a4d363e63afd",
+      "state": "open",
+      "updated_at": "2026-11-17T11:42:57Z",
+      "merged_at": null,
+      "comment_cursor": "review 5937776709",
+      "review_cursor": "COMMENTED",
+      "notes": "visitor-feedback workflow proposal; maintainer requested distinction from findings and qualified deployment claims"
+    },
+    {
+      "number": 24,
+      "head_sha": "627125311623a4197fc9ebe89128aa4c75d07659",
+      "state": "closed",
+      "updated_at": "2026-11-17T11:39:29Z",
+      "merged_at": "2026-11-17T11:39:29Z",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "GB answer merged; later correction remains independently unverified"
+    },
+    {
+      "number": 23,
+      "head_sha": "eaafde7e5d4c3faa9f80555ca2c948fb3e3016d2",
+      "state": "closed",
+      "updated_at": "2026-11-16T20:59:09Z",
+      "merged_at": "2026-11-16T20:59:09Z",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "vGLP answer merged; sixth core answer received; fix remains independently unverified"
+    },
     {
       "number": 22,
       "head_sha": "9b477feecff0b7854817f2f928f9b3d5d1b0c979",
@@ -294,6 +331,62 @@
   },
   "processed_events": [
     {
+      "delivery_id": "6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 27,
+      "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:47:00Z",
+      "outcome": "changes requested; review 5939538357"
+    },
+    {
+      "delivery_id": "6da5fe90-e28c-11f1-9ffd-9aff00e2a96b",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 28,
+      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:47:00Z",
+      "outcome": "source claim supported; publication changes requested; review 5939560673"
+    },
+    {
+      "delivery_id": "c0a8c32a-e28c-11f1-88a1-e96d64ec7046",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 27,
+      "head_sha": "da764b4829d4e0b7210d11469097e03891cb5903",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:47:00Z",
+      "outcome": "own requested-changes review recorded; no automated reply"
+    },
+    {
+      "delivery_id": "f60f5542-e28c-11f1-86b2-a6156bd4fe74",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 28,
+      "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:47:00Z",
+      "outcome": "own requested-changes review recorded; no automated reply"
+    },
+    {
       "delivery_id": "d0b705b0-e1e2-11f1-8487-393589f76bae",
       "event_type": "pull_request",
       "action": "opened",
@@ -318,5 +411,22 @@
       "papers/IGLP.pdf": "453fbe871b6a9ddc3b935ae669e37c84e5c2f4fd"
     },
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
+  },
+  "ledger_reconciliation": {
+    "observed_at": "2026-11-17T13:47:00Z",
+    "prs": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "reason": "recovered expired prior lease; metadata and discussion versions re-read from GitHub",
+    "stage_record": "auditor/stages/08-pr27-pr28-review-20261117.json"
+  },
+  "latest_source_observed": {
+    "audit_main": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+    "glp_main_inspected": "e817b136f15a4c9d10cca4f105b86a7636ed7fa7",
+    "papers_observed": "3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2",
+    "inspection": "PR27 NAMES/source inspection and isolated script fixture; PR28 Website source inspection only; site and full GLP/papers checkout not executed"
   }
 }
