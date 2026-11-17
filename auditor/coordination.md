@@ -1,3 +1,11 @@
+# Native GitHub issue tracker populated — 17 November 2026
+
+The user enabled Issues. The repository now reports `has_issues=true`; it remains public with forks allowed and `pull_request_creation_policy=all`. All 16 published numbered findings have native tickets: [#31–#38](https://github.com/udi-shapiro/Grassroots-Audit/issues?q=is%3Aissue%20is%3Aopen) are open; #39–#46 are closed as completed based on their existing independent verification at recorded source versions. No new closure or proof/runtime check is claimed.
+
+[PR #47](https://github.com/udi-shapiro/Grassroots-Audit/pull/47) is merged as `58bc70d8d6635eecfb0723f0d4611491f6257e63`. The index links every ticket, and contribution instructions/PR template distinguish a project answer from independent verification. All 16 issue bodies and states and all six published files were read back and checked. Reuse these tickets; the exact stable identifier mapping is in [the checkpoint](stages/native-github-issues-20261117.json). Counts remain 28 reports, 16 findings, zero unanswered, eight unresolved and eight verified corrected. The earlier Issues-disabled note below is historical.
+
+Pending proposal PRs #25 and #27–#30 were observed and remain outside this tracker-publication task; do not treat their proposals as accepted numbered findings without review. The shared known-red inventory remains reported once. Existing automation configuration and its event ledger were left unchanged.
+
 # Public issue register published — 17 November 2026
 
 [PR #26](https://github.com/udi-shapiro/Grassroots-Audit/pull/26) is merged as `ebfbaba47f0fe79640289df26c80ce348b4375cf`. [ISSUES.md on main](https://github.com/udi-shapiro/Grassroots-Audit/blob/main/ISSUES.md) indexes every numbered finding: 16 findings, eight unresolved, eight verified corrected at their recorded versions, zero unanswered across 28 reports. All nine publication files were read back exactly. The six original core answers are now present, so the answer-based hold has ended; independent verification is pending. PR #24 was merged separately during this work and its Notes:4 correction remains unverified.

@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-17",
+  "task": "Create native GitHub issues after the user enabled Issues",
+  "repository": "udi-shapiro/Grassroots-Audit",
+  "settings_verified": {
+    "has_issues": true,
+    "visibility": "public",
+    "allow_forking": true,
+    "pull_request_creation_policy": "all"
+  },
+  "baseline_main": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+  "publication": {
+    "pr": 47,
+    "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/47",
+    "head": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
+    "merge": "58bc70d8d6635eecfb0723f0d4611491f6257e63"
+  },
+  "findings": [
+    {
+      "path": "papers/GLP-Spec.pdf.md",
+      "finding": 1,
+      "title": "[GLP-Spec] Pair completion has no finite fixed point for an admissible writer match",
+      "project": "GLP",
+      "state": "open",
+      "number": 31,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/31"
+    },
+    {
+      "path": "papers/IGLP.pdf.md",
+      "finding": 1,
+      "title": "[IGLP] Fixed FIFO scheduling does not realise every concurrent outcome",
+      "project": "GLP",
+      "state": "open",
+      "number": 32,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/32"
+    },
+    {
+      "path": "papers/IGLP.pdf.md",
+      "finding": 2,
+      "title": "[IGLP] The proposed implementation mapping skips a required specification step",
+      "project": "GLP",
+      "state": "open",
+      "number": 33,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/33"
+    },
+    {
+      "path": "papers/vGLP.pdf.md",
+      "finding": 1,
+      "title": "[vGLP] Fairly merged own triggers do not ensure strong fairness of Propose",
+      "project": "vGLP",
+      "state": "open",
+      "number": 34,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/34"
+    },
+    {
+      "path": "papers/sGLP.pdf.md",
+      "finding": 1,
+      "title": "[sGLP] The next-release law conditions on already revealed activation times",
+      "project": "sGLP",
+      "state": "open",
+      "number": 35,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/35"
+    },
+    {
+      "path": "papers/sGLP.pdf.md",
+      "finding": 2,
+      "title": "[sGLP] The simulation proof uses a different rule for closed-question answers",
+      "project": "sGLP",
+      "state": "open",
+      "number": 36,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/36"
+    },
+    {
+      "path": "programs/currencies/bonds/GB.glp.md",
+      "finding": 1,
+      "title": "[GB] The enforced escrow clause does not encode its beneficiary or condition",
+      "project": "Currencies",
+      "state": "open",
+      "number": 37,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/37"
+    },
+    {
+      "path": "programs/social/graph/core/agent.glp.md",
+      "finding": 1,
+      "title": "[GSA] The install path substitutes a local warranty for validation of the developer and schemas",
+      "project": "GSA",
+      "state": "open",
+      "number": 38,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/38"
+    },
+    {
+      "path": "servers/peoplesweb/tools/papers_sync.py.md",
+      "finding": 1,
+      "title": "[Paper-build cache] Build configuration changes do not invalidate a cached paper PDF",
+      "project": "Website",
+      "state": "closed",
+      "number": 39,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/39"
+    },
+    {
+      "path": "programs/gsc/GSN.glp.md",
+      "finding": 1,
+      "title": "[GSN] Group delivery has no path to its leader's receipt",
+      "project": "GSC",
+      "state": "closed",
+      "number": 40,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/40"
+    },
+    {
+      "path": "programs/social/graph/core/gsn_phone.glp.md",
+      "finding": 1,
+      "title": "[GSN phone] The creator certificate names drop and omits remove",
+      "project": "GSC",
+      "state": "closed",
+      "number": 41,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/41"
+    },
+    {
+      "path": "programs/cssn/CSSN.glp.md",
+      "finding": 1,
+      "title": "[CSSN] Children's acquaintance requires a prerequisite absent from CSSN:2",
+      "project": "CSSN",
+      "state": "closed",
+      "number": 42,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/42"
+    },
+    {
+      "path": "programs/cssn/CSSN.glp.md",
+      "finding": 2,
+      "title": "[CSSN] A creator who resigns cannot perform the promised coming-of-age declaration",
+      "project": "CSSN",
+      "state": "closed",
+      "number": 43,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/43"
+    },
+    {
+      "path": "programs/apps/compile.sh.md",
+      "finding": 1,
+      "title": "[Application builds] Four documented app rebuilds reject their current contracts",
+      "project": "Code, with CSSN/GAI/GFF",
+      "state": "closed",
+      "number": 44,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/44"
+    },
+    {
+      "path": "programs/social/graph/core/gai_phone.glp.md",
+      "finding": 1,
+      "title": "[GAI phone] GAI's creator certificate describes a different set of acts from its loaded platform",
+      "project": "GAI",
+      "state": "closed",
+      "number": 45,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/45"
+    },
+    {
+      "path": "programs/social/graph/core/gsnp_phone.glp.md",
+      "finding": 1,
+      "title": "[GSNP phone] GSNP's creator certificate omits its AI-agent and guardianship acts",
+      "project": "GAI",
+      "state": "closed",
+      "number": 46,
+      "url": "https://github.com/udi-shapiro/Grassroots-Audit/issues/46"
+    }
+  ],
+  "totals": {
+    "reports": 28,
+    "findings": 16,
+    "unanswered": 0,
+    "open_issues": 8,
+    "verified_closed_issues": 8
+  },
+  "checks": [
+    "All 16 remote issue bodies and states exactly matched the prepared drafts.",
+    "Every stable report path/finding number maps to exactly one issue.",
+    "All six publication files were read back exactly from main after merge.",
+    "Six-file documentation diff and whitespace checked; no report or verification outcome changed."
+  ],
+  "limits": [
+    "This was a tracker publication, not new proof/runtime validation.",
+    "The six core answers and the later GB Notes:4 correction still await independent verification; GSA remains acknowledged/open.",
+    "KNOWN_RED_CHECKS remains one shared registry, not per-app issue duplicates.",
+    "Pending proposal PRs #25 and #27–#30 were observed, not merged or independently evaluated by this task.",
+    "Automation configuration and event ledger were not changed."
+  ],
+  "workflow": "Preserve the report-path/finding-number identifier and reuse its mapped ticket. Response PRs use Refs #N; a merged answer alone must not close the issue."
+}
