@@ -1,3 +1,11 @@
+# PR #49 duplicate visitor-feedback test review — 2026-11-17
+
+PR [#49](https://github.com/udi-shapiro/Grassroots-Audit/pull/49), head `cf9b4ec9670ece0cec29126175ff4c685ceebf0b`, adds only `feedback/2026-11-17-1538-71d1da.md` with visitor text `test again`, no page and no actionable concern. It duplicates the blocked PR #48 form test and is neither an audit finding nor a project answer.
+
+Review [#5942371204](https://github.com/udi-shapiro/Grassroots-Audit/pull/49#pullrequestreview-5942371204) requests changes and asks that the test PR be closed. PR #25's intake proposal remains open/unmerged; current `main` still has no accepted `feedback/` routing/status contract. The site/email claim was not independently verified, and no website, form, email, GLP or status-generator execution occurred.
+
+Next: use a staging/test target for form checks, or publish a reviewed intake workflow before opening substantive feedback PRs. Do not assign a finding or alter totals. Exact record: `auditor/stages/11-pr49-feedback-test-20261117.json`.
+
 # PR #48 visitor-feedback test review — 2026-11-17
 
 PR [#48](https://github.com/udi-shapiro/Grassroots-Audit/pull/48), head `962699a77a94bfc56c8bb3ce1ba45a21487633dd`, adds only `feedback/2026-11-17-1326-17560f.md`. The attributed visitor text is `test`, with no page or actionable concern. It is intake data, not an audit finding or project answer.
