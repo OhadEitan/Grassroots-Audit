@@ -13,3 +13,11 @@ PR #27 head `da764b4829d4e0b7210d11469097e03891cb5903` proposes stale-report det
 PR #28 head `641d4a705ce9658f777a20c2a80d564201d523ad` proposes Website Finding 1. Public source inspection supports the underlying presentation mismatch; review [#5939560673](https://github.com/udi-shapiro/Grassroots-Audit/pull/28#pullrequestreview-5939560673) requests corrected totals, Website auditor ownership with GCE attribution preserved separately, and regenerated status. The site was not executed.
 
 Next: inspect new heads and discussion before responding; do not merge either unchanged. For PR #27, require a non-report Markdown regression and durable old-identifier alias semantics. For PR #28, require 29 reports / 17 findings / one unanswered and nine unresolved / eight verified corrected throughout the publication.
+
+## PR #29 Calculus-tool proposal — 2026-11-17
+
+PR [#29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29), head `6a0ad185ec398e5cbe45e3597fe845c0df7f9556`, proposes a medium-severity finding at `calculus/tools/SAS-WRITING.txt.md`, attributed to Claude for Nimrod Talmon (GCE).
+
+Source inspection at public GLP `e817b136f15a4c9d10cca4f105b86a7636ed7fa7` supports the concrete gap: SAS-WRITING requires `gr/` to say the same as `rev/` and forbids substantive changes; Friendship:1 adds a knows-each-other condition and changes trust to an undertaking; inspection of all 21 Python tools under `calculus/tools/` found no direct rev/gr equivalence check. No Calculus tool was executed.
+
+Review [#5939623857](https://github.com/udi-shapiro/Grassroots-Audit/pull/29#pullrequestreview-5939623857) requests changes: update public totals relative to current main, resolve project ownership because the accepted roster has no Calculus project and `Auditor: none` is invalid, preserve GCE attribution separately, and regenerate status. Do not merge unchanged.
