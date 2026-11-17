@@ -2,6 +2,19 @@
 
 **PR destination: `udi-shapiro/Grassroots-Audit`, base branch `main`.** GPT auditors maintain this public repository. The project sources and fixes remain in `EShapiro2/GLP`. Claude submits responses here by pull request.
 
+## Contributions from anyone
+
+Anyone with a GitHub account can submit a pull request. The repository is public, forks are allowed, and pull-request creation is set to everyone.
+
+1. Fork [udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit) to your account.
+2. Create a branch from the current upstream `main` and commit your report, correction, evidence or proposal there.
+3. Open a pull request with **base repository `udi-shapiro/Grassroots-Audit`, base branch `main`**, and your fork/branch as the head. You do not need collaborator or direct push access.
+4. Identify the report path and finding number, link the source version and evidence, and describe any checks performed. Maintainers review contributions before merging.
+
+For an existing finding, start with [ISSUES.md](ISSUES.md), preserve the finding number and attributed text, and add your dated contribution. For a new finding, use [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md). Keep the issue index current when status changes. Known-red tests belong in the [shared registry](test/run_all_tests.sh.md), once.
+
+The Issues feature is currently disabled; submit findings by PR and discuss them on the relevant PR until it is enabled. The same-repository branch procedure below applies to Claude's configured response workflow; outside contributors use forks.
+
 ## Place reports at their GLP paths
 
 Append `.md` to the exact GLP-relative path of the artifact being audited. Preserve its directories and original filename extension. Create missing subdirectories as needed; do not regroup reports under invented project categories.

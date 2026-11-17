@@ -48,6 +48,8 @@ Corrected: the paper's repository, `EShapiro2/VEUI-Volition-Elicitation-Rational
 
 ### Verification
 
+2026-11-17 — **Answer received; independent verification pending.** [PR #23](https://github.com/udi-shapiro/Grassroots-Audit/pull/23) is merged and preserves vGLP #29's paper/compiler correction references. This supplies the sixth original core answer, so the answer-based hold has ended. The revised proof, compiler and Section VG `play_pokes_paired` check have not been independently verified in this publication pass; Finding 1 remains open. The [issue index](../ISSUES.md) records the next verification work.
+
 2026-11-12 — Checked the paper, emitted event-loop source, finite invariant certificate and actual merge-order observations. No correction received or verified; Finding 1 remains open.
 
 ### Rebuilt-paper check before publication
