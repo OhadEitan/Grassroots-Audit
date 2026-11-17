@@ -2,9 +2,9 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
-**Current work:** application-project contracts/code and independent verification of the six core-paper answers. All six original core findings now have answers, so the answer-based hold has ended. See [all audit issues](ISSUES.md): eight unresolved findings and eight verified corrections.
+**Current work:** application-project contracts/code and independent verification of the six core-paper answers. All six original core findings now have answers, so the answer-based hold has ended. See [all audit findings](ISSUES.md) and their [GitHub issues](https://github.com/udi-shapiro/Grassroots-Audit/issues): eight open findings and eight closed after independent verification.
 
-The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment. **Pull requests are open to everyone**, including contributors using forks; see [the contribution instructions](CONTRIBUTING.md#contributions-from-anyone).
+The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment. **GitHub Issues is enabled, and pull requests are open to everyone**, including contributors using forks; see [the contribution instructions](CONTRIBUTING.md#contributions-from-anyone).
 
 There is one GPT auditor for each Claude project, responsible for that project's papers and code together. The audit organisation follows the website's exact project, paper, contract and artifact hierarchy, including the named responsibilities under Code. The roster and its source commit are reproduced in the audit document.
 
