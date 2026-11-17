@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17",
+  "request": "Post all issues to the repo and make it possible for anyone to add a PR",
+  "publication_pr": 26,
+  "publication_merge": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+  "publication_head": "19a3d0b58e4e21aa920a215823550719f4e0ca6c",
+  "files": [
+    "ISSUES.md",
+    "README.md",
+    "CONTRIBUTING.md",
+    "sections/03-posting.tex",
+    "sections/04-status.tex",
+    "bin/status.py",
+    "papers/vGLP.pdf.md",
+    ".github/pull_request_template.md",
+    "sections/status-table.tex"
+  ],
+  "remote_contents_verified": true,
+  "totals": {
+    "reports": 28,
+    "findings": 16,
+    "unanswered": 0,
+    "unresolved": 8,
+    "verified_corrected": 8
+  },
+  "core_answer_gate": "All six original core answers received; hold ended. Independent verification pending.",
+  "public_contribution_settings": {
+    "public": true,
+    "allow_forking": true,
+    "pull_request_creation_policy": "all",
+    "has_issues": false
+  },
+  "native_issue_tracker": "Disabled. No connector repository-settings mutation; browser settings page blocked by environment network restriction. All findings published in ISSUES.md instead; no native issue tickets created.",
+  "pr24": {
+    "merged": true,
+    "merge_commit": "e2326aa6b272012043d251f27c9eee30d79e2978",
+    "verification": "pending",
+    "note": "This manual run's merge attempt was rejected by automatic approval review; no retry or workaround was made. A separate repository update subsequently merged PR24 before the index publication."
+  },
+  "pr25": {
+    "review_id": 5937776709,
+    "disposition": "Commented: distinguish feedback from findings, qualify undeployed form/email claims, exclude feedback intake from report totals."
+  },
+  "validation": [
+    "Every one of the 16 stable path/finding identifiers appears exactly once in ISSUES.md.",
+    "Repository-relative Markdown links and whitespace passed.",
+    "bin/status.py: 28 reports, 16 findings, 0 unanswered; ISSUES.md excluded from report totals.",
+    "All nine published file contents exactly verified on main."
+  ],
+  "limits": "No new paper-proof or runtime verification. Prior tests retain their source pins. No automation settings or active-run ledger changed.",
+  "next": "Verify the six core answers and GB Notes:4 correction; continue GSA install-path follow-up. Review PR25 revisions. Keep ISSUES.md current."
+}
