@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-17",
+  "run_id": "github-240576c0-e28d-11f1-8079-cd4fc0bc5f17",
+  "events": [
+    {
+      "delivery_id": "240576c0-e28d-11f1-8079-cd4fc0bc5f17",
+      "event": "pull_request.opened",
+      "pr": 29
+    },
+    {
+      "delivery_id": "7e7be170-e28d-11f1-8149-1e46facd8dfd",
+      "event": "pull_request.opened",
+      "pr": 30
+    },
+    {
+      "delivery_id": "8ebc0e20-e28d-11f1-9a43-f9fd7d25a3d3",
+      "event": "pull_request_review.submitted",
+      "pr": 29,
+      "disposition": "self-generated requested-changes review; recorded without reply"
+    }
+  ],
+  "audit_main": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+  "source": {
+    "glp": "e817b136f15a4c9d10cca4f105b86a7636ed7fa7",
+    "papers": "3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2",
+    "gsc_pdf_blob": "a0a5a395c73eb4d6a878764618fc5a6f597380a7"
+  },
+  "pr29": {
+    "head": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+    "review_id": 5939623857,
+    "review_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/29#pullrequestreview-5939623857",
+    "outcome": "underlying contract/Logic-pragmas check gap supported by source inspection; changes requested; not merged",
+    "inspection": "SAS-WRITING requirements, Knowledge/Friendship adopted files, and all 21 Python tools under calculus/tools inspected; no direct rev/gr equivalence check found",
+    "execution": "no Calculus tool run",
+    "blockers": [
+      "update public totals relative to current main and rebase before merge",
+      "resolve ownership because accepted assignments have no Calculus project and Auditor:none is invalid",
+      "regenerate status"
+    ]
+  },
+  "pr30": {
+    "head": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+    "review_id": 5939663294,
+    "review_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/30#pullrequestreview-5939663294",
+    "outcome": "changes requested; not merged",
+    "source_inspection": [
+      "Knowledge operational person definition present",
+      "Knowledge declares Reflexive: x knows y; Guardians does not",
+      "gcsas.py defines that syntax as a reflexive predicate template giving each agent knows(x,x)",
+      "proposal's everyone-knows-everyone interpretation is incorrect"
+    ],
+    "pdf_limit": "papers-branch GSC PDF blob identified, but GitHub connector rejected binary UTF-8 decoding; quoted paper passages not independently verified",
+    "execution": "no GLP tool run",
+    "blockers": [
+      "narrow Finding 2 to remove the incorrect declaration-syntax objection",
+      "update totals to 29 reports, 18 findings, two unanswered, ten unresolved and eight verified relative to current main",
+      "assign GSC GPT auditor ownership with GCE attribution separate",
+      "regenerate status"
+    ]
+  },
+  "next": "Inspect new heads and discussion. Do not merge unchanged. Recompute totals after any competing finding PR lands.",
+  "automation": "left enabled"
+}
