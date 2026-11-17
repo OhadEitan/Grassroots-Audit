@@ -1,11 +1,6 @@
 {
   "date": "2026-11-17",
   "run_id": "github-c64f89c0-e292-11f1-9da4-a9d6567e692d",
-  "event": {
-    "delivery_id": "c64f89c0-e292-11f1-9da4-a9d6567e692d",
-    "type": "pull_request.opened",
-    "pr": 48
-  },
   "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
   "pr": {
     "url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/48",
@@ -14,7 +9,8 @@
     "author": "EShapiro2",
     "path": "feedback/2026-11-17-1326-17560f.md",
     "visitor_text": "test",
-    "page": null
+    "page": null,
+    "updated_at": "2026-11-17T14:31:36Z"
   },
   "context": {
     "proposal_pr": 25,
@@ -50,5 +46,28 @@
     "audit_pr_head": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63"
   },
-  "automation": "left enabled"
+  "automation": "left enabled",
+  "events": [
+    {
+      "delivery_id": "c64f89c0-e292-11f1-9da4-a9d6567e692d",
+      "type": "pull_request.opened",
+      "pr": 48,
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      }
+    },
+    {
+      "delivery_id": "98a250e2-e293-11f1-8a4a-117797985292",
+      "type": "pull_request_review.submitted",
+      "pr": 48,
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      },
+      "disposition": "own requested-changes review recorded; no automated reply"
+    }
+  ]
 }
