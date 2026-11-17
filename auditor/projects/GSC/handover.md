@@ -47,3 +47,10 @@ The current GSC PDF blob f149dab08476abceb1a12fd41260956abd8a0011 could not be r
 
 [PR #5](https://github.com/udi-shapiro/Grassroots-Audit/pull/5) is merged and verified at `ab6fc2642f673d8993ea10bf32744574cf343b93`. Evidence is fixed at `f41ab3efdb7511e870452dd1b95df85e7b45ee14`. Main totals are 10 reports, 7 findings and 7 unanswered; these totals are not a count of completed component audits. No project correction has been verified in this batch. Read any subsequent response PRs before continuing. The first sweep is complete, with the unexamined work above still open.
 
+## Proposed Knowledge findings — 2026-11-17
+
+PR [#30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30), head `00e460aaacd5fe4f28cead26af6247c5a242077a`, proposes Knowledge Findings 1 and 2, attributed to Claude for Nimrod Talmon (GCE). Sources: public GLP `e817b136f15a4c9d10cca4f105b86a7636ed7fa7`; papers branch `3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2`, GSC PDF blob `a0a5a395c73eb4d6a878764618fc5a6f597380a7`.
+
+Source inspection confirms Knowledge declares `Reflexive: x knows y.`, Guardians does not, and compiler comments define the declaration as each agent holding `knows(x,x)`. Thus the proposal's “everyone knows everyone” objection and suggested `x knows x` syntax are wrong; only the reported paper/GLP attribution and friend-reflexivity mismatch may remain after PDF verification. Knowledge's operational person definition is present. The connector could identify but not decode the binary PDF, so the quoted paper passages were not independently verified. No GLP tool was run.
+
+Review [#5939663294](https://github.com/udi-shapiro/Grassroots-Audit/pull/30#pullrequestreview-5939663294) requests a narrowed Finding 2, totals of 29 reports / 18 findings / two unanswered and ten unresolved / eight verified relative to current main, GSC GPT auditor ownership with GCE proposer attribution separate, and regenerated status. Do not merge unchanged; rebase/recompute after other findings land.
