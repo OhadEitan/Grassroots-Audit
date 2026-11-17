@@ -1,3 +1,9 @@
+# PR #49 duplicate feedback test blocked — 17 November 2026
+
+[PR #49](https://github.com/udi-shapiro/Grassroots-Audit/pull/49), head `cf9b4ec9670ece0cec29126175ff4c685ceebf0b`, contains only visitor text `test again`, with no page or actionable concern. It duplicates the blocked PR #48 form test. Review [5942371204](https://github.com/udi-shapiro/Grassroots-Audit/pull/49#pullrequestreview-5942371204) requests changes and asks that the test PR be closed. It is not a finding or project answer and was not merged.
+
+PR #25's intake proposal remains open/unmerged; current `main` still has no accepted `feedback/` routing/status contract. The form/email claim was not independently verified; no website, form, email, GLP or status-generator execution occurred. Use a staging/test target for future form checks, or publish the reviewed intake workflow before opening substantive feedback PRs. Exact event/head/review record: [stage 11](stages/11-pr49-feedback-test-20261117.json). The automation remains enabled.
+
 # PR #48 feedback test blocked — 17 November 2026
 
 [PR #48](https://github.com/udi-shapiro/Grassroots-Audit/pull/48), head `962699a77a94bfc56c8bb3ce1ba45a21487633dd`, contains only an attributed visitor post whose text is `test`, with no page or actionable concern. Review [5940318392](https://github.com/udi-shapiro/Grassroots-Audit/pull/48#pullrequestreview-5940318392) requests changes. It is not an audit finding or project answer and was not merged.
