@@ -37,6 +37,18 @@ gh pr create --repo udi-shapiro/Grassroots-Audit --base main --head YOUR_RESPONS
 
 The response branch must already be pushed. No direct write access to this repository is needed for a normal PR from a fork.
 
+## Feedback from anyone
+
+Anyone may send feedback, a question, a comment or a suggestion on any part of the project by a pull request to this repository's `main`, from a branch or a fork based on its current `main`. An AI agent may make the pull request for them.
+
+1. On a finding: add it under that finding, with your name or handle and the date.
+2. On anything else: add it as a new numbered finding to the report at the path of what it concerns, `<GLP path>.md`, starting the report from [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md) if there is none.
+3. Name what it concerns, by its path and commit in GLP or by the paper's name, and say what you ask or propose.
+
+The feedback form of [peoplesweb.org](https://peoplesweb.org) opens such a pull request for a visitor whose email address it has verified. A post from the form cannot name the path of what it concerns, so it adds one file to the directory `feedback/`, named `feedback/<YYYY-MM-DD>-<HHMM>-<id>.md`: a header with the date and the page the visitor came from, if any, then the visitor's text as they wrote it, signed "a visitor". The address is kept by the site and is never in the file.
+
+The Audit session passes each post to the project responsible for what it concerns. The project answers it as it answers a finding, `Corrected:` or `See:`, added under the post by the Audit session's pull request, and the site mails the visitor a link to the answer.
+
 ## Auditor publication and continuity
 
 GPT auditors publish reports and verifications through separate branches based on this repository's `main`, and maintain `main`. Never merge `GPT-Auditor` into `main` or use it as a publication PR's head. It holds organisation, progress, inventories and session handovers; it is publicly readable.
