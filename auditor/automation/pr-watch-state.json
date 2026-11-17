@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-17T14:03:20.109Z",
-  "active_run": {
-    "run_id": "github-03649480-e28f-11f1-8836-00c9f85d7587-ledger-correction",
-    "delivery_id": "03649480-e28f-11f1-8836-00c9f85d7587",
-    "event": "pull_request.closed ledger timestamp correction",
-    "pull_request_number": 47,
-    "head_sha": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
-    "acquired_at": "2026-11-17T14:03:20.109Z",
-    "expires_at": "2026-11-17T14:13:20.109Z"
-  },
+  "updated_at": "2026-11-17T14:03:35.686Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -48,8 +40,8 @@
       "number": 47,
       "head_sha": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
       "state": "closed",
-      "updated_at": "2026-11-17T14:02:51.477Z",
-      "merged_at": "2026-11-17T14:00:00Z",
+      "updated_at": "2026-11-17T13:58:48Z",
+      "merged_at": "2026-11-17T13:58:48Z",
       "merge_commit_sha": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
       "comment_cursor": "none",
       "review_cursor": "none",
