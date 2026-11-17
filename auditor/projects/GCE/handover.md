@@ -21,3 +21,9 @@ PR [#29](https://github.com/udi-shapiro/Grassroots-Audit/pull/29), head `6a0ad18
 Source inspection at public GLP `e817b136f15a4c9d10cca4f105b86a7636ed7fa7` supports the concrete gap: SAS-WRITING requires `gr/` to say the same as `rev/` and forbids substantive changes; Friendship:1 adds a knows-each-other condition and changes trust to an undertaking; inspection of all 21 Python tools under `calculus/tools/` found no direct rev/gr equivalence check. No Calculus tool was executed.
 
 Review [#5939623857](https://github.com/udi-shapiro/Grassroots-Audit/pull/29#pullrequestreview-5939623857) requests changes: update public totals relative to current main, resolve project ownership because the accepted roster has no Calculus project and `Auditor: none` is invalid, preserve GCE attribution separately, and regenerate status. Do not merge unchanged.
+
+## PR #30 GSC proposal — 2026-11-17
+
+PR [#30](https://github.com/udi-shapiro/Grassroots-Audit/pull/30), head `00e460aaacd5fe4f28cead26af6247c5a242077a`, proposes two findings in `programs/gsc/Knowledge.txt.md`, attributed to Claude for Nimrod Talmon (GCE).
+
+GLP source inspection at `e817b136f15a4c9d10cca4f105b86a7636ed7fa7` confirms Knowledge's operational person definition, the Knowledge reflexive declaration, no Guardians reflexive declaration, and Guardians' inherited use. The proposal's interpretation of `Reflexive: x knows y.` is incorrect: `gcsas.py` defines it as a declaration template giving each agent `knows(x,x)`, not everyone-knows-everyone. Review [#5939663294](https://github.com/udi-shapiro/Grassroots-Audit/pull/30#pullrequestreview-5939663294) requests a narrower Finding 2, corrected totals, GSC auditor ownership and regenerated status. The pinned PDF blob was identified but its binary text could not be decoded through the connector, so paper quotations remain independently unverified. No tool was run.
