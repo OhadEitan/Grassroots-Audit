@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-17T14:30:42.899Z",
-  "active_run": {
-    "run_id": "github-c64f89c0-e292-11f1-9da4-a9d6567e692d",
-    "delivery_id": "c64f89c0-e292-11f1-9da4-a9d6567e692d",
-    "event": "pull_request.opened",
-    "pull_request_number": 48,
-    "head_sha": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
-    "acquired_at": "2026-11-17T14:30:42.899Z",
-    "expires_at": "2026-11-17T15:00:42.899Z"
-  },
+  "updated_at": "2026-11-17T14:33:34.161Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "03649480-e28f-11f1-8836-00c9f85d7587",
-      "event": "PR47 opened and merged publication events",
-      "pull_request_number": 47,
-      "observed_at": "2026-11-17T14:02:51.477Z",
-      "outcome": "self-generated issue-register publication recorded; no review/reply loop"
+      "delivery_id": "c64f89c0-e292-11f1-9da4-a9d6567e692d",
+      "event": "PR48 opened plus own requested-changes review event",
+      "pull_request_number": 48,
+      "observed_at": "2026-11-17T14:33:34.161Z",
+      "outcome": "changes requested; feedback test not merged"
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,16 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 48,
+      "head_sha": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
+      "state": "open",
+      "updated_at": "2026-11-17T14:31:36Z",
+      "merged_at": null,
+      "comment_cursor": "review 5940318392",
+      "review_cursor": "CHANGES_REQUESTED at head 962699a77a94bfc56c8bb3ce1ba45a21487633dd",
+      "notes": "visitor feedback test; only text 'test' and no page/actionable concern; changes requested because feedback intake workflow remains unpublished and form/email claim unverified"
+    },
     {
       "number": 47,
       "head_sha": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
@@ -370,6 +372,34 @@
   },
   "processed_events": [
     {
+      "delivery_id": "c64f89c0-e292-11f1-9da4-a9d6567e692d",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 48,
+      "head_sha": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T14:33:34.161Z",
+      "outcome": "changes requested; review 5940318392"
+    },
+    {
+      "delivery_id": "98a250e2-e293-11f1-8a4a-117797985292",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 48,
+      "head_sha": "962699a77a94bfc56c8bb3ce1ba45a21487633dd",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T14:33:34.161Z",
+      "outcome": "own requested-changes review recorded; no automated reply"
+    },
+    {
       "delivery_id": "f1aa2890-e28e-11f1-87db-caa19611ebde",
       "event_type": "pull_request",
       "action": "opened",
@@ -536,21 +566,18 @@
     "inspection": "metadata only; no revised PDF proof-text check and no private-source access"
   },
   "ledger_reconciliation": {
-    "observed_at": "2026-11-17T13:47:00Z",
+    "observed_at": "2026-11-17T14:33:34.161Z",
     "prs": [
-      23,
-      24,
-      25,
-      26
+      48
     ],
-    "reason": "recovered expired prior lease; metadata and discussion versions re-read from GitHub",
-    "stage_record": "auditor/stages/08-pr27-pr28-review-20261117.json"
+    "reason": "processed PR48 opened and own review events at unchanged head",
+    "stage_record": "auditor/stages/10-pr48-feedback-test-20261117.json"
   },
   "latest_source_observed": {
     "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
     "glp_main_inspected": "e817b136f15a4c9d10cca4f105b86a7636ed7fa7",
     "papers_observed": "3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2",
     "gsc_pdf_blob": "a0a5a395c73eb4d6a878764618fc5a6f597380a7",
-    "inspection": "PR47 tracker/documentation diff and all 16 issue stable identifiers/states read back; 8 open and 8 verified-closed; no GLP source, runtime or proof validation"
+    "inspection": "PR48 one-file feedback test inspected at head 962699a; current main README/CONTRIBUTING and PR25 workflow proposal/review read; no GLP, website, email, form or status-generator execution"
   }
 }
