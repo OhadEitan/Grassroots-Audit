@@ -1,15 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-17T13:48:00Z",
-  "active_run": {
-    "run_id": "github-240576c0-e28d-11f1-8079-cd4fc0bc5f17",
-    "delivery_id": "240576c0-e28d-11f1-8079-cd4fc0bc5f17",
-    "event": "pull_request.opened",
-    "pull_request_number": 29,
-    "acquired_at": "2026-11-17T13:48:00Z",
-    "expires_at": "2026-11-17T14:18:00Z"
-  },
+  "updated_at": "2026-11-17T13:52:00Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -29,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
-      "event": "pull_request.opened plus concurrent PR28 opened and own review events",
-      "pull_request_number": 27,
-      "observed_at": "2026-11-17T13:47:00Z",
-      "outcome": "PR27 and PR28 changes requested; handovers and stage recorded"
+      "delivery_id": "240576c0-e28d-11f1-8079-cd4fc0bc5f17",
+      "event": "pull_request.opened plus concurrent PR30 opened and own review events",
+      "pull_request_number": 29,
+      "observed_at": "2026-11-17T13:52:00Z",
+      "outcome": "PR29 and PR30 changes requested; handovers and stage recorded"
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -43,6 +36,26 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "state": "open",
+      "updated_at": "2026-11-17T13:51:01Z",
+      "merged_at": null,
+      "comment_cursor": "review 5939663294",
+      "review_cursor": "CHANGES_REQUESTED at head 00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "notes": "proposed GSC Knowledge findings; source semantics disproves part of Finding 2; changes requested for narrowing, totals, ownership and status"
+    },
+    {
+      "number": 29,
+      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "state": "open",
+      "updated_at": "2026-11-17T13:48:22Z",
+      "merged_at": null,
+      "comment_cursor": "review 5939623857",
+      "review_cursor": "CHANGES_REQUESTED at head 6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "notes": "proposed Calculus tool finding supported by source inspection; changes requested for totals, ownership and status"
+    },
     {
       "number": 28,
       "head_sha": "641d4a705ce9658f777a20c2a80d564201d523ad",
@@ -338,6 +351,62 @@
   },
   "processed_events": [
     {
+      "delivery_id": "240576c0-e28d-11f1-8079-cd4fc0bc5f17",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 29,
+      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:52:00Z",
+      "outcome": "changes requested; review 5939623857"
+    },
+    {
+      "delivery_id": "7e7be170-e28d-11f1-8149-1e46facd8dfd",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:52:00Z",
+      "outcome": "changes requested; review 5939663294"
+    },
+    {
+      "delivery_id": "8ebc0e20-e28d-11f1-9a43-f9fd7d25a3d3",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 29,
+      "head_sha": "6a0ad185ec398e5cbe45e3597fe845c0df7f9556",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:52:00Z",
+      "outcome": "own requested-changes review recorded; no automated reply"
+    },
+    {
+      "delivery_id": "ed200264-e28d-11f1-9775-34a93ef001c7",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 30,
+      "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T13:52:00Z",
+      "outcome": "own requested-changes review recorded; no automated reply"
+    },
+    {
       "delivery_id": "6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
       "event_type": "pull_request",
       "action": "opened",
@@ -434,6 +503,7 @@
     "audit_main": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
     "glp_main_inspected": "e817b136f15a4c9d10cca4f105b86a7636ed7fa7",
     "papers_observed": "3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2",
-    "inspection": "PR27 NAMES/source inspection and isolated script fixture; PR28 Website source inspection only; site and full GLP/papers checkout not executed"
+    "gsc_pdf_blob": "a0a5a395c73eb4d6a878764618fc5a6f597380a7",
+    "inspection": "PR29 all 21 calculus/tools Python sources plus adopted text inspected; PR30 GLP compiler/source semantics inspected; no tool or site execution; PDF binary not decoded"
   }
 }
