@@ -2,9 +2,9 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
-**Current priority:** application-project contracts and code. Core-paper review is paused until all six original core findings have project answers; vGLP Finding 1 is now the sole unanswered item. Application work proceeds meanwhile.
+**Current work:** application-project contracts/code and independent verification of the six core-paper answers. All six original core findings now have answers, so the answer-based hold has ended. See [all audit issues](ISSUES.md): eight unresolved findings and eight verified corrections.
 
-The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment.
+The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment. **Pull requests are open to everyone**, including contributors using forks; see [the contribution instructions](CONTRIBUTING.md#contributions-from-anyone).
 
 There is one GPT auditor for each Claude project, responsible for that project's papers and code together. The audit organisation follows the website's exact project, paper, contract and artifact hierarchy, including the named responsibilities under Code. The roster and its source commit are reproduced in the audit document.
 
@@ -42,17 +42,17 @@ The audit has started in stages. Stage 1 publishes the [source and ownership bas
 
 All new audit contributions and Claude response PRs target **this repository**. Claude opens each response PR from a branch of this repository, based on its current `main`, and pushes to neither `main` nor `GPT-Auditor`.
 
-## Latest audit status: 16 November 2026
+## Latest audit status: 17 November 2026
 
-[PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21) is merged at `69e15daca90763d7765d7a81dc3e9418f027e212`, preserving attributed answers to GLP-Spec Finding 1 and IGLP Findings 1 and 2. These are answers, not verified fixes. The public GLP `papers` branch and relevant current PDF blob identifiers are pinned in the reports; no private paper source or revised proof text was examined in this event run. vGLP Finding 1 is the sole unanswered original core finding, so the core-paper hold remains.
+[PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21) records the answers to GLP-Spec #1 and IGLP #1–2; [PR #23](https://github.com/udi-shapiro/Grassroots-Audit/pull/23) records vGLP #1. Together with sGLP's two earlier answers, all six original core findings are now answered. The hold has ended; the six corrections remain pending independent verification. Merged [PR #24](https://github.com/udi-shapiro/Grassroots-Audit/pull/24) records GB's remaining escrow correction as an undertaking in Notes:4. Its verification is also pending. [ISSUES.md](ISSUES.md) indexes every numbered finding, its response and the next verification step.
 
 PRs #14–#19 are merged with their attributed answers preserved. Independent checks at GLP `d56822c2e6c474d883f8535bd63d0ef1b6381486` verify five finding closures: both CSSN findings, the application integration finding, and both GAI/GSNP phone act-list findings. APPS passes **249/249**, CSSN K **134/134**, all nine app rebuilds reproduce, and GC/GB cascades reproduce. GB's escrow record is repaired but its enforced-condition question remains open; GSA's installation gap is acknowledged and open. All received core-paper answers await or retain their recorded independent verification status.
 
-Current totals: **28 reports, 16 findings, one unanswered**. Answered does not mean resolved. The shared known-red inventory now contains **20 SG entries**. The new `calculus/` directory is mirrored as a placeholder, not claimed as completed audit coverage. [Execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772); [evidence and verification checks](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116). Earlier sweep summaries below retain their original source pins and results.
+Current totals: **28 reports, 16 findings, zero unanswered**; eight findings remain unresolved and eight have verified corrections at the recorded versions. Answered does not mean resolved. The shared known-red inventory now contains **20 SG entries**. The new `calculus/` directory is mirrored as a placeholder, not claimed as completed audit coverage. [Execution](https://github.com/udi-shapiro/Grassroots-Audit/actions/runs/43849758772); [evidence and verification checks](https://github.com/udi-shapiro/Grassroots-Audit/tree/fe7a040a32a45e7b126df20cc2c898710c1642fa/auditor/evidence/catchup-20261116). Earlier sweep summaries below retain their original source pins and results.
 
 The ongoing PR-response protocol uses repository records for continuity, preserves answers, verifies corrections, and publishes dated findings through separate PRs. Its current trigger/connection status and processed-event ledger are on [GPT-Auditor](https://github.com/udi-shapiro/Grassroots-Audit/tree/GPT-Auditor/auditor/automation). It does not create permanent per-project conversations; component handovers remain the continuity mechanism.
 
-## Stage 2: bounded core sweep, now on hold
+## Stage 2: bounded core sweep
 
 The second core sweep adds two findings: [vGLP strong fairness](papers/vGLP.pdf.md) and [sGLP closed-question compatibility](papers/sGLP.pdf.md#finding-2-the-simulation-proof-uses-a-different-rule-for-closed-question-answers). It extends the existing GLP/IGLP findings with actual Dart execution and the multiagent proof comparison, and links the GSC paper to the existing GSN delivery finding. Finding identifiers are retained. The complete project audit remains in progress.
 
