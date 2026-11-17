@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-17T14:00:39.913Z",
-  "active_run": {
-    "run_id": "github-f1aa2890-e28e-11f1-87db-caa19611ebde",
-    "delivery_id": "f1aa2890-e28e-11f1-87db-caa19611ebde",
-    "event": "pull_request.opened",
-    "pull_request_number": 47,
-    "head_sha": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
-    "acquired_at": "2026-11-17T14:00:39.913Z",
-    "expires_at": "2026-11-17T14:30:39.913Z"
-  },
+  "updated_at": "2026-11-17T14:02:51.477Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "240576c0-e28d-11f1-8079-cd4fc0bc5f17",
-      "event": "pull_request.opened plus concurrent PR30 opened and own review events",
-      "pull_request_number": 29,
-      "observed_at": "2026-11-17T13:52:00Z",
-      "outcome": "PR29 and PR30 changes requested; handovers and stage recorded"
+      "delivery_id": "03649480-e28f-11f1-8836-00c9f85d7587",
+      "event": "PR47 opened and merged publication events",
+      "pull_request_number": 47,
+      "observed_at": "2026-11-17T14:02:51.477Z",
+      "outcome": "self-generated issue-register publication recorded; no review/reply loop"
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -44,6 +36,17 @@
   "publication_merge_sha": "28a6b715542ba7a1c58b875ee4d6dbd277f11e0d",
   "source_verified": "d56822c2e6c474d883f8535bd63d0ef1b6381486",
   "processed_prs": [
+    {
+      "number": 47,
+      "head_sha": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
+      "state": "closed",
+      "updated_at": "2026-11-17T14:02:51.477Z",
+      "merged_at": "2026-11-17T14:00:00Z",
+      "merge_commit_sha": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
+      "comment_cursor": "none",
+      "review_cursor": "none",
+      "notes": "native GitHub issue register publication; 16 unique stable mappings read back (8 open, 8 verified-closed); self-generated publication events, no review/reply loop and no new proof/runtime verification"
+    },
     {
       "number": 30,
       "head_sha": "00e460aaacd5fe4f28cead26af6247c5a242077a",
@@ -359,6 +362,34 @@
   },
   "processed_events": [
     {
+      "delivery_id": "f1aa2890-e28e-11f1-87db-caa19611ebde",
+      "event_type": "pull_request",
+      "action": "opened",
+      "pull_request_number": 47,
+      "head_sha": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T14:02:51.477Z",
+      "outcome": "self-generated native-issue publication already recorded in auditor/stages/native-github-issues-20261117.json; no automated review or reply"
+    },
+    {
+      "delivery_id": "03649480-e28f-11f1-8836-00c9f85d7587",
+      "event_type": "pull_request",
+      "action": "closed",
+      "pull_request_number": 47,
+      "head_sha": "84efdab6f11e1f59f0709cf4373591ca63c3468a",
+      "discussion_version": {
+        "comments": 0,
+        "reviews": 0,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T14:02:51.477Z",
+      "outcome": "publication merged as 58bc70d8d6635eecfb0723f0d4611491f6257e63; 16 ticket mappings/states re-read; no automated reply and no new verification claim"
+    },
+    {
       "delivery_id": "240576c0-e28d-11f1-8079-cd4fc0bc5f17",
       "event_type": "pull_request",
       "action": "opened",
@@ -508,10 +539,10 @@
     "stage_record": "auditor/stages/08-pr27-pr28-review-20261117.json"
   },
   "latest_source_observed": {
-    "audit_main": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+    "audit_main": "58bc70d8d6635eecfb0723f0d4611491f6257e63",
     "glp_main_inspected": "e817b136f15a4c9d10cca4f105b86a7636ed7fa7",
     "papers_observed": "3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2",
     "gsc_pdf_blob": "a0a5a395c73eb4d6a878764618fc5a6f597380a7",
-    "inspection": "PR29 all 21 calculus/tools Python sources plus adopted text inspected; PR30 GLP compiler/source semantics inspected; no tool or site execution; PDF binary not decoded"
+    "inspection": "PR47 tracker/documentation diff and all 16 issue stable identifiers/states read back; 8 open and 8 verified-closed; no GLP source, runtime or proof validation"
   }
 }
