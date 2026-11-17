@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-17",
+  "run_id": "github-6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
+  "events": [
+    {
+      "delivery_id": "6cb13e50-e28c-11f1-9b0a-b0b2e657b16a",
+      "event": "pull_request.opened",
+      "pr": 27
+    },
+    {
+      "delivery_id": "6da5fe90-e28c-11f1-9ffd-9aff00e2a96b",
+      "event": "pull_request.opened",
+      "pr": 28
+    },
+    {
+      "delivery_id": "c0a8c32a-e28c-11f1-88a1-e96d64ec7046",
+      "event": "pull_request_review.submitted",
+      "pr": 27,
+      "disposition": "self-generated requested-changes review; recorded without reply"
+    },
+    {
+      "delivery_id": "f60f5542-e28c-11f1-86b2-a6156bd4fe74",
+      "event": "pull_request_review.submitted",
+      "pr": 28,
+      "disposition": "self-generated requested-changes review; recorded without reply"
+    }
+  ],
+  "audit_main": {
+    "commit": "ebfbaba47f0fe79640289df26c80ce348b4375cf",
+    "pr26_merge": "ebfbaba47f0fe79640289df26c80ce348b4375cf"
+  },
+  "source": {
+    "repository": "EShapiro2/GLP",
+    "main_inspected": "e817b136f15a4c9d10cca4f105b86a7636ed7fa7",
+    "papers_observed": "3222e0d51260fb7c2671b2b1cf6a1aeacbeefbc2",
+    "papers_use": "metadata only; neither proposal required paper-proof inspection"
+  },
+  "pr27": {
+    "head": "da764b4829d4e0b7210d11469097e03891cb5903",
+    "review_id": 5939538357,
+    "review_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/27#pullrequestreview-5939538357",
+    "outcome": "changes requested; not merged",
+    "source_inspection": "calculus/NAMES.txt five-column format supports the rename lookup",
+    "executed_check": {
+      "scope": "submitted bin/stale.py in an isolated filesystem fixture containing the current root ISSUES.md and a minimal GLP calculus/NAMES.txt",
+      "command": "python3 -I bin/stale.py fixture_glp",
+      "exit_code": 1,
+      "output": "ISSUES.md: gone at GLP ?",
+      "conclusion": "ISSUES.md is falsely classified as a stale report"
+    },
+    "identifier_blocker": "plain git mv plus a Moved line does not keep the original path/finding identifier or old links resolvable",
+    "next": "exclude non-report Markdown with regression coverage; define durable alias semantics and no-double-count behavior"
+  },
+  "pr28": {
+    "head": "641d4a705ce9658f777a20c2a80d564201d523ad",
+    "review_id": 5939560673,
+    "review_url": "https://github.com/udi-shapiro/Grassroots-Audit/pull/28#pullrequestreview-5939560673",
+    "outcome": "underlying low-severity Website claim supported by source inspection; publication changes requested; not merged",
+    "source_inspection": [
+      "index.html lines 274-280 labels every non-live contract Not compiled and says no platform was printed",
+      "index.html line 1071 says No app yet",
+      "Ads, Auction and Networked-Organisation manifests explicitly say Parametric and no realisation/platform",
+      "build.py exposes platform/record/refusal state but not the parametric distinction"
+    ],
+    "execution": "site not run",
+    "blockers": [
+      "update README and ISSUES totals to 29 reports, 17 findings, one unanswered, nine unresolved and eight verified corrected",
+      "assign Website GPT auditor ownership while separately preserving GCE proposal attribution",
+      "regenerate status after edits"
+    ],
+    "next": "inspect new head and discussion; merge only after bookkeeping and ownership are corrected"
+  },
+  "ledger_reconciliation": {
+    "prs": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "note": "PR 23-26 metadata re-read from GitHub because an earlier active-run lease expired before its ledger update"
+  },
+  "automation": "left enabled"
+}
