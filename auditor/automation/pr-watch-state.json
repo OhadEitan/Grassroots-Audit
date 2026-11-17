@@ -1,16 +1,8 @@
 {
   "repository": "udi-shapiro/Grassroots-Audit",
   "source_repository": "EShapiro2/GLP",
-  "updated_at": "2026-11-17T16:29:36.422Z",
-  "active_run": {
-    "run_id": "github-d635a2dc-e2a3-11f1-8a2a-bc229aec1c3a",
-    "delivery_id": "d635a2dc-e2a3-11f1-8a2a-bc229aec1c3a",
-    "event": "pull_request_review.submitted",
-    "pull_request_number": 49,
-    "head_sha": "cf9b4ec9670ece0cec29126175ff4c685ceebf0b",
-    "acquired_at": "2026-11-17T16:29:36.422Z",
-    "expires_at": "2026-11-17T16:39:36.422Z"
-  },
+  "updated_at": "2026-11-17T16:30:04.684Z",
+  "active_run": null,
   "pending_events": [],
   "automation": {
     "status": "enabled; event-triggered run observed",
@@ -30,11 +22,11 @@
       }
     },
     "last_observed_automatic_run": {
-      "delivery_id": "9db97640-e2a3-11f1-984f-28acf5b65bd0",
-      "event": "PR49 opened",
+      "delivery_id": "d635a2dc-e2a3-11f1-8a2a-bc229aec1c3a",
+      "event": "PR49 own requested-changes review submitted",
       "pull_request_number": 49,
-      "observed_at": "2026-11-17T16:29:09.823Z",
-      "outcome": "duplicate feedback test; changes requested, not merged"
+      "observed_at": "2026-11-17T16:30:04.684Z",
+      "outcome": "already-recorded review event; no reply loop"
     },
     "environment_selection": "inherited",
     "environments": null,
@@ -389,6 +381,20 @@
     "scope": "GB screenshots and their README only; execution inputs unchanged, tests remain pinned to d56822c2"
   },
   "processed_events": [
+    {
+      "delivery_id": "d635a2dc-e2a3-11f1-8a2a-bc229aec1c3a",
+      "event_type": "pull_request_review",
+      "action": "submitted",
+      "pull_request_number": 49,
+      "head_sha": "cf9b4ec9670ece0cec29126175ff4c685ceebf0b",
+      "discussion_version": {
+        "comments": 1,
+        "reviews": 1,
+        "review_threads": 0
+      },
+      "processed_at": "2026-11-17T16:30:04.684Z",
+      "outcome": "own requested-changes review recorded; no automated reply"
+    },
     {
       "delivery_id": "9db97640-e2a3-11f1-984f-28acf5b65bd0",
       "event_type": "pull_request",
