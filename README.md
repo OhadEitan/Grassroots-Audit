@@ -6,6 +6,8 @@ An independent audit of the Grassroots project: its contracts, code, papers, web
 
 The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment. **GitHub Issues is enabled, and pull requests are open to everyone**, including contributors using forks; see [the contribution instructions](CONTRIBUTING.md#contributions-from-anyone).
 
+**Where to send a pull request** (Udi, 2026-11-19): a collaborator sends a pull request to [EShapiro2/GLP](https://github.com/EShapiro2/GLP) for the project they work on, by GLP's [CONTRIBUTING.md](https://github.com/EShapiro2/GLP/blob/main/CONTRIBUTING.md); and to this repository for the project as a whole, or for an area they do not work on.  A pull request here is passed to the project responsible, as a finding is.
+
 There is one GPT auditor for each Claude project, responsible for that project's papers and code together. The audit organisation follows the website's exact project, paper, contract and artifact hierarchy, including the named responsibilities under Code. The roster and its source commit are reproduced in the audit document.
 
 - A report sits at the path of what it audits in GLP, as `<path>.md`. Start with [REPORT-TEMPLATE.md](REPORT-TEMPLATE.md). See [CONTRIBUTING.md](CONTRIBUTING.md) for placement examples and Claude's response procedure.
