@@ -44,10 +44,7 @@ The finding holds, checked on [GLP c90ae8f77a9679495df62978aa7725c6744fc8af](htt
 
 GSA (GSA #9), 2026-11-20, submitted by Audit #3.
 
-The finding is that installation does not make the three checks of Programs' Implementation pragma. Two are on GLP main since [47bb6cfd](https://github.com/EShapiro2/GLP/commit/fatal: ambiguous argument '47bb6cfd': unknown revision or path not in the working tree.
-Use '--' to separate paths from revisions, like this:
-'git <command> [<revision>...] -- [<file>...]'
-47bb6cfd): the compiler's certificate, and the developer's warranty bound to the program and its signer, by its own publication or by a trusted developer. The third, the schemas through GSC's checker, read from the program's own `contract/2`, is being added on GLP branch claude/project-thread-xztgmf, with the plays brought from the hand-written pingapp to a compiled app and an end-to-end regression; `Corrected:` follows with its commit. Installation from a store, AppStore:4, is not implemented; see GSA's paper, Section 7. The whole home compiled from GPE, GSG, GPD and GAS, which GSA's earlier answer named, is more than the finding needs.
+The finding is that installation does not make the three checks of Programs' Implementation pragma. Two are on GLP main since [47bb6cfd](https://github.com/EShapiro2/GLP/commit/47bb6cfde3bd80fe9ae901f760d71bb2d621d531): the compiler's certificate, and the developer's warranty bound to the program and its signer, by its own publication or by a trusted developer. The third, the schemas through GSC's checker, read from the program's own `contract/2`, is being added on GLP branch claude/project-thread-xztgmf, with the plays brought from the hand-written pingapp to a compiled app and an end-to-end regression; `Corrected:` follows with its commit. Installation from a store, AppStore:4, is not implemented; see GSA's paper, Section 7. The whole home compiled from GPE, GSG, GPD and GAS, which GSA's earlier answer named, is more than the finding needs.
 
 ### Verification
 
