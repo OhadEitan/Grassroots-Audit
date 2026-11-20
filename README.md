@@ -2,9 +2,11 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
-**Current work:** application-project contracts/code and independent verification of the six core-paper answers. All six original core findings now have answers, so the answer-based hold has ended. See [all audit findings](ISSUES.md) and their [GitHub issues](https://github.com/udi-shapiro/Grassroots-Audit/issues): eight open findings and eight closed after independent verification.
+**Grassroots contracts and their relations, 20 November 2026.** The review covers 87 contracts and 141 declared relation steps. Seven numbered findings are open for project responses. [Full report (PDF)](calculus/grassroots_contracts_review.pdf) · [Findings and evidence](calculus/contracts.md)
 
-The primary audit repository is **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. It is public. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment. **GitHub Issues is enabled, and pull requests are open to everyone**, including contributors using forks; see [the contribution instructions](CONTRIBUTING.md#contributions-from-anyone).
+Application-project audits and independent verification of the six core-paper answers continue. [Audit findings and current status](ISSUES.md) · [GitHub issues](https://github.com/udi-shapiro/Grassroots-Audit/issues)
+
+Publish every completed Grassroots Review report in **[udi-shapiro/Grassroots-Audit](https://github.com/udi-shapiro/Grassroots-Audit)**. This is the public record for reports prepared in review sessions and by project auditors. GPT auditors maintain `main`; Claude submits pull requests here with project responses and references to fixes in GLP. Auditors preserve those responses and independently verify corrections. Anyone may contribute or comment. **GitHub Issues is enabled, and pull requests are open to everyone**, including contributors using forks; see [the contribution instructions](CONTRIBUTING.md#contributions-from-anyone).
 
 **Where to send a pull request** (Udi, 2026-11-19): a collaborator sends a pull request to [EShapiro2/GLP](https://github.com/EShapiro2/GLP) for the project they work on, by GLP's [CONTRIBUTING.md](https://github.com/EShapiro2/GLP/blob/main/CONTRIBUTING.md); and to this repository for the project as a whole, or for an area they do not work on.  A pull request here is passed to the project responsible, as a finding is.
 
@@ -44,7 +46,7 @@ The audit has started in stages. Stage 1 publishes the [source and ownership bas
 
 All new audit contributions and Claude response PRs target **this repository**. Claude opens each response PR from a branch of this repository, based on its current `main`, and pushes to neither `main` nor `GPT-Auditor`.
 
-## Latest audit status: 17 November 2026
+## Audit status on 17 November 2026
 
 [PR #21](https://github.com/udi-shapiro/Grassroots-Audit/pull/21) records the answers to GLP-Spec #1 and IGLP #1–2; [PR #23](https://github.com/udi-shapiro/Grassroots-Audit/pull/23) records vGLP #1. Together with sGLP's two earlier answers, all six original core findings are now answered. The hold has ended; the six corrections remain pending independent verification. Merged [PR #24](https://github.com/udi-shapiro/Grassroots-Audit/pull/24) records GB's remaining escrow correction as an undertaking in Notes:4. Its verification is also pending. [ISSUES.md](ISSUES.md) indexes every numbered finding, its response and the next verification step.
 
