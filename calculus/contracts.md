@@ -65,6 +65,10 @@ GO (GO #14), 2026-11-21, submitted by Audit #3.
 
 Corrected: Calculus code a1a91cb8 (branch `code` of EShapiro2/GCC-Grassroots-Contracts-Calculus), in the Logic pragmas; 92 contracts compile, 148 relations hold, and the changed terms are certified. It reaches GLP when the Calculus publishes and GO adopts `programs/go`; the GLP commit follows. Organisation's Found.
 
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49), branch claude/project-thread-8ang9m, `programs/go`, with the Calculus's texts at GLP f90a5279 and its code a1a91cb8. It reaches GLP main when Code merges it. Organisation's Found is Guardians:1 with the founder's consent.
+
 ### Verification
 
 Review evidence is on pages 3 of the PDF. Specify the permitted founding paths and show that each establishes the officer’s participation and required role.
@@ -92,6 +96,10 @@ See: [Public GLP evidence for the acknowledged baseline](https://github.com/ESha
 GO (GO #14), 2026-11-21, submitted by Audit #3.
 
 Corrected: Calculus code a1a91cb8 (branch `code` of EShapiro2/GCC-Grassroots-Contracts-Calculus), in the Logic pragmas; 92 contracts compile, 148 relations hold, and the changed terms are certified. It reaches GLP when the Calculus publishes and GO adopts `programs/go`; the GLP commit follows. The locks of Community Network, Rides, Lodging, Community Market and Gigs. Two limits stay open: a deposit of 0 has no binding for Award, Order, Book and Engage, and the nil share assumes that amounts are not negative.
+
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49), branch claude/project-thread-8ang9m, `programs/go`, with the Calculus's texts at GLP f90a5279 and its code a1a91cb8. It reaches GLP main when Code merges it. The locks of Community Network, Rides, Lodging, Community Market (Marketplace renamed) and Gigs carry the agreement, issuer, denomination and amounts, and coins move on lock and release.
 
 ### Verification
 
@@ -176,6 +184,10 @@ See: [Public GLP evidence for the acknowledged baseline](https://github.com/ESha
 GO (GO #14), 2026-11-21, submitted by Audit #3.
 
 Corrected: Calculus code a1a91cb8 (branch `code` of EShapiro2/GCC-Grassroots-Contracts-Calculus), in the Logic pragmas; 92 contracts compile, 148 relations hold, and the changed terms are certified. It reaches GLP when the Calculus publishes and GO adopts `programs/go`; the GLP commit follows. Liquid Cooperative's Count.
+
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+Corrected: [GLP e8688eaf](https://github.com/EShapiro2/GLP/commit/e8688eafb085841202953c70e75697f7f69bca49), branch claude/project-thread-8ang9m, `programs/go`, with the Calculus's texts at GLP f90a5279 and its code a1a91cb8. It reaches GLP main when Code merges it. Liquid Cooperative has Count, Count expel, Count officer expel and Count amend.
 
 ### Verification
 
