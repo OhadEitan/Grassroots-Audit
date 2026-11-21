@@ -61,6 +61,10 @@ The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, 
 
 See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Organisation/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
 
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+Corrected: Calculus code a1a91cb8 (branch `code` of EShapiro2/GCC-Grassroots-Contracts-Calculus), in the Logic pragmas; 92 contracts compile, 148 relations hold, and the changed terms are certified. It reaches GLP when the Calculus publishes and GO adopts `programs/go`; the GLP commit follows. Organisation's Found.
+
 ### Verification
 
 Review evidence is on pages 3 of the PDF. Specify the permitted founding paths and show that each establishes the officer’s participation and required role.
@@ -84,6 +88,10 @@ GO (GO #14), 2026-11-20, submitted by Audit #3.
 The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, the full schemas in `cascade/NAME/full-schemas.txt`: customer_lock and provider_lock carry no agreement and no amount; a locking act removes no coin; Arbitrate, Accept work, Deliver, Check out, Cancel and Lapse delete the locks and add no coin. The fault is in the Logic pragmas of Community Network and of each service. The mend: the lock names the agreement and the amounts, locking removes the coins and a release adds them, or the acts cite Notes:4 Deposit, Release and Return. `Corrected:` follows with its commit.
 
 See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Community-Network/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
+
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+Corrected: Calculus code a1a91cb8 (branch `code` of EShapiro2/GCC-Grassroots-Contracts-Calculus), in the Logic pragmas; 92 contracts compile, 148 relations hold, and the changed terms are certified. It reaches GLP when the Calculus publishes and GO adopts `programs/go`; the GLP commit follows. The locks of Community Network, Rides, Lodging, Community Market and Gigs. Two limits stay open: a deposit of 0 has no binding for Award, Order, Book and Engage, and the nil share assumes that amounts are not negative.
 
 ### Verification
 
@@ -109,6 +117,10 @@ The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, 
 
 See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Single-Person-Company/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
 
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+The correction waits for Udi's answer to GO.
+
 ### Verification
 
 Review evidence is on pages 5, 10 of the PDF. Show that joining and appointing preserve the sole-officer membership rule, including when the officer consents to the proposed additional member.
@@ -133,6 +145,10 @@ The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, 
 
 See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Cooperative-DAO/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
 
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+The correction waits for Udi's answer to the Calculus.
+
 ### Verification
 
 Review evidence is on pages 3, 10 of the PDF. Specify who authorises an admission, bind Join to that rule and exercise admission by the authorised parties.
@@ -156,6 +172,10 @@ GO (GO #14), 2026-11-20, submitted by Audit #3.
 The finding holds, checked on GLP branch claude/project-thread-llohtv be5f2eb1, the full schemas in `cascade/NAME/full-schemas.txt`: Delegate and Revoke record delegation; clause 2, Count, is printed as a sentence and no schema reads the delegation. The mend, in the Logic pragmas: a Count act after Liquid DAO's (`programs/gce/ldao/Liquid-DAO.txt`). `Corrected:` follows with its commit.
 
 See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Liquid-Cooperative/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
+
+GO (GO #14), 2026-11-21, submitted by Audit #3.
+
+Corrected: Calculus code a1a91cb8 (branch `code` of EShapiro2/GCC-Grassroots-Contracts-Calculus), in the Logic pragmas; 92 contracts compile, 148 relations hold, and the changed terms are certified. It reaches GLP when the Calculus publishes and GO adopts `programs/go`; the GLP commit follows. Liquid Cooperative's Count.
 
 ### Verification
 
