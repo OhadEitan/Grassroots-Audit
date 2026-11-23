@@ -91,6 +91,10 @@ Calculus (Calculus #10), 2026-11-20, submitted by Audit #3.
 
 The finding holds: at the Calculus's code cbbd52f8, 141 of 143 relations hold, and "Rehearsal Rooms instantiates Booking" and "Tennis Courts instantiates Booking" fail at Guardians:1 Enter, the two copies of Guardians being merged. See: item 5, Composition, of Definition Operations in the Calculus paper, main 9388deaa: two contracts written from one contract share its acts only if they instantiate it alike. It is programmed on [GLP calc10-comp 96e43125](https://github.com/EShapiro2/GLP/commit/96e4312559a65bacaeda1e30b363a6c23c8aa311), where 88 contracts compile, 143 of 143 relations hold, and the studio and the ward are created, guarded and retired by separate acts. GLP's checker still refuses the two contracts, since no act acquaints a studio with a ward; the certificate follows when that is settled.
 
+Calculus (Calculus #7), 2026-11-23, submitted by Audit #4.
+
+A contract that unites contracts is to have the clauses of each, by plain union (the task, step 6). See: Udi's decisions of 2026-11-23 in the Calculus's record, `docs/design-decisions.md` of EShapiro2/GCC-Grassroots-Contracts-Calculus, main d35d4ef, section "The founder decides the bylaws, 2026-11-23"; "the task" is its `docs/task-2026-11-23-no-parameters.md`. It is not in GLP yet. `Corrected:` follows with its commit.
+
 ### Verification
 
 Review evidence is on pages 2, 6 of the PDF. Rebuild both compositions. Show independent creation and retirement of the club and the service. Verify that both children preserve the parents’ budget and rendezvous requirements and pass the round-trip and relation checks.
@@ -211,6 +215,10 @@ GO (GO #14), 2026-11-21, submitted by Audit #3.
 
 The correction waits for Udi's answer to the Calculus.
 
+Calculus (Calculus #7), 2026-11-23, submitted by Audit #4.
+
+Udi decided that no contract sets bylaws and that the founder of an organisation decides them. The words "and delegate to the steward the admission of a member" are struck from Cooperative DAO's definitions (the record, item 15), so the contract no longer says it. See: Udi's decisions of 2026-11-23 in the Calculus's record, `docs/design-decisions.md` of EShapiro2/GCC-Grassroots-Contracts-Calculus, main d35d4ef, section "The founder decides the bylaws, 2026-11-23"; "the task" is its `docs/task-2026-11-23-no-parameters.md`. It is not in GLP yet. `Corrected:` follows with its commit.
+
 ### Verification
 
 Review evidence is on pages 3, 10 of the PDF. Specify who authorises an admission, bind Join to that rule and exercise admission by the authorised parties.
@@ -267,6 +275,10 @@ The finding holds: Nonprofit:1 restricts Pay, Pay issuer and Pay bond for Alice;
 
 See: [Public GLP evidence for the acknowledged baseline](https://github.com/EShapiro2/GLP/blob/be5f2eb1eae41556eade221c9727d3166928f52a/cascade/Nonprofit/full-schemas.txt). Audit source link, 2026-11-20. The proposed correction has yet to be supplied.
 
+Calculus (Calculus #7), 2026-11-23, submitted by Audit #4.
+
+Udi approved the revised Nonprofit:1 on 2026-11-23 16:13 UTC (the record, "Section 3", item 35 (a)); it is to be written (the task, step 1). See: Udi's decisions of 2026-11-23 in the Calculus's record, `docs/design-decisions.md` of EShapiro2/GCC-Grassroots-Contracts-Calculus, main d35d4ef, section "The founder decides the bylaws, 2026-11-23"; "the task" is its `docs/task-2026-11-23-no-parameters.md`. It is not in GLP yet. `Corrected:` follows with its commit.
+
 ### Verification
 
 Review evidence is on pages 4, 10 of the PDF. Define which transfers count as distributions and check each relevant inherited payment path, including accepted coins, against that definition.
@@ -287,6 +299,10 @@ In §3, Definitions 6–8, clause edits add literals or guards. Renaming changes
 
 Awaiting a project response.
 
+Calculus (Calculus #7), 2026-11-23, submitted by Audit #4.
+
+The finding holds. The paper has no substitution; Provenance Groups is to keep the message that Groups concludes and add `item`, which Section 3 has as strengthening (the task, step 5). See: Udi's decisions of 2026-11-23 in the Calculus's record, `docs/design-decisions.md` of EShapiro2/GCC-Grassroots-Contracts-Calculus, main d35d4ef, section "The founder decides the bylaws, 2026-11-23"; "the task" is its `docs/task-2026-11-23-no-parameters.md`. It is not in GLP yet. `Corrected:` follows with its commit.
+
 ### Verification
 
 23 November 2026. Checked the definition against both versions of Message. To resolve, give the derivation under an operation in §3 or state explicitly that this catalogue edge uses the broader instantiation in Appendix B.
@@ -306,6 +322,10 @@ The inherited Enter clause in Agents has eleven head literals. It includes the n
 ### Answer
 
 Awaiting a project response.
+
+Calculus (Calculus #7), 2026-11-23, submitted by Audit #4.
+
+The finding holds. The sentence is in Section 3 of the Calculus paper. See: EShapiro2/GCC-Grassroots-Contracts-Calculus, main 5c6e9f4, `sections/01c-algebra.tex` line 49, "The contract of accountable AI agents weakens a module of Guardians and Forwarding". It is to be corrected at Udi's yes, and `Corrected:` follows with its commit.
 
 ### Verification
 
