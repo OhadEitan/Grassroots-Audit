@@ -2,7 +2,9 @@
 
 An independent audit of the Grassroots project: its contracts, code, papers, website and organisation. The project is in [EShapiro2/GLP](https://github.com/EShapiro2/GLP) and is presented at [peoplesweb.org](https://peoplesweb.org).
 
-**Grassroots contracts and their relations, 20 November 2026.** The review covers 87 contracts and 141 declared relation steps. Seven numbered findings are open for project responses. [Full report (PDF)](calculus/grassroots_contracts_review.pdf) · [Findings and evidence](calculus/contracts.md)
+**Contract generation and inheritance, 23 November 2026.** All 91 contracts generate, and all 148 declared relation steps pass on a fresh build. Two checked-in expansions are stale. The report also identifies two discrepancies between the paper’s §3 and the published derivations. [Report](calculus/contracts.md#contract-generation-and-inheritance-23-november-2026) · [91-contract results (CSV)](calculus/contract-generation-2026-11-23.csv)
+
+**Grassroots contracts and their relations, 20 November 2026.** The review covers 87 contracts and 141 declared relation steps. The review records seven numbered findings. [Full report (PDF)](calculus/grassroots_contracts_review.pdf) · [Findings and evidence](calculus/contracts.md)
 
 Application-project audits and independent verification of the six core-paper answers continue. [Audit findings and current status](ISSUES.md) · [GitHub issues](https://github.com/udi-shapiro/Grassroots-Audit/issues)
 
