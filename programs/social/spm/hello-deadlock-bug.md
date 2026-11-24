@@ -13,7 +13,8 @@ The code is the compiler's text, `programs/vglp/cva/compiler/text.glp`, at GLP `
 ## Fix, minor fault (state loss): Alice's machine only reacts
 
 1. **Who:** Alice's restarted machine answers a start from a peer it has neither greeted nor heard from with `who(Alice)`.
-2. **Re-greet with proof:** Bob answers `rehello(Bob, Proof)`, carrying the hello Alice signed before. Alice keeps her key, so her machine verifies its own signature and takes Bob as known without asking her. Bob's checkpoints then restore her.
+2. **Re-greet (proposed):** Bob answers with a re-greeting that should carry the hello Alice signed before, so her machine can verify its own signature and take Bob as known without asking her.
+   **Correction:** GLP #145 does not do this. Its `rehello(Bob, Alice)` carries only the two identifiers, and `take_rehello` checks that the second one is Alice's own. There is no signature, so any machine can pass as a known friend. No paper specifies this exchange.
 3. **Re-fire:** on the second request while an act Bob started is still open, his machine re-sends the start once, to participants with no vote. A start a machine has already asked or voted on is dropped.
 
 ## Fix, major fault (identity loss): Alicia starts everything
@@ -22,9 +23,10 @@ The code is the compiler's text, `programs/vglp/cva/compiler/text.glp`, at GLP `
 2. **Give up:** if Bob's act with old Alice is still open after the re-fire, Bob's machine yields it and frees his lock.
 3. Alicia presents the custodians' vouches; once they reach Alice's threshold, Bob accepts Alicia in place of Alice.
 
-## Status: fixed
+## Status: deadlock confirmed, fix not adopted
 
-- **Contract:** [EShapiro2/GLP #144](https://github.com/EShapiro2/GLP/pull/144) - Checkpoint and Restore as sender-chosen acts.
-- **Platform:** [EShapiro2/GLP #145](https://github.com/EShapiro2/GLP/pull/145) - who/rehello, re-fire, give-up, the simulator's fault step, and all platforms reprinted.
-- **Tests:** vGLP section 1,349 / 1,349; fast tier no failures. In sGLP, Alice recovers after a random state loss in every 3-person run, in both delivery orders. A start open at the fault is re-fired and resolved; without re-firing, Bob stays locked. After an identity loss, Bob re-fires once, yields, carries on, and accepts Alicia.
-- **Open:** Udi's "no machine applies an act before every participant confirmed the commit" is implemented as a separate draft, waiting for the paper's text. Rule 1 tested; rule 2 needs message delay, which the simulator lacks. The Calculus must renew Secure Friendship's `verdict-term.sha256` (#144).
+- **Decision (Udi, 2026-11-24):** "fault resilience is not at this level of abstraction". [GLP #144](https://github.com/EShapiro2/GLP/pull/144) (contract) and [GLP #145](https://github.com/EShapiro2/GLP/pull/145) (platform) are not merged.
+- **The deadlock is accepted.** vGLP owns the compiler and will write the fix for a restarted friend's deadlock in its paper first, then in the code. By the SPM paper's Restore Protocol, a machine that lost its state recovers from its friends' checkpoints, with no re-greeting.
+- **What #145 tried:** who/rehello (identifiers only, see the correction above), re-fire, give-up, and the simulator's fault step.
+- **Tests of #145:** vGLP section 1,349 / 1,349; fast tier no failures. In sGLP, Alice recovers after a random state loss in every 3-person run, in both delivery orders. A start open at the fault is re-fired and resolved; without re-firing, Bob stays locked. After an identity loss, Bob re-fires once, yields, carries on, and accepts Alicia. The simulator has no attacker, so these runs say nothing about the missing proof.
+- **Open:** Udi's "no machine applies an act before every participant confirmed the commit" is implemented as a separate draft, waiting for the paper's text. Rule 1 tested; rule 2 needs message delay, which the simulator lacks. Not submitted.
